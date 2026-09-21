@@ -1,0 +1,15 @@
+node_modules/
+hts-cache/
+hts-log.txt
+cookies.txt
+*.backup
+*.log
+playwright-analyzer/
+visual-proof/
+*inventory*.json
+*comparison*.json
+*failures*.json
+*FORENSIC*.md
+BACKUP_INFO.txt
+.DS_Store
+Thumbs.db
