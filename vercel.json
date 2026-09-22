@@ -1,15 +1,48 @@
 {
   "version": 2,
-  "builds": [
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
     {
-      "src": "server.js",
-      "use": "@vercel/node"
+      "source": "/(.*)\\.(jpg|jpeg|png|gif|svg|webp|mp4|webm|woff|woff2|ttf|eot|ico)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(css|js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "server.js"
+      "source": "/",
+      "destination": "/minaleandmann.com/index.html"
+    },
+    {
+      "source": "/((?!minaleandmann\\.com/).*)",
+      "destination": "/minaleandmann.com/$1"
     }
   ]
 }
