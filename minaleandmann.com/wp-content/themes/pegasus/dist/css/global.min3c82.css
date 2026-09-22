@@ -60,7 +60,7 @@ http://flickity.metafizzy.co
     width: auto !important;
     padding: 0 !important;
     float: none !important;
-    transform: translateY(6px) !important;
+    transform: translateY(12px) !important;
 }
 
 .nav-container .burger-container {
