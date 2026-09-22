@@ -39,7 +39,7 @@ http://flickity.metafizzy.co
 }
 
 
-/* Top-right Navigation & Header Symbols Alignment (Independent of Logo) */
+/* Top-right Navigation & Header Symbols Alignment */
 .nav-container {
     display: flex !important;
     align-items: center !important;
@@ -64,36 +64,21 @@ http://flickity.metafizzy.co
 
 .nav-container .burger-container {
     display: flex !important;
+    flex-direction: row !important;
     align-items: center !important;
     justify-content: flex-end !important;
     width: auto !important;
     position: static !important;
     float: none !important;
-    gap: 16px !important;
+    gap: 20px !important;
     height: auto !important;
     line-height: normal !important;
     margin-left: auto !important;
 }
 
-.nav-container .burger {
-    position: relative !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    height: 24px !important;
-    width: 32px !important;
-    float: none !important;
-    background: transparent !important;
-    border: none !important;
-    cursor: pointer !important;
-}
-
+/* Rectangle on LEFT */
 .nav-container .view-toggle {
+    order: 1 !important;
     position: relative !important;
     top: 0 !important;
     left: 0 !important;
@@ -104,16 +89,108 @@ http://flickity.metafizzy.co
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    height: 24px !important;
+    height: 16px !important;
     width: 32px !important;
     float: none !important;
     background: transparent !important;
     border: none !important;
     cursor: pointer !important;
+    box-sizing: border-box !important;
 }
 
-.nav-container .slider-icon {
-    display: inline-block !important;
+.nav-container .view-toggle .slider-icon {
+    display: block !important;
+    width: 32px !important;
+    height: 14px !important;
+    border: 2px solid #fff !important;
+    border-radius: 0 !important;
     margin: 0 !important;
     box-sizing: border-box !important;
+    transition: border-color 0.4s ease-out !important;
+}
+
+/* 3 Lines on RIGHT */
+.nav-container .burger {
+    order: 2 !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 16px !important;
+    width: 32px !important;
+    float: none !important;
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    box-sizing: border-box !important;
+}
+
+.nav-container .burger i {
+    position: relative !important;
+    display: block !important;
+    width: 32px !important;
+    height: 2px !important;
+    background-color: #fff !important;
+    margin: 0 auto !important;
+    text-indent: -9999px !important;
+    transition: all 0.2s ease-out !important;
+}
+
+.nav-container .burger i:before,
+.nav-container .burger i:after {
+    content: "" !important;
+    position: absolute !important;
+    left: 0 !important;
+    width: 32px !important;
+    height: 2px !important;
+    background-color: #fff !important;
+    transition: all 0.2s ease-out !important;
+}
+
+.nav-container .burger i:before {
+    top: -6px !important;
+}
+
+.nav-container .burger i:after {
+    bottom: -6px !important;
+}
+
+/* Active Burger Transformation */
+.nav-container .burger.active i {
+    background-color: transparent !important;
+}
+
+.nav-container .burger.active i:before {
+    top: 0 !important;
+    transform: rotate(45deg) !important;
+}
+
+.nav-container .burger.active i:after {
+    bottom: 0 !important;
+    transform: rotate(-45deg) !important;
+}
+
+/* Scrolled Header (Black / Light Background State) */
+.nav-container.black .view-toggle .slider-icon {
+    border-color: #1b1b1e !important;
+}
+
+.nav-container.black .burger i,
+.nav-container.black .burger i:before,
+.nav-container.black .burger i:after {
+    background-color: #1b1b1e !important;
+}
+
+.nav-container.black .burger.active i {
+    background-color: transparent !important;
+}
+
+.nav-container.black .burger.active i:before,
+.nav-container.black .burger.active i:after {
+    background-color: #1b1b1e !important;
 }
