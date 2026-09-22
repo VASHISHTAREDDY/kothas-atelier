@@ -37,3 +37,83 @@ http://flickity.metafizzy.co
         max-width: 100%;
     }
 }
+
+
+/* Top-right Navigation & Header Symbols Alignment (Independent of Logo) */
+.nav-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.nav-container > div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.nav-container .image {
+    display: flex !important;
+    align-items: center !important;
+    width: auto !important;
+    padding: 0 !important;
+    float: none !important;
+}
+
+.nav-container .burger-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    width: auto !important;
+    position: static !important;
+    float: none !important;
+    gap: 16px !important;
+    height: auto !important;
+    line-height: normal !important;
+    margin-left: auto !important;
+}
+
+.nav-container .burger {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 24px !important;
+    width: 32px !important;
+    float: none !important;
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+.nav-container .view-toggle {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 24px !important;
+    width: 32px !important;
+    float: none !important;
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+.nav-container .slider-icon {
+    display: inline-block !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
