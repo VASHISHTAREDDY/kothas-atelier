@@ -201,3 +201,80 @@ http://flickity.metafizzy.co
 .nav-container.black .burger.active i:after {
     background-color: #1b1b1e !important;
 }
+
+/* ==========================================================================
+   PEGASUS ARCHITECTURAL DESIGN SYSTEM & MICRO-INTERACTIONS (REFINED)
+   ========================================================================== */
+
+/* Global Anti-Aliasing & Font Rendering Discipline */
+body, html {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+}
+
+/* Fluid Typographic Tracking & Letter-Spacing System */
+.caption h3,
+.caption h4,
+.section-title,
+.component-coloured-text .inner h2,
+.component-pinned-text .inner h2 {
+    letter-spacing: -0.025em !important;
+    line-height: 1.15 !important;
+}
+
+.caption .subtitle,
+.component-expanding-cta .inner .caption .subtitle,
+.side-menu-container .menu-wrapper ul li a .subtitle,
+.slider-nav .slider-wrapper .slides li .append span {
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    font-weight: 300 !important;
+}
+
+/* Interactive Button & Link Hover States */
+.btn,
+.wpcf7-submit,
+.caption button,
+.component-header-banner button {
+    letter-spacing: 1.5px !important;
+    text-transform: uppercase !important;
+    transition: all 0.35s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+    cursor: pointer !important;
+}
+
+.btn:hover,
+.wpcf7-submit:hover,
+.caption button:hover,
+.component-header-banner button:hover {
+    opacity: 0.75 !important;
+    transform: translateY(-1px) !important;
+}
+
+/* Subtle Interactive Project Cards */
+.flickity-slider .slide,
+.component-showcase .showcase-item,
+.component-full-bleed-image {
+    transition: opacity 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+}
+
+/* Refined Modal / Overlay Backdrop Depth */
+.mm-overlay .shade,
+.side-menu-veil {
+    backdrop-filter: blur(6px) !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+}
+
+/* Smooth Focus Outlines */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: none !important;
+}
+
+/* Process Step Line Drawing Transitions */
+.component-process .step .line {
+    transform-origin: left center !important;
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+}
