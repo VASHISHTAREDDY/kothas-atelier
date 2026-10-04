@@ -323,3 +323,18 @@ textarea:focus {
     }
 }
 
+/* ==========================================================================
+   LOADING SCREEN LOGO ENHANCEMENTS (SIZE & BOLDNESS)
+   ========================================================================== */
+.preload .component-loading-screen.-text .minale-logo svg {
+    overflow: visible !important;
+}
+
+.preload .component-loading-screen.-text .minale-logo #wordmark path {
+    stroke: #1b1b1e !important;
+    stroke-width: 0.8px !important;
+    stroke-linejoin: round !important;
+    paint-order: stroke fill !important;
+}
+
+
