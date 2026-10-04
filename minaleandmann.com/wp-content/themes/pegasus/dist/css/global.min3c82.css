@@ -345,3 +345,26 @@ textarea:focus {
         background-image: url(/wp-content/uploads/2018/05/slide_02_portrait.jpg) !important;
     }
 }
+
+/* PC, laptop, and landscape devices: show full landscape ratio of slide 02 */
+@media (min-width: 768px) and (orientation: landscape), (min-aspect-ratio: 1/1) {
+    .slider-nav .slider-wrapper .slides li .inner .background[data-video*="slide_02"] video,
+    .slider-nav .slider-wrapper .slides li .inner .background[data-video*="slide_02"] > div video {
+        object-fit: contain !important;
+        width: 100% !important;
+        height: 100% !important;
+        max-width: 100vw !important;
+        max-height: 100vh !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+    .slider-nav .slider-wrapper .slides li .inner .background[data-video*="slide_02"],
+    .slider-nav .slider-wrapper .slides li .inner .background[data-poster*="slide_02"],
+    .slider-nav .slider-wrapper .slides li .inner .background[style*="slide_02"] {
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: 50% 50% !important;
+        background-color: #1a1a1a !important;
+    }
+}
