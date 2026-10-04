@@ -338,3 +338,10 @@ textarea:focus {
 }
 
 
+
+/* Responsive video & poster handling for architectural slide (slide 02) */
+@media (orientation: portrait), (max-aspect-ratio: 1/1) {
+    .slider-nav .slider-wrapper .slides li .inner .background[data-poster-portrait] {
+        background-image: url(/wp-content/uploads/2018/05/slide_02_portrait.jpg) !important;
+    }
+}
