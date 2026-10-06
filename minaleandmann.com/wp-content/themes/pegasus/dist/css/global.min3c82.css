@@ -317,6 +317,11 @@ textarea:focus {
     object-position: 50% 50% !important;
 }
 
+.slider-nav .slider-wrapper .slides li.is-selected .inner .background.video video {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
 @media (max-width: 767px) {
     .slider-nav .slider-wrapper .slides li .inner .background.video video {
         object-position: 50% 50% !important;
