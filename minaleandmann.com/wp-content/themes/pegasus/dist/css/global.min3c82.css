@@ -366,5 +366,40 @@ textarea:focus {
     paint-order: stroke fill !important;
 }
 
+/* ==========================================================================
+   CONTACT SECTION & SCROLLED HEADER REFINEMENTS
+   ========================================================================== */
+.nav-container.black {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04) !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.fifty-fifty-layout .col-sm-6.contact-intro-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.component-form.-contact_form_standard form {
+    max-width: 480px;
+}
+
+.component-form.-contact_form_standard textarea {
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+    .fifty-fifty-layout .col-sm-6.contact-intro-col {
+        padding: 25px 20px 10px 20px !important;
+    }
+    .fifty-fifty-layout .col-sm-6:last-child {
+        padding: 10px 20px 30px 20px !important;
+    }
+}
+
+
 
 
