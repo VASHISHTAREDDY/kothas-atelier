@@ -26,6 +26,11 @@ const MIME_TYPES = {
 
 const server = http.createServer((req, res) => {
   let reqPath = decodeURI(req.url.split('?')[0]);
+  if (reqPath.startsWith('/wp-json/')) {
+    res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+    res.end(JSON.stringify({ status: 'ok' }));
+    return;
+  }
   if (reqPath === '/') reqPath = '/index.html';
 
   // Check in SITE_DIR first
