@@ -400,6 +400,19 @@ textarea:focus {
     }
 }
 
+/* Ensure full-bleed peel parallax images stay 100% width and fit window height */
+.component-full-bleed-image,
+.component-full-bleed-image.next {
+    width: 100% !important;
+}
+
+.component-full-bleed-image .image-mask .image-container {
+    width: 100% !important;
+    padding-top: 52% !important;
+    max-height: 80vh !important;
+}
+
+
 
 
 
