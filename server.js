@@ -2,9 +2,12 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
+const zlib = require('zlib');
+
 const PORT = process.env.PORT || 8080;
 const ROOT_DIR = __dirname;
 const SITE_DIR = path.join(__dirname, 'minaleandmann.com');
+const COMPRESSIBLE = new Set(['.html', '.js', '.css', '.json', '.svg']);
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -57,10 +60,14 @@ const server = http.createServer((req, res) => {
   if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
     const ext = path.extname(filePath).toLowerCase();
     const contentType = MIME_TYPES[ext] || 'application/octet-stream';
+    const cacheControl = 'no-store, no-cache, must-revalidate';
 
     // Handle range requests for MP4 videos
     const stat = fs.statSync(filePath);
     const range = req.headers.range;
+
+    req.on('error', () => {});
+    res.on('error', () => {});
 
     if (range && ext === '.mp4') {
       const parts = range.replace(/bytes=/, '').split('-');
@@ -68,6 +75,7 @@ const server = http.createServer((req, res) => {
       const end = parts[1] ? parseInt(parts[1], 10) : stat.size - 1;
       const chunksize = end - start + 1;
       const file = fs.createReadStream(filePath, { start, end });
+      file.on('error', () => {});
       res.writeHead(206, {
         'Content-Range': `bytes ${start}-${end}/${stat.size}`,
         'Accept-Ranges': 'bytes',
@@ -77,17 +85,40 @@ const server = http.createServer((req, res) => {
       });
       file.pipe(res);
     } else {
-      res.writeHead(200, {
-        'Content-Length': stat.size,
-        'Content-Type': contentType,
-        'Access-Control-Allow-Origin': '*',
-        'Accept-Ranges': 'bytes',
-      });
-      fs.createReadStream(filePath).pipe(res);
+      const acceptEncoding = req.headers['accept-encoding'] || '';
+      const stream = fs.createReadStream(filePath);
+      stream.on('error', () => {});
+      if (COMPRESSIBLE.has(ext) && acceptEncoding.includes('gzip')) {
+        res.writeHead(200, {
+          'Content-Type': contentType,
+          'Content-Encoding': 'gzip',
+          'Vary': 'Accept-Encoding',
+          'Cache-Control': cacheControl,
+          'Access-Control-Allow-Origin': '*',
+        });
+        const gz = zlib.createGzip();
+        gz.on('error', () => {});
+        stream.pipe(gz).pipe(res);
+      } else {
+        res.writeHead(200, {
+          'Content-Length': stat.size,
+          'Content-Type': contentType,
+          'Cache-Control': cacheControl,
+          'Access-Control-Allow-Origin': '*',
+          'Accept-Ranges': 'bytes',
+        });
+        stream.pipe(res);
+      }
     }
   } else {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end(`404 Not Found: ${reqPath}`);
+  }
+});
+
+process.on('uncaughtException', (err) => {
+  if (err.code !== 'ECONNRESET' && err.code !== 'EPIPE') {
+    console.error('Server handled exception:', err.message);
   }
 });
 
@@ -97,3 +128,4 @@ server.listen(PORT, () => {
   console.log(`  Local URL: http://localhost:${PORT}`);
   console.log(`==================================================\n`);
 });
+

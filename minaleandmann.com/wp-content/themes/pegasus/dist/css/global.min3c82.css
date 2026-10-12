@@ -368,9 +368,7 @@ textarea:focus {
    CONTACT SECTION & SCROLLED HEADER REFINEMENTS
    ========================================================================== */
 .nav-container.black {
-    background-color: rgba(255, 255, 255, 0.95) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
+    background-color: rgba(255, 255, 255, 0.98) !important;
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04) !important;
     transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
 }
