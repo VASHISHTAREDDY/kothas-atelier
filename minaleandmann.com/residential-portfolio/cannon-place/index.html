@@ -1947,16 +1947,32 @@
                       text-align: center !important;
                     }
                     .component-magnifying-image .views .view .image {
-                      max-width: 1050px !important;
-                      width: 85% !important;
+                      display: block !important;
+                      width: auto !important;
+                      max-width: 100% !important;
                       margin: 0 auto !important;
-                      display: inline-block !important;
                       padding: 0 !important;
+                      text-align: center !important;
+                    }
+                    .component-magnifying-image .views .view .image.last {
+                      position: absolute !important;
+                      top: 0 !important;
+                      left: 0 !important;
+                      right: 0 !important;
+                      margin: 0 auto !important;
                     }
                     .component-magnifying-image .views .view .image img {
-                      width: 100% !important;
-                      height: auto !important;
+                      display: block !important;
                       margin: 0 auto !important;
+                      max-height: 72vh !important;
+                      max-width: min(700px, 92vw) !important;
+                      width: auto !important;
+                      height: auto !important;
+                    }
+                    @media (max-width: 767px) {
+                      .component-magnifying-image .views {
+                        margin-top: 45px !important;
+                      }
                     }
                   </style>
                   <!-- Including magnifying-image component -->
