@@ -1829,9 +1829,29 @@
                       data-pnp-equate-height=".equate"
                       data-resize-mobile="false"
                     >
-                      <div class="col-md-6 equate no-content">
-                        <div class="inner no-caption">
-                          <div class="content"></div>
+                      <div class="col-md-6 equate">
+                        <div class="inner" style="color: #ffffff">
+                          <h2 class="title">Interior Design</h2>
+
+                          <div class="content">
+                            <p>
+                              The interior backdrop for the interior is kept
+                              consistent throughout the home to bring out the key
+                              features. Soft grey walls reflect light and create a
+                              sense of calm, while bandsawn timber flooring adds
+                              texture and warmth.
+                            </p>
+                            <p>
+                              High ceilings and open expanses of space create a
+                              gallery-like feel. Individual more secluded spaces can
+                              be found in the private study, guest bedroom and gym.
+                            </p>
+                            <p>
+                              The selection of natural finishes, including marble,
+                              brass and timber, help to balance the imposing
+                              architectural details with a warm and inviting home.
+                            </p>
+                          </div>
                         </div>
                       </div>
                       <div class="col-md-6 equate">
@@ -1872,81 +1892,24 @@
           <div
             class="component layout negative-margin pnp-bg"
             style=""
-            data-header="black"
+            data-header="white"
           >
             <div class="content container-fluid">
-              <div class="row no-gutter fifty-fifty-layout">
-                <div class="col-sm-6">
-                  <!-- Including parallax-image component -->
+              <div class="row no-gutter full-width-layout">
+                <div class="col-md-12">
+                  <!-- Including full-bleed-image component -->
                   <section
-                    class="component component-parallax-image"
-                    data-pnp-animate="fadeInUp"
-                    data-pnp-animation-duration="2s"
+                    class="component component-full-bleed-image"
+                    data-transition="peel"
+                    data-parallax=""
                   >
-                    <div
-                      class="col-xs-12"
-                      style="padding-top: 5%; padding-bottom: 5%"
-                    >
-                      <!-- <div class="inner" style="padding-top: %">-->
-                      <div class="inner">
-                        <!-- <div class="image" style="background-image: url(/wp-content/uploads/2018/04/5-1.jpg); padding-top: %;"></div> -->
-                        <div
-                          class="image"
-                          style="
-                            background-image: url(/wp-content/uploads/2018/04/5-1.jpg);
-                          "
-                        ></div>
-                      </div>
-                    </div>
-                  </section>
-                  <!-- Including parallax-image component -->
-                  <section
-                    class="component component-parallax-image"
-                    data-pnp-animate="fadeInUp"
-                    data-pnp-animation-duration="2s"
-                  >
-                    <div
-                      class="col-xs-12"
-                      style="padding-top: 0%; padding-bottom: 0%"
-                    >
-                      <!-- <div class="inner" style="padding-top: %">-->
-                      <div class="inner">
-                        <!-- <div class="image" style="background-image: url(/wp-content/uploads/2018/04/6.jpg); padding-top: %;"></div> -->
-                        <div
-                          class="image"
-                          style="
-                            background-image: url(/wp-content/uploads/2018/04/6.jpg);
-                          "
-                        ></div>
-                      </div>
-                    </div>
-                  </section>
-                </div>
-                <div class="col-sm-6">
-                  <!-- Including pinned-text component -->
-                  <section class="component component-pinned-text pinned">
-                    <div class="col-xs-12">
-                      <div class="inner">
-                        <h2>Interior Design</h2>
-
-                        <p>
-                          The interior backdrop for the interior is kept
-                          consistent throughout the home to bring out the key
-                          features. Soft grey walls reflect light and create a
-                          sense of calm, while bandsawn timber flooring adds
-                          texture and warmth.
-                        </p>
-                        <p>
-                          High ceilings and open expanses of space create a
-                          gallery-like feel. Individual more secluded spaces can
-                          be found in the private study, guest bedroom and gym.
-                        </p>
-                        <p>
-                          The selection of natural finishes, including marble,
-                          brass and timber, help to balance the imposing
-                          architectural details with a warm and inviting home.
-                        </p>
-                      </div>
+                    <div class="image-mask">
+                      <div
+                        class="image-container"
+                        style="
+                          background-image: url(/wp-content/uploads/2018/04/cannon-place-office.jpg);
+                        "
+                      ></div>
                     </div>
                   </section>
                 </div>
@@ -1962,6 +1925,40 @@
             <div class="content container-fluid">
               <div class="row no-gutter full-width-layout">
                 <div class="col-md-12">
+                  <style>
+                    .component-magnifying-image .select-view {
+                      margin-top: 35px;
+                      margin-bottom: 25px;
+                    }
+                    .component-magnifying-image .views {
+                      transform: none !important;
+                      width: 100% !important;
+                      min-height: 400px;
+                      margin: 25px auto 40px auto !important;
+                      position: relative !important;
+                      text-align: center !important;
+                    }
+                    .component-magnifying-image .views .view {
+                      padding: 0 !important;
+                      width: 100% !important;
+                      position: absolute !important;
+                      top: 0 !important;
+                      left: 0 !important;
+                      text-align: center !important;
+                    }
+                    .component-magnifying-image .views .view .image {
+                      max-width: 1050px !important;
+                      width: 85% !important;
+                      margin: 0 auto !important;
+                      display: inline-block !important;
+                      padding: 0 !important;
+                    }
+                    .component-magnifying-image .views .view .image img {
+                      width: 100% !important;
+                      height: auto !important;
+                      margin: 0 auto !important;
+                    }
+                  </style>
                   <!-- Including magnifying-image component -->
                   <section class="component component-magnifying-image">
                     <div class="col-xs-12">
@@ -1978,6 +1975,20 @@
                             <button>
                               <span class="mobile">View 2</span>
                               <span class="desktop">View 2</span>
+                            </button>
+                          </li>
+
+                          <li data-key="2">
+                            <button>
+                              <span class="mobile">View 3</span>
+                              <span class="desktop">View 3</span>
+                            </button>
+                          </li>
+
+                          <li data-key="3">
+                            <button>
+                              <span class="mobile">View 4</span>
+                              <span class="desktop">View 4</span>
                             </button>
                           </li>
                         </ul>
@@ -2014,6 +2025,42 @@
                           <div class="image last">
                             <img
                               src="/wp-content/uploads/2018/04/53WR-LG-1.svg"
+                              alt="image"
+                              class="img-responsive last"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="view 2" data-key="2">
+                          <div class="image">
+                            <img
+                              src="/wp-content/uploads/2018/04/53WR-LGV2.svg"
+                              alt="image"
+                              class="img-responsive"
+                            />
+                          </div>
+
+                          <div class="image last">
+                            <img
+                              src="/wp-content/uploads/2018/04/53WR-LGV2.svg"
+                              alt="image"
+                              class="img-responsive last"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="view 3" data-key="3">
+                          <div class="image">
+                            <img
+                              src="/wp-content/uploads/2018/04/53WR-FF-1.svg"
+                              alt="image"
+                              class="img-responsive"
+                            />
+                          </div>
+
+                          <div class="image last">
+                            <img
+                              src="/wp-content/uploads/2018/04/53WR-FF-1.svg"
                               alt="image"
                               class="img-responsive last"
                             />
