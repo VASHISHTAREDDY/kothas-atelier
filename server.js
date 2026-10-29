@@ -1,7 +1,6 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-
 const zlib = require('zlib');
 
 const PORT = process.env.PORT || 8080;
@@ -60,14 +59,21 @@ const server = http.createServer((req, res) => {
   if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
     const ext = path.extname(filePath).toLowerCase();
     const contentType = MIME_TYPES[ext] || 'application/octet-stream';
-    const cacheControl = 'no-store, no-cache, must-revalidate';
-
-    // Handle range requests for MP4 videos
     const stat = fs.statSync(filePath);
     const range = req.headers.range;
 
     req.on('error', () => {});
     res.on('error', () => {});
+
+    // Cache strategy:
+    // Media and static binary assets cached for 24h so the browser loops & seeks in-memory without lag
+    // HTML is kept revalidated so edits reflect immediately
+    let cacheHeader = 'public, max-age=86400';
+    if (ext === '.html') {
+      cacheHeader = 'no-cache, must-revalidate';
+    } else if (ext === '.css' || ext === '.js') {
+      cacheHeader = 'public, max-age=3600';
+    }
 
     if (range && ext === '.mp4') {
       const parts = range.replace(/bytes=/, '').split('-');
@@ -76,11 +82,14 @@ const server = http.createServer((req, res) => {
       const chunksize = end - start + 1;
       const file = fs.createReadStream(filePath, { start, end });
       file.on('error', () => {});
+      res.on('close', () => { file.destroy(); });
+
       res.writeHead(206, {
         'Content-Range': `bytes ${start}-${end}/${stat.size}`,
         'Accept-Ranges': 'bytes',
         'Content-Length': chunksize,
         'Content-Type': contentType,
+        'Cache-Control': cacheHeader,
         'Access-Control-Allow-Origin': '*',
       });
       file.pipe(res);
@@ -88,12 +97,14 @@ const server = http.createServer((req, res) => {
       const acceptEncoding = req.headers['accept-encoding'] || '';
       const stream = fs.createReadStream(filePath);
       stream.on('error', () => {});
+      res.on('close', () => { stream.destroy(); });
+
       if (COMPRESSIBLE.has(ext) && acceptEncoding.includes('gzip')) {
         res.writeHead(200, {
           'Content-Type': contentType,
           'Content-Encoding': 'gzip',
           'Vary': 'Accept-Encoding',
-          'Cache-Control': cacheControl,
+          'Cache-Control': cacheHeader,
           'Access-Control-Allow-Origin': '*',
         });
         const gz = zlib.createGzip();
@@ -103,7 +114,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, {
           'Content-Length': stat.size,
           'Content-Type': contentType,
-          'Cache-Control': cacheControl,
+          'Cache-Control': cacheHeader,
           'Access-Control-Allow-Origin': '*',
           'Accept-Ranges': 'bytes',
         });
@@ -128,4 +139,3 @@ server.listen(PORT, () => {
   console.log(`  Local URL: http://localhost:${PORT}`);
   console.log(`==================================================\n`);
 });
-
