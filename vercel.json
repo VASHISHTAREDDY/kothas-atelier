@@ -83,11 +83,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/minaleandmann.com/index.html"
+      "destination": "/public/index.html"
     },
     {
-      "source": "/((?!minaleandmann\\.com/).*)",
-      "destination": "/minaleandmann.com/$1"
+      "source": "/((?!public/|api/).*)",
+      "destination": "/public/$1"
     }
   ]
 }

@@ -15,7 +15,9 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT_DIR = __dirname;
-const SITE_DIR = path.join(ROOT_DIR, 'minaleandmann.com');
+const SITE_DIR = fs.existsSync(path.join(ROOT_DIR, 'public'))
+  ? path.join(ROOT_DIR, 'public')
+  : path.join(ROOT_DIR, 'minaleandmann.com');
 const UPLOADS_DIR = path.join(SITE_DIR, 'wp-content', 'uploads');
 
 function getAllFiles(dir, filterFn, list = []) {
@@ -47,22 +49,20 @@ function cacheBust(targetPattern = null, bustAll = false) {
     let content = fs.readFileSync(htmlPath, 'utf8');
     const orig = content;
 
-    // Match image references to /wp-content/uploads/
-    const imgRegex = /((?:src|data-desktop|data-mobile|data-poster|background-image:\s*url\()[\"\']?)((\/wp-content\/uploads\/[^\s\"\'\)\>]+?\.(?:jpg|jpeg|png|gif|svg|webp))(?:\?v=[0-9]+)?)([\"\']?\)?)/gi;
+    // Match ANY image URL in wp-content/uploads/ or wp-content/themes/
+    const imgRegex = /(["'\(])(\/?wp-content\/(?:uploads|themes)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico))(?:\?[^"'()\s>]*)?(["'\)])/gi;
 
-    content = content.replace(imgRegex, (match, prefix, fullUrl, cleanPath, suffix) => {
-      // Decode URL clean path to file on disk
-      const relPath = decodeURIComponent(cleanPath.replace(/^\//, ''));
+    content = content.replace(imgRegex, (match, prefix, cleanUrl, suffix) => {
+      const relPath = decodeURIComponent(cleanUrl.replace(/^\//, ''));
       const diskPath = path.join(SITE_DIR, relPath);
 
       if (fs.existsSync(diskPath) && fs.statSync(diskPath).isFile()) {
         const stat = fs.statSync(diskPath);
         const mtimeSeconds = Math.floor(stat.mtimeMs / 1000);
 
-        // Check if targeted
         let shouldBust = false;
         if (targetPattern) {
-          shouldBust = cleanPath.toLowerCase().includes(targetPattern.toLowerCase());
+          shouldBust = cleanUrl.toLowerCase().includes(targetPattern.toLowerCase());
         } else if (bustAll) {
           shouldBust = true;
         } else {
@@ -72,8 +72,8 @@ function cacheBust(targetPattern = null, bustAll = false) {
         }
 
         if (shouldBust) {
-          const versionedUrl = `${cleanPath}?v=${mtimeSeconds}`;
-          if (fullUrl !== versionedUrl) {
+          const versionedUrl = `${cleanUrl}?v=${mtimeSeconds}`;
+          if (match !== `${prefix}${versionedUrl}${suffix}`) {
             totalBustedTags++;
             return `${prefix}${versionedUrl}${suffix}`;
           }

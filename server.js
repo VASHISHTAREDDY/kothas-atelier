@@ -2,10 +2,11 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
+const { handleContactRequest } = require('./contact-api');
 
 const PORT = process.env.PORT || 8080;
 const ROOT_DIR = __dirname;
-const SITE_DIR = path.join(__dirname, 'minaleandmann.com');
+const SITE_DIR = path.join(__dirname, 'public');
 const COMPRESSIBLE = new Set(['.html', '.js', '.css', '.json', '.svg']);
 
 const MIME_TYPES = {
@@ -28,9 +29,15 @@ const MIME_TYPES = {
 
 const server = http.createServer((req, res) => {
   let reqPath = decodeURI(req.url.split('?')[0]);
-  if (reqPath.startsWith('/wp-json/')) {
+  // Dedicated Contact API & Form Submissions
+  if (reqPath === '/api/contact' || reqPath.startsWith('/api/contact') || reqPath.includes('/feedback') || reqPath.startsWith('/wp-json/contact-form-7/')) {
+    return handleContactRequest(req, res);
+  }
+
+  // Generic API status
+  if (reqPath.startsWith('/api/') || reqPath.startsWith('/wp-json/')) {
     res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
-    res.end(JSON.stringify({ status: 'ok' }));
+    res.end(JSON.stringify({ status: 'ok', success: true }));
     return;
   }
   if (reqPath === '/') reqPath = '/index.html';
@@ -93,25 +100,17 @@ const server = http.createServer((req, res) => {
 
     // Cache strategy:
     // HTML is kept revalidated so edits reflect immediately
-    // Assets with version query params (?v=) can be cached long-term
-    // Static images, css, and js without version params require revalidation (no-cache, must-revalidate)
-    // with ETag & Last-Modified so replacements on disk are immediately picked up
+    // Static images, css, and js always require revalidation (no-cache, must-revalidate)
+    // with dynamic ETag & Last-Modified so any file replaced on disk is IMMEDIATELY picked up
     // Media videos (.mp4) are cached for 24h for smooth playback and seeking
     const etag = `"${stat.size.toString(16)}-${Math.floor(stat.mtimeMs).toString(16)}"`;
     const lastModified = stat.mtime.toUTCString();
-    const hasVersionParam = req.url.includes('?v=') || req.url.includes('?ver=');
 
     let cacheHeader;
-    if (ext === '.html') {
-      cacheHeader = 'no-cache, must-revalidate';
-    } else if (ext === '.mp4') {
+    if (ext === '.mp4') {
       cacheHeader = 'public, max-age=86400';
-    } else if (hasVersionParam) {
-      cacheHeader = 'public, max-age=31536000, immutable';
-    } else if (ext === '.css' || ext === '.js') {
-      cacheHeader = 'public, no-cache, must-revalidate';
     } else {
-      cacheHeader = 'public, no-cache, must-revalidate';
+      cacheHeader = 'no-cache, must-revalidate';
     }
 
     // Check conditional request headers (ETag / If-Modified-Since)
@@ -154,6 +153,66 @@ const server = http.createServer((req, res) => {
         'Access-Control-Allow-Origin': '*',
       });
       file.pipe(res);
+    } else if (ext === '.html') {
+      let html = fs.readFileSync(filePath, 'utf8');
+
+      // Universal Automatic Cache-Buster:
+      // Automatically updates EVERY image reference anywhere in the HTML
+      // (src, data-desktop, data-mobile, data-poster, background-image: url(...), srcset, json-ld)
+      // to match the exact modification time of the file on disk.
+      // Whenever a file is replaced, the served HTML immediately reflects its new timestamp.
+      const imgUrlRegex = /(["'\(])(\/?wp-content\/(?:uploads|themes)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico))(?:\?[^"'()\s>]*)?(["'\)])/gi;
+      html = html.replace(imgUrlRegex, (fullMatch, prefix, cleanUrl, suffix) => {
+        const relPath = decodeURIComponent(cleanUrl.replace(/^\//, ''));
+        const diskPath = path.join(SITE_DIR, relPath);
+        try {
+          if (fs.existsSync(diskPath)) {
+            const imgStat = fs.statSync(diskPath);
+            const mtimeSeconds = Math.floor(imgStat.mtimeMs / 1000);
+            return `${prefix}${cleanUrl}?v=${mtimeSeconds}${suffix}`;
+          }
+        } catch (e) {}
+        return fullMatch;
+      });
+
+      // High-Quality Image Display Guarantee:
+      // Preserves uploaded image sharpness and prevents muddy downsampling
+      if (!html.includes('id="auto-high-quality-render"')) {
+        const qualityStyles = `<style id="auto-high-quality-render">
+img, .background, .image-container, .img-responsive, [style*="background-image"] {
+  image-rendering: -webkit-optimize-contrast !important;
+  image-rendering: high-quality !important;
+}
+</style></head>`;
+        html = html.replace('</head>', qualityStyles);
+      }
+
+      const htmlBuf = Buffer.from(html, 'utf8');
+      const acceptEncoding = req.headers['accept-encoding'] || '';
+      if (acceptEncoding.includes('gzip')) {
+        const gz = zlib.gzipSync(htmlBuf);
+        res.writeHead(200, {
+          'Content-Type': contentType,
+          'Content-Encoding': 'gzip',
+          'Vary': 'Accept-Encoding',
+          'ETag': etag,
+          'Last-Modified': lastModified,
+          'Cache-Control': cacheHeader,
+          'Access-Control-Allow-Origin': '*',
+        });
+        res.end(gz);
+      } else {
+        res.writeHead(200, {
+          'Content-Length': htmlBuf.length,
+          'Content-Type': contentType,
+          'ETag': etag,
+          'Last-Modified': lastModified,
+          'Cache-Control': cacheHeader,
+          'Access-Control-Allow-Origin': '*',
+          'Accept-Ranges': 'bytes',
+        });
+        res.end(htmlBuf);
+      }
     } else {
       const acceptEncoding = req.headers['accept-encoding'] || '';
       const stream = fs.createReadStream(filePath);
@@ -200,7 +259,7 @@ process.on('uncaughtException', (err) => {
 
 server.listen(PORT, () => {
   console.log(`\n==================================================`);
-  console.log(`  Minale + Mann Replica is running locally:`);
+  console.log(`  Kotha's Atelier website is running locally:`);
   console.log(`  Local URL: http://localhost:${PORT}`);
   console.log(`==================================================\n`);
 });

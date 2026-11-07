@@ -17,9 +17,9 @@ import os
 import re
 from html.parser import HTMLParser
 
-PORTFOLIO_INDEX = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'minaleandmann.com', 'residential-portfolio', 'index.html')
-PORTFOLIO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'minaleandmann.com', 'residential-portfolio')
-GLOBAL_JS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'minaleandmann.com', 'wp-content', 'themes', 'pegasus', 'dist', 'js', 'global.min3c82.js')
+PORTFOLIO_INDEX = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'public', 'residential-portfolio', 'index.html')
+PORTFOLIO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'public', 'residential-portfolio')
+GLOBAL_JS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'public', 'wp-content', 'themes', 'pegasus', 'dist', 'js', 'global.min3c82.js')
 
 PROJECT_ORDER = [
     'the-urban-edge',

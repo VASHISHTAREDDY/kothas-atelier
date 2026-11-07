@@ -1,0 +1,42 @@
+[
+  {
+    "id": "inq_1794075472258",
+    "receivedAt": "2026-11-07T18:17:52.258Z",
+    "name": "Venkat Reddy",
+    "email": "client@example.com",
+    "phone": "+91 98888 77777",
+    "subject": "New Residential Villa Project Inquiry",
+    "message": "Interested in designing a bespoke modern villa in Jubilee Hills, Hyderabad.",
+    "sourceUrl": "/",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.6899",
+    "raw": {
+      "email": "client@example.com",
+      "message": "Interested in designing a bespoke modern villa in Jubilee Hills, Hyderabad.",
+      "name": "Venkat Reddy",
+      "phone": "+91 98888 77777",
+      "subject": "New Residential Villa Project Inquiry"
+    }
+  },
+  {
+    "id": "inq_1794075504329",
+    "receivedAt": "2026-11-07T18:18:24.329Z",
+    "name": "Aarav Sharma",
+    "email": "aarav@example.in",
+    "phone": "+919988776655",
+    "subject": "Farmhouse Architecture",
+    "message": "Need full site planning and farmhouse design.",
+    "sourceUrl": "/",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.6899",
+    "raw": {
+      "your-name": "Aarav Sharma",
+      "your-email": "aarav@example.in",
+      "your-phone": "+919988776655",
+      "your-subject": "Farmhouse Architecture",
+      "your-message": "Need full site planning and farmhouse design.",
+      "_wpcf7": "3299",
+      "_wpcf7_unit_tag": "wpcf7-f3299-p1731-o1"
+    }
+  }
+]
