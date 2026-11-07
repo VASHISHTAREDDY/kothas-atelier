@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)\\.(jpg|jpeg|png|gif|svg|webp|ico)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(css|js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(mp4|webm|woff|woff2|ttf|eot)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "key": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/residential-portfolio/cannon-place/(.*)",
+      "destination": "/residential-portfolio/the-urban-edge/$1",
+      "permanent": true
+    },
+    {
+      "source": "/residential-portfolio/cannon-place",
+      "destination": "/residential-portfolio/the-urban-edge/",
+      "permanent": true
+    },
+    {
+      "source": "/residential-portfolio/cannon-palace/(.*)",
+      "destination": "/residential-portfolio/the-urban-edge/$1",
+      "permanent": true
+    },
+    {
+      "source": "/residential-portfolio/cannon-palace",
+      "destination": "/residential-portfolio/the-urban-edge/",
+      "permanent": true
+    },
+    {
+      "source": "/residential-portfolio/broomwood/(.*)",
+      "destination": "/residential-portfolio/dovetail-house/$1",
+      "permanent": true
+    },
+    {
+      "source": "/residential-portfolio/broomwood",
+      "destination": "/residential-portfolio/dovetail-house/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/minaleandmann.com/index.html"
+    },
+    {
+      "source": "/((?!minaleandmann\\.com/).*)",
+      "destination": "/minaleandmann.com/$1"
+    }
+  ]
+}
