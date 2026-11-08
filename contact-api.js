@@ -73,6 +73,60 @@ function saveSubmission(data) {
   }
 }
 
+async function forwardNotification(submission) {
+  const recipientEmail = process.env.NOTIFICATION_EMAIL || 'kothasatelier@gmail.com';
+
+  // 1. Resend API
+  if (process.env.RESEND_API_KEY && typeof fetch === 'function') {
+    try {
+      const response = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          from: process.env.RESEND_FROM || "Kotha's Atelier <onboarding@resend.dev>",
+          to: [recipientEmail],
+          subject: `New Client Inquiry: ${submission.name} - Kotha's Atelier`,
+          html: `
+            <h2>New Architectural Consultation Inquiry</h2>
+            <p><strong>Name:</strong> ${submission.name}</p>
+            <p><strong>Email:</strong> ${submission.email}</p>
+            <p><strong>Phone:</strong> ${submission.phone}</p>
+            <p><strong>Subject:</strong> ${submission.subject}</p>
+            <p><strong>Message:</strong></p>
+            <blockquote>${submission.message.replace(/\n/g, '<br>')}</blockquote>
+            <hr>
+            <p><small>Received at ${submission.receivedAt} from ${submission.sourceUrl}</small></p>
+          `
+        })
+      });
+      if (response.ok) {
+        console.log(`[EMAIL FORWARDED] Inquiry successfully sent to ${recipientEmail} via Resend.`);
+      }
+    } catch (err) {
+      console.warn(`[EMAIL FORWARD WARNING] Resend notification failed: ${err.message}`);
+    }
+  }
+
+  // 2. Webhook notification
+  if (process.env.NOTIFICATION_WEBHOOK_URL && typeof fetch === 'function') {
+    try {
+      await fetch(process.env.NOTIFICATION_WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          content: `🏛️ **New Kotha's Atelier Inquiry**\n**Name:** ${submission.name}\n**Email:** ${submission.email}\n**Phone:** ${submission.phone}\n**Message:** ${submission.message}`
+        })
+      });
+      console.log(`[WEBHOOK FORWARDED] Inquiry dispatched via webhook.`);
+    } catch (webhookErr) {
+      console.warn(`[WEBHOOK WARNING] Failed to post to webhook: ${webhookErr.message}`);
+    }
+  }
+}
+
 function handleContactRequest(req, res) {
   // CORS Preflight
   if (req.method === 'OPTIONS') {
@@ -143,6 +197,11 @@ function handleContactRequest(req, res) {
     };
 
     saveSubmission(submission);
+
+    // Forward notification asynchronously
+    forwardNotification(submission).catch(err => {
+      console.warn('Notification forward error:', err.message);
+    });
 
     console.log(`\n==================================================`);
     console.log(`  [NEW CONTACT INQUIRY RECEIVED]`);
