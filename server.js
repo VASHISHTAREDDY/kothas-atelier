@@ -68,11 +68,34 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Canonical root redirects for project slugs
+  const projectSlugs = ['the-urban-edge', 'dovetail-house', 'seymour-walk', 'alexander-place', 'no-40'];
+  for (const slug of projectSlugs) {
+    if (reqPath === `/${slug}` || reqPath === `/${slug}/` || reqPath === `/${slug}/index.html`) {
+      res.writeHead(301, {
+        'Location': `/residential-portfolio/${slug}/`,
+        'Cache-Control': 'no-cache, must-revalidate',
+        'Access-Control-Allow-Origin': '*'
+      });
+      res.end();
+      return;
+    }
+  }
+
   // Check in SITE_DIR first
   let filePath = path.join(SITE_DIR, reqPath);
 
-  // If path is directory, check index.html
+  // If path is directory, ensure trailing slash for proper relative path resolution, then check index.html
   if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+    if (!reqPath.endsWith('/')) {
+      res.writeHead(301, {
+        'Location': reqPath + '/',
+        'Cache-Control': 'no-cache, must-revalidate',
+        'Access-Control-Allow-Origin': '*'
+      });
+      res.end();
+      return;
+    }
     filePath = path.join(filePath, 'index.html');
   }
 
@@ -246,8 +269,61 @@ img, .background, .image-container, .img-responsive, [style*="background-image"]
       }
     }
   } else {
-    res.writeHead(404, { 'Content-Type': 'text/plain' });
-    res.end(`404 Not Found: ${reqPath}`);
+    const notFoundPath = path.join(SITE_DIR, '404.html');
+    if (fs.existsSync(notFoundPath)) {
+      let html404 = fs.readFileSync(notFoundPath, 'utf8');
+
+      // Universal Automatic Cache-Buster
+      const imgUrlRegex = /(["'\(])(\/?wp-content\/(?:uploads|themes)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico))(?:\?[^"'()\s>]*)?(["'\)])/gi;
+      html404 = html404.replace(imgUrlRegex, (fullMatch, prefix, cleanUrl, suffix) => {
+        const relPath = decodeURIComponent(cleanUrl.replace(/^\//, ''));
+        const diskPath = path.join(SITE_DIR, relPath);
+        try {
+          if (fs.existsSync(diskPath)) {
+            const imgStat = fs.statSync(diskPath);
+            const mtimeSeconds = Math.floor(imgStat.mtimeMs / 1000);
+            return `${prefix}${cleanUrl}?v=${mtimeSeconds}${suffix}`;
+          }
+        } catch (e) {}
+        return fullMatch;
+      });
+
+      // High-Quality Image Display Guarantee
+      if (!html404.includes('id="auto-high-quality-render"')) {
+        const qualityStyles = `<style id="auto-high-quality-render">
+img, .background, .image-container, .img-responsive, [style*="background-image"] {
+  image-rendering: -webkit-optimize-contrast !important;
+  image-rendering: high-quality !important;
+}
+</style></head>`;
+        html404 = html404.replace('</head>', qualityStyles);
+      }
+
+      const buf = Buffer.from(html404, 'utf8');
+      const acceptEncoding = req.headers['accept-encoding'] || '';
+      if (acceptEncoding.includes('gzip')) {
+        const gz = zlib.gzipSync(buf);
+        res.writeHead(404, {
+          'Content-Type': 'text/html; charset=utf-8',
+          'Content-Encoding': 'gzip',
+          'Vary': 'Accept-Encoding',
+          'Cache-Control': 'no-cache, must-revalidate',
+          'Access-Control-Allow-Origin': '*'
+        });
+        res.end(gz);
+      } else {
+        res.writeHead(404, {
+          'Content-Type': 'text/html; charset=utf-8',
+          'Content-Length': buf.length,
+          'Cache-Control': 'no-cache, must-revalidate',
+          'Access-Control-Allow-Origin': '*'
+        });
+        res.end(buf);
+      }
+    } else {
+      res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+      res.end(`404 Not Found: ${reqPath}`);
+    }
   }
 });
 

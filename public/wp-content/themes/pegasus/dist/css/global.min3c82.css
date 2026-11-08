@@ -410,7 +410,35 @@ textarea:focus {
     image-rendering: high-quality;
 }
 
+/* Transition guards: prevent stuck loading overlays and ensure smooth pointer interactions */
+html:not(.preload) .component-loading-screen,
+.component-loading-screen:not(.-active),
+body:not(.is-loading) .component-loading-screen {
+    pointer-events: none !important;
+    display: none !important;
+}
 
+.nav-container .project {
+    cursor: pointer;
+}
 
+#content {
+    will-change: opacity;
+}
 
-
+/* Captions pointer-events pass-through so clicks reach slider cards */
+.captions-full {
+    pointer-events: none !important;
+}
+.captions-full button,
+.captions-full a,
+.captions-full .loadpage {
+    pointer-events: auto !important;
+}
+.slider-wrapper.zoomed-out ~ .captions-full,
+.zoomed-out .captions-full,
+.slider-nav.zoomed-out .captions-full,
+.captions-full.hidden,
+.captions-full[style*="visibility: hidden"] * {
+    pointer-events: none !important;
+}
