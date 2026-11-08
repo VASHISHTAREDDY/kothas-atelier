@@ -2,6 +2,7 @@
 	document.addEventListener( 'DOMContentLoaded', function( event ) {
 
 		wpcf7_recaptcha.execute = function( action ) {
+			if ( !wpcf7_recaptcha.sitekey ) return;
 			grecaptcha.execute(
 				wpcf7_recaptcha.sitekey,
 				{ action: action }
