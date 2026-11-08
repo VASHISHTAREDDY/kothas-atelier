@@ -40,6 +40,14 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify({ status: 'ok', success: true }));
     return;
   }
+
+  // Cloudflare RUM / analytics beacons
+  if (reqPath.startsWith('/cdn-cgi/')) {
+    res.writeHead(204, { 'Access-Control-Allow-Origin': '*' });
+    res.end();
+    return;
+  }
+
   if (reqPath === '/') reqPath = '/index.html';
 
   // Project renames: 301 redirects for seamless backward-compatibility
@@ -101,13 +109,18 @@ const server = http.createServer((req, res) => {
 
   // Fallback to ROOT_DIR
   if (!fs.existsSync(filePath)) {
-    let altPath = path.join(ROOT_DIR, reqPath);
-    if (fs.existsSync(altPath)) {
-      if (fs.statSync(altPath).isDirectory()) {
-        altPath = path.join(altPath, 'index.html');
-      }
-      if (fs.existsSync(altPath) && fs.statSync(altPath).isFile()) {
-        filePath = altPath;
+    if (reqPath.includes('residential-architecture-design-hero')) {
+      const alias = path.join(SITE_DIR, 'wp-content/uploads/2018/05/residential-architectural-design.jpg');
+      if (fs.existsSync(alias)) filePath = alias;
+    } else {
+      let altPath = path.join(ROOT_DIR, reqPath);
+      if (fs.existsSync(altPath)) {
+        if (fs.statSync(altPath).isDirectory()) {
+          altPath = path.join(altPath, 'index.html');
+        }
+        if (fs.existsSync(altPath) && fs.statSync(altPath).isFile()) {
+          filePath = altPath;
+        }
       }
     }
   }

@@ -410,13 +410,6 @@ textarea:focus {
     image-rendering: high-quality;
 }
 
-/* Transition guards: prevent stuck loading overlays and ensure smooth pointer interactions */
-html:not(.preload) .component-loading-screen,
-.component-loading-screen:not(.-active),
-body:not(.is-loading) .component-loading-screen {
-    pointer-events: none !important;
-    display: none !important;
-}
 
 .nav-container .project {
     cursor: pointer;
