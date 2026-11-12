@@ -71,12 +71,32 @@
     },
     {
       "source": "/residential-portfolio/broomwood/(.*)",
-      "destination": "/residential-portfolio/dovetail-house/$1",
+      "destination": "/residential-portfolio/the-frames/$1",
       "permanent": true
     },
     {
       "source": "/residential-portfolio/broomwood",
-      "destination": "/residential-portfolio/dovetail-house/",
+      "destination": "/residential-portfolio/the-frames/",
+      "permanent": true
+    },
+    {
+      "source": "/residential-portfolio/dovetail-house/(.*)",
+      "destination": "/residential-portfolio/the-frames/$1",
+      "permanent": true
+    },
+    {
+      "source": "/residential-portfolio/dovetail-house",
+      "destination": "/residential-portfolio/the-frames/",
+      "permanent": true
+    },
+    {
+      "source": "/dovetail-house/(.*)",
+      "destination": "/residential-portfolio/the-frames/$1",
+      "permanent": true
+    },
+    {
+      "source": "/dovetail-house",
+      "destination": "/residential-portfolio/the-frames/",
       "permanent": true
     }
   ],

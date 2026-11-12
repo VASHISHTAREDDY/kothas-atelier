@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" width="680" height="430" style="font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#ffffff;">
+  <defs>
+    <marker id="dim-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 2 L 8 5 L 1 8 z" fill="#1b1b1e"/>
+    </marker>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="1" y="1" width="678" height="428" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+
+  <!-- Header Strip -->
+  <rect x="1" y="1" width="678" height="46" fill="#fafafa"/>
+  <line x1="1" y1="47" x2="679" y2="47" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="20" y="23" font-size="11.5" font-weight="700" fill="#1b1b1e" letter-spacing="1.4">HOUSE — MR. NARESH BABU RESIDENCE</text>
+  <text x="20" y="38" font-size="9.5" font-weight="500" fill="#6b7280" letter-spacing="0.4">RAKTAPURAM, BADANGPET &#8226; PLOT 35&#8242;-0&#8243; &#215; 56&#8242;-0&#8243; &#8226; 1,925 SQ. FT. / FLOOR</text>
+
+  <!-- North Indicator -->
+  <g transform="translate(636,24)">
+    <circle cx="0" cy="0" r="14" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+    <path d="M 0 -9 L 4.5 5 L 0 2 L -4.5 5 Z" fill="#1b1b1e"/>
+    <text x="-23" y="4" font-size="9" font-weight="700" fill="#1b1b1e" letter-spacing="1">N</text>
+  </g>
+
+  <!-- LEFT PANEL: SITE & SETBACK ENVELOPE -->
+  <text x="24" y="72" font-size="9.5" font-weight="700" fill="#1b1b1e" letter-spacing="1.2">SITE ENVELOPE &amp; ORIENTATION</text>
+
+  <!-- Primary Street Frontage (North) -->
+  <rect x="64" y="84" width="210" height="24" fill="#f4f4f5"/>
+  <text x="169" y="99" font-size="8.5" font-weight="700" fill="#1b1b1e" text-anchor="middle" letter-spacing="0.8">NORTH STREET FRONTAGE (35&#8242;-0&#8243; WIDTH)</text>
+
+  <!-- Plot Width Dimension -->
+  <line x1="64" y1="117" x2="274" y2="117" stroke="#1b1b1e" stroke-width="1" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+  <rect x="141" y="109" width="56" height="14" fill="#ffffff"/>
+  <text x="169" y="120" font-size="9.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">35&#8242; 0&#8243;</text>
+
+  <!-- Plot Length Dimension -->
+  <line x1="42" y1="128" x2="42" y2="394" stroke="#1b1b1e" stroke-width="1" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+  <g transform="translate(36,261) rotate(-90)">
+    <rect x="-26" y="-10" width="52" height="14" fill="#ffffff"/>
+    <text x="0" y="1" font-size="9.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">56&#8242; 0&#8243;</text>
+  </g>
+
+  <!-- Outer Plot Boundary -->
+  <rect x="64" y="128" width="210" height="266" fill="#fafafa" stroke="#1b1b1e" stroke-width="1.4" stroke-dasharray="4,3"/>
+
+  <!-- Setback Callout Top -->
+  <text x="169" y="141" font-size="8" font-weight="600" fill="#6b7280" text-anchor="middle">1&#8242;-6&#8243; to 2&#8242;-6&#8243; SIDE &amp; REAR OFFSETS</text>
+
+  <!-- Inner Built Footprint -->
+  <rect x="82" y="148" width="174" height="232" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.8"/>
+
+  <!-- Cantilevered North Balcony Strip -->
+  <rect x="82" y="148" width="174" height="36" fill="#f3efe8" stroke="#1b1b1e" stroke-width="1.1"/>
+  <text x="169" y="164" font-size="8" font-weight="700" fill="#1b1b1e" text-anchor="middle">7&#8242;-9&#8243; CANTILEVERED BALCONY</text>
+  <text x="169" y="176" font-size="7.5" font-weight="500" fill="#6b7280" text-anchor="middle">CNC JAALI &amp; DARK METAL BOX FRAME</text>
+
+  <!-- Water Body Corner Feature -->
+  <rect x="188" y="190" width="62" height="44" fill="#e8f1f5" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="219" y="209" font-size="7.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">WATER BODY</text>
+  <text x="219" y="221" font-size="7.5" font-weight="600" fill="#4b5563" text-anchor="middle">7&#8242;-6&#8243; &#215; 10&#8242;</text>
+
+  <!-- Stair & Lift Core -->
+  <rect x="88" y="190" width="54" height="44" fill="#f4f4f5" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="115" y="208" font-size="7" font-weight="700" fill="#1b1b1e" text-anchor="middle">STAIR HALL</text>
+  <text x="115" y="220" font-size="7" font-weight="600" fill="#4b5563" text-anchor="middle">&amp; STORAGE</text>
+
+  <rect x="142" y="190" width="40" height="44" fill="#e4e4e7" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="162" y="208" font-size="7" font-weight="700" fill="#1b1b1e" text-anchor="middle">LIFT</text>
+  <text x="162" y="220" font-size="6.8" font-weight="600" fill="#4b5563" text-anchor="middle">5&#8242;-3&#8243;&#215;5&#8242;</text>
+
+  <!-- Core Label -->
+  <text x="169" y="276" font-size="10.5" font-weight="700" fill="#1b1b1e" text-anchor="middle" letter-spacing="0.6">1,925 SQ. FT.</text>
+  <text x="169" y="291" font-size="8" font-weight="500" fill="#6b7280" text-anchor="middle">FLOOR PLATE PER FLOOR</text>
+  <text x="169" y="308" font-size="7.5" font-weight="600" fill="#4b5563" text-anchor="middle">CURVED LEFT MONOLITH + 4&#8242;-9&#8243; SIDE BALCONY</text>
+
+  <!-- Rear Ventilation Zone -->
+  <rect x="88" y="328" width="162" height="44" fill="#fafafa" stroke="#d4d4d8" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="169" y="348" font-size="7.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">PRIVATE SUITES &amp; 1BHK ZONE</text>
+  <text x="169" y="361" font-size="7.2" font-weight="500" fill="#6b7280" text-anchor="middle">SERVICE SHAFTS &#8226; LATERAL CROSS-VENTILATION</text>
+
+  <!-- Side Setback Label Right -->
+  <text x="284" y="265" font-size="7.5" font-weight="600" fill="#6b7280" transform="rotate(90 284 265)" text-anchor="middle">SIDE OFFSET 1&#8242;-6&#8243; TO 2&#8242;-6&#8243;</text>
+
+  <!-- Divider -->
+  <line x1="316" y1="62" x2="316" y2="404" stroke="#e4e4e7" stroke-width="1"/>
+
+  <!-- RIGHT PANEL: 4-LEVEL VERTICAL LAYERED PROGRAM -->
+  <text x="336" y="72" font-size="9.5" font-weight="700" fill="#1b1b1e" letter-spacing="1.2">VERTICAL LAYERING &amp; SPATIAL PROGRAM</text>
+
+  <!-- Level 4: Terrace Floor -->
+  <rect x="336" y="90" width="320" height="70" fill="#1b1b1e" stroke="#1b1b1e" stroke-width="1.2"/>
+  <text x="352" y="112" font-size="9.5" font-weight="700" fill="#ffffff" letter-spacing="0.8">TERRACE FLOOR &#8212; PENTHOUSE &amp; DECK</text>
+  <text x="642" y="112" font-size="8.5" font-weight="600" fill="#d4d4d8" text-anchor="end">1,925 SQ. FT.</text>
+  <text x="352" y="130" font-size="8.2" font-weight="400" fill="#d4d4d8">Upper Bedroom Suite (15&#8242;-6&#8243; &#215; 13&#8242;) + Closet + Bath (5&#8242; &#215; 8&#8242;)</text>
+  <text x="352" y="145" font-size="8.2" font-weight="400" fill="#a1a1aa">Open Roof Terrace Garden &amp; Entertainment Deck &#8226; Parapet Framing</text>
+
+  <!-- Level 3: Second Floor -->
+  <rect x="336" y="172" width="320" height="96" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.5"/>
+  <text x="352" y="193" font-size="9" font-weight="700" fill="#1b1b1e" letter-spacing="0.4">SECOND FLOOR &#8212; PRIMARY RESIDENCE</text>
+  <text x="642" y="193" font-size="8.5" font-weight="700" fill="#1b1b1e" text-anchor="end">1,925 SQ. FT.</text>
+  <text x="352" y="211" font-size="8.1" font-weight="500" fill="#374151">Lounge (14&#8242;&#215;22&#8242;) &#8226; Dining (15&#8242;&#215;10&#8242;) &#8226; Study (14&#8242;-9&#8243;&#215;10&#8242;) &#8226; Puja (4&#8242;&#215;6&#8242;)</text>
+  <text x="352" y="226" font-size="8.1" font-weight="500" fill="#374151">Chef&#8217;s Kitchen (12&#8242;&#215;13&#8242;) + Utility (4&#8242;-5&#8243;&#215;10&#8242;) &#8226; 7&#8242;-9&#8243; &amp; 4&#8242;-9&#8243; Balconies</text>
+  <text x="352" y="241" font-size="8.1" font-weight="500" fill="#374151">Master Suite (15&#8242;-6&#8243;&#215;13&#8242;) + Closet + Bath (5&#8242;&#215;8&#8242;)</text>
+  <text x="352" y="256" font-size="8.1" font-weight="500" fill="#374151">Children&#8217;s Bedroom (14&#8242;-3&#8243;&#215;16&#8242;) + Attached Bath (8&#8242;&#215;5&#8242;-3&#8243;)</text>
+
+  <!-- Facade / Envelope Strategy Strip -->
+  <rect x="336" y="280" width="320" height="44" fill="#f3efe8" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="352" y="299" font-size="8.5" font-weight="700" fill="#1b1b1e" letter-spacing="0.6">CLIMATIC &amp; FA&#199;ADE ENVELOPE (4-LEVEL MASSING)</text>
+  <text x="352" y="313" font-size="8" font-weight="500" fill="#4b5563">CNC Jaali Buffer &#8226; Stone Cladding &#8226; Wood Soffits &#8226; Slab Overhangs</text>
+
+  <!-- Level 1: Ground Floor -->
+  <rect x="336" y="336" width="320" height="72" fill="#fafafa" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="352" y="357" font-size="9" font-weight="700" fill="#1b1b1e" letter-spacing="0.4">GROUND FLOOR &#8212; SERVICES &amp; 1BHK UNIT</text>
+  <text x="642" y="357" font-size="8.5" font-weight="700" fill="#1b1b1e" text-anchor="end">1,925 SQ. FT.</text>
+  <text x="352" y="375" font-size="7.9" font-weight="500" fill="#374151">Parking &#8226; Water Body (7&#8242;-6&#8243;&#215;10&#8242;) &#8226; Lift Core (5&#8242;-3&#8243;&#215;5&#8242;) &#8226; Storage (8&#8242;&#215;5&#8242;)</text>
+  <text x="352" y="390" font-size="7.9" font-weight="500" fill="#374151">1BHK: M.Bedroom (10&#8242;&#215;13&#8242;) &#8226; Toilet (4&#8242;&#215;8&#8242;) &#8226; Living (10&#8242;&#215;13&#8242;) &#8226; Kitchen (8&#8242;&#215;9&#8242;-3&#8243;)</text>
+</svg>

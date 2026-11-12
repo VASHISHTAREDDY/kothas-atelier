@@ -11,7 +11,7 @@ const { chromium } = require('playwright');
   const body1 = await page.evaluate(() => document.body.className);
   console.log('Homepage body class:', body1);
 
-  console.log('2. SmoothState navigate to /residential-architects/ via slide button');
+  console.log('2. SmoothState navigate to /architectural-design/ via slide button');
   await page.evaluate(() => {
     const flk = jQuery('.slider-nav>.slider-wrapper>.slides').data('flickity');
     if (flk) flk.select(1, false, true);

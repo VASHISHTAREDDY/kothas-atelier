@@ -49,8 +49,8 @@ function cacheBust(targetPattern = null, bustAll = false) {
     let content = fs.readFileSync(htmlPath, 'utf8');
     const orig = content;
 
-    // Match ANY image URL in wp-content/uploads/ or wp-content/themes/
-    const imgRegex = /(["'\(])(\/?wp-content\/(?:uploads|themes)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico))(?:\?[^"'()\s>]*)?(["'\)])/gi;
+    // Match ANY image URL in wp-content/uploads/, wp-content/themes/, or dedicated image folders / root images
+    const imgRegex = /(["'\(])(\/?(?:(?:wp-content\/(?:uploads|themes)|site-assessment-images|turnkey-services-images|product-design-images)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico)|(?:farm-house|house|product-design)\.jpg))(?:\?[^"'()\s>]*)?(["'\)])/gi;
 
     content = content.replace(imgRegex, (match, prefix, cleanUrl, suffix) => {
       const relPath = decodeURIComponent(cleanUrl.replace(/^\//, ''));

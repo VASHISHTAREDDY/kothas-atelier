@@ -196,7 +196,7 @@ function handleContactRequest(req, res) {
       receivedAt: new Date().toISOString(),
       name: fields['your-name'] || fields.name || fields.fullName || 'Prospective Client',
       email: fields['your-email'] || fields.email || '',
-      phone: fields['your-phone'] || fields['your-tel'] || fields.phone || fields.tel || '',
+      phone: fields['your-number'] || fields['your-phone'] || fields['your-tel'] || fields.phone || fields.tel || '',
       subject: fields['your-subject'] || fields.subject || "Kotha's Atelier Website Inquiry",
       message: fields['your-message'] || fields.message || fields.comments || '',
       sourceUrl: fields['current-url'] || req.headers.referer || '/',

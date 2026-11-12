@@ -3,6 +3,7 @@ hts-cache/
 hts-log.txt
 cookies.txt
 *.backup
+*.bak
 *.log
 playwright-analyzer/
 visual-proof/

@@ -1,1467 +1,1467 @@
 Folder PATH listing for volume New Volume
 Volume serial number is C442-E6D5
 E:.
-¦   .gitignore
-¦   apple-touch-icon.png
-¦   backblue.gif
-¦   BACKUP_INFO.txt
-¦   COMPLETE_FORENSIC_REPORT.md
-¦   cookies.txt
-¦   destination-complete-inventory.json
-¦   destination-failures.json
-¦   destination-media-comparison.json
-¦   destination-visual-comparison.json
-¦   fade.gif
-¦   favicon-16x16.png
-¦   favicon-32x32.png
-¦   favicon.ico
-¦   favicon.svg
-¦   FINAL_RENDERED_COMPARISON.json
-¦   FINAL_RENDERED_FAILURES.json
-¦   FINAL_RENDERED_FORENSIC_REPORT.md
-¦   hts-log.txt
-¦   index.html
-¦   navigation-comparison.json
-¦   navigation-complete-inventory.json
-¦   navigation-failures.json
-¦   navigation-inventory.json
-¦   NAVIGATION_FORENSIC_REPORT.md
-¦   package-lock.json
-¦   package.json
-¦   server.js
-¦   structure.txt
-¦   vercel.json
-¦   
+ï¿½   .gitignore
+ï¿½   apple-touch-icon.png
+ï¿½   backblue.gif
+ï¿½   BACKUP_INFO.txt
+ï¿½   COMPLETE_FORENSIC_REPORT.md
+ï¿½   cookies.txt
+ï¿½   destination-complete-inventory.json
+ï¿½   destination-failures.json
+ï¿½   destination-media-comparison.json
+ï¿½   destination-visual-comparison.json
+ï¿½   fade.gif
+ï¿½   favicon-16x16.png
+ï¿½   favicon-32x32.png
+ï¿½   favicon.ico
+ï¿½   favicon.svg
+ï¿½   FINAL_RENDERED_COMPARISON.json
+ï¿½   FINAL_RENDERED_FAILURES.json
+ï¿½   FINAL_RENDERED_FORENSIC_REPORT.md
+ï¿½   hts-log.txt
+ï¿½   index.html
+ï¿½   navigation-comparison.json
+ï¿½   navigation-complete-inventory.json
+ï¿½   navigation-failures.json
+ï¿½   navigation-inventory.json
+ï¿½   NAVIGATION_FORENSIC_REPORT.md
+ï¿½   package-lock.json
+ï¿½   package.json
+ï¿½   server.js
+ï¿½   structure.txt
+ï¿½   vercel.json
+ï¿½   
 +---cdnjs.cloudflare.com
-¦   ¦   cf.core.css
-¦   ¦   cf.core.css.readme
-¦   ¦   index.html
-¦   ¦   
-¦   +---ajax
-¦       +---libs
-¦           +---jquery
-¦           ¦   +---2.1.3
-¦           ¦           jquery.min.js
-¦           ¦           
-¦           +---modernizr
-¦               +---2.8.3
-¦                       modernizr.min.js
-¦                       
+ï¿½   ï¿½   cf.core.css
+ï¿½   ï¿½   cf.core.css.readme
+ï¿½   ï¿½   index.html
+ï¿½   ï¿½   
+ï¿½   +---ajax
+ï¿½       +---libs
+ï¿½           +---jquery
+ï¿½           ï¿½   +---2.1.3
+ï¿½           ï¿½           jquery.min.js
+ï¿½           ï¿½           
+ï¿½           +---modernizr
+ï¿½               +---2.8.3
+ï¿½                       modernizr.min.js
+ï¿½                       
 +---code.ionicframework.com
-¦   ¦   index.html
-¦   ¦   
-¦   +---ionicons
-¦       +---2.0.1
-¦           +---css
-¦           ¦       ionicons.min.css
-¦           ¦       
-¦           +---fonts
-¦                   ionicons790f.svg
-¦                   ionicons790f.ttf
-¦                   ionicons790f.woff
-¦                   
+ï¿½   ï¿½   index.html
+ï¿½   ï¿½   
+ï¿½   +---ionicons
+ï¿½       +---2.0.1
+ï¿½           +---css
+ï¿½           ï¿½       ionicons.min.css
+ï¿½           ï¿½       
+ï¿½           +---fonts
+ï¿½                   ionicons790f.svg
+ï¿½                   ionicons790f.ttf
+ï¿½                   ionicons790f.woff
+ï¿½                   
 +---hts-cache
-¦       doit.log
-¦       new.lst
-¦       new.txt
-¦       new.zip
-¦       readme.txt
-¦       winprofile.ini
-¦       
+ï¿½       doit.log
+ï¿½       new.lst
+ï¿½       new.txt
+ï¿½       new.zip
+ï¿½       readme.txt
+ï¿½       winprofile.ini
+ï¿½       
 +---maps.googleapis.com
-¦       index.html
-¦       
+ï¿½       index.html
+ï¿½       
 +---minaleandmann.com
-¦   ¦   apple-touch-icon.png
-¦   ¦   favicon-16x16.png
-¦   ¦   favicon-32x32.png
-¦   ¦   favicon.ico
-¦   ¦   favicon.svg
-¦   ¦   index.html
-¦   ¦   index.html.backup
-¦   ¦   index02d1.html
-¦   ¦   index0370.html
-¦   ¦   index0718.html
-¦   ¦   index1800.html
-¦   ¦   index1813.html
-¦   ¦   index1877.html
-¦   ¦   index2501.html
-¦   ¦   index2941.html
-¦   ¦   index31bd.html
-¦   ¦   index3395.html
-¦   ¦   index47f0.html
-¦   ¦   index4ec6.html
-¦   ¦   index6033.html
-¦   ¦   index649f.html
-¦   ¦   index661b.html
-¦   ¦   index69b3.html
-¦   ¦   index6c7b.html
-¦   ¦   index7760.html
-¦   ¦   index7adf.html
-¦   ¦   index8191.html
-¦   ¦   index96c2.html
-¦   ¦   indexb645.html
-¦   ¦   indexbcfa.html
-¦   ¦   indexbdc0.html
-¦   ¦   indexc974.html
-¦   ¦   indexdddd.html
-¦   ¦   indexe8f9.html
-¦   ¦   indexf0fc.html
-¦   ¦   indexf3cd.html
-¦   ¦   xmlrpc0db0.php
-¦   ¦   _tel_02039586074__020.html
-¦   ¦   
-¦   +---about
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_https_
-¦   ¦   ¦   +---minaleandmann.com
-¦   ¦   ¦       +---wp-content
-¦   ¦   ¦           +---uploads
-¦   ¦   ¦               +---2018
-¦   ¦   ¦                   +---01
-¦   ¦   ¦                           1b-MAGAZINE.html
-¦   ¦   ¦                           2-MAGAZINE.html
-¦   ¦   ¦                           3a-MAGAZINE.html
-¦   ¦   ¦                           METRO-ARTICLE.html
-¦   ¦   ¦                           p072_HOME_AUTUMN16-784x1024.html
-¦   ¦   ¦                           
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---cdn-cgi
-¦   ¦   +---l
-¦   ¦   ¦       email-protection.html
-¦   ¦   ¦       
-¦   ¦   +---scripts
-¦   ¦       +---5c5dd728
-¦   ¦           +---cloudflare-static
-¦   ¦                   email-decode.min.js
-¦   ¦                   
-¦   +---cdnjs.cloudflare.com
-¦   ¦   ¦   cf.core.css
-¦   ¦   ¦   cf.core.css.readme
-¦   ¦   ¦   index.html
-¦   ¦   ¦   
-¦   ¦   +---ajax
-¦   ¦       +---libs
-¦   ¦           +---jquery
-¦   ¦           ¦   +---2.1.3
-¦   ¦           ¦           jquery.min.js
-¦   ¦           ¦           
-¦   ¦           +---modernizr
-¦   ¦               +---2.8.3
-¦   ¦                       modernizr.min.js
-¦   ¦                       
-¦   +---code.ionicframework.com
-¦   ¦   ¦   index.html
-¦   ¦   ¦   
-¦   ¦   +---ionicons
-¦   ¦       +---2.0.1
-¦   ¦           +---css
-¦   ¦           ¦       ionicons.min.css
-¦   ¦           ¦       
-¦   ¦           +---fonts
-¦   ¦                   ionicons790f.svg
-¦   ¦                   ionicons790f.ttf
-¦   ¦                   ionicons790f.woff
-¦   ¦                   
-¦   +---comments
-¦   ¦   +---feed
-¦   ¦           index.html
-¦   ¦           
-¦   +---commercial-architects
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---commercial-design-and-build
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---commercial-interior-designers
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---commercial-portfolio
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---the-archway-69
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---the-refectory
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---the-rock
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---the-wig-factory
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---conservation-architects
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---conservation-heritage-design-portfolio
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---contact
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---dist
-¦   ¦   +---img
-¦   ¦       +---logos
-¦   +---feed
-¦   ¦       index.html
-¦   ¦       
-¦   +---planning-applications
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---privacy-policy
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---residential-architects
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---residential-architectural-design-services
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---residential-interior-design
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---residential-portfolio
-¦   ¦   ¦   index.html
-¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   
-¦   ¦   +---alexander-place
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---between-commons
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---broomwood
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---cannon-place
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---mews-house
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---montague
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---no-40
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---seymour-walk
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---the-cube-house
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---the-victorian
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---thornton
-¦   ¦   ¦   ¦   index.html
-¦   ¦   ¦   ¦   _tel_02039586074__020.html
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦   ¦           a__br.html
-¦   ¦   ¦           
-¦   ¦   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
-¦   ¦           a__br.html
-¦   ¦           
-¦   +---use.typekit.net
-¦   ¦       hdb4uai.js
-¦   ¦       
-¦   +---wp-admin
-¦   ¦       admin-ajax.html
-¦   ¦       
-¦   +---wp-content
-¦   ¦   +---plugins
-¦   ¦   ¦   +---ajaxify-wordpress-site
-¦   ¦   ¦   ¦   +---js
-¦   ¦   ¦   ¦           ajaxify.js
-¦   ¦   ¦   ¦           ajaxify40dd.js
-¦   ¦   ¦   ¦           history.js
-¦   ¦   ¦   ¦           history40dd.js
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---cf-analytics
-¦   ¦   ¦   ¦   +---js
-¦   ¦   ¦   ¦           cf7-google-analytics.js
-¦   ¦   ¦   ¦           cf7-google-analytics91ce.js
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---contact-form-7
-¦   ¦   ¦       +---assets
-¦   ¦   ¦       ¦       ajax-loader.gif
-¦   ¦   ¦       ¦       
-¦   ¦   ¦       +---includes
-¦   ¦   ¦       ¦   +---css
-¦   ¦   ¦       ¦   ¦       styles9dff.css
-¦   ¦   ¦       ¦   ¦       
-¦   ¦   ¦       ¦   +---js
-¦   ¦   ¦       ¦           scripts.js
-¦   ¦   ¦       ¦           scripts9dff.js
-¦   ¦   ¦       ¦           
-¦   ¦   ¦       +---modules
-¦   ¦   ¦           +---recaptcha
-¦   ¦   ¦                   script.js
-¦   ¦   ¦                   script9dff.js
-¦   ¦   ¦                   
-¦   ¦   +---themes
-¦   ¦   ¦   +---pegasus
-¦   ¦   ¦       +---dist
-¦   ¦   ¦           +---css
-¦   ¦   ¦           ¦       bootstrap.min.css
-¦   ¦   ¦           ¦       global.min3c82.css
-¦   ¦   ¦           ¦       
-¦   ¦   ¦           +---fonts
-¦   ¦   ¦           ¦   ¦   glyphicons-halflings-regular-2.html
-¦   ¦   ¦           ¦   ¦   glyphicons-halflings-regular-3.html
-¦   ¦   ¦           ¦   ¦   glyphicons-halflings-regular-4.html
-¦   ¦   ¦           ¦   ¦   glyphicons-halflings-regular.html
-¦   ¦   ¦           ¦   ¦   glyphicons-halflings-regulard41d.html
-¦   ¦   ¦           ¦   ¦   
-¦   ¦   ¦           ¦   +---graphik
-¦   ¦   ¦           ¦           Graphik-Light.eot
-¦   ¦   ¦           ¦           Graphik-Light.ttf
-¦   ¦   ¦           ¦           Graphik-Light.woff
-¦   ¦   ¦           ¦           Graphik-Lightd41d.eot
-¦   ¦   ¦           ¦           Graphik-Medium.eot
-¦   ¦   ¦           ¦           Graphik-Medium.ttf
-¦   ¦   ¦           ¦           Graphik-Medium.woff
-¦   ¦   ¦           ¦           Graphik-Mediumd41d.eot
-¦   ¦   ¦           ¦           
-¦   ¦   ¦           +---img
-¦   ¦   ¦           ¦   ¦   ios-arrow-left.svg
-¦   ¦   ¦           ¦   ¦   ios-arrow-right.svg
-¦   ¦   ¦           ¦   ¦   view-carousel.svg
-¦   ¦   ¦           ¦   ¦   view-text.svg
-¦   ¦   ¦           ¦   ¦   
-¦   ¦   ¦           ¦   +---icons
-¦   ¦   ¦           ¦           left-arrow.html
-¦   ¦   ¦           ¦           right-arrow.html
-¦   ¦   ¦           ¦           
-¦   ¦   ¦           +---js
-¦   ¦   ¦                   global.min.js
-¦   ¦   ¦                   global.min3c82.js
-¦   ¦   ¦                   global.min3c82.js.backup
-¦   ¦   ¦                   
-¦   ¦   +---uploads
-¦   ¦       +---2017
-¦   ¦       ¦   +---09
-¦   ¦       ¦   ¦       Glass-cube.jpg
-¦   ¦       ¦   ¦       
-¦   ¦       ¦   +---10
-¦   ¦       ¦   ¦       10.jpg
-¦   ¦       ¦   ¦       12.jpg
-¦   ¦       ¦   ¦       13.jpg
-¦   ¦       ¦   ¦       15BR-GF.svg
-¦   ¦       ¦   ¦       15BR-LG.svg
-¦   ¦       ¦   ¦       15BR-LGV2.svg
-¦   ¦       ¦   ¦       2-1.jpg
-¦   ¦       ¦   ¦       2-2.jpg
-¦   ¦       ¦   ¦       2.-Our-Create-Construct-services-Wig-1.jpg
-¦   ¦       ¦   ¦       3-1.jpg
-¦   ¦       ¦   ¦       3-2.jpg
-¦   ¦       ¦   ¦       3.-Create-Archictect-Design-Wig-Wall.jpg
-¦   ¦       ¦   ¦       3.-WORKPLACE-Arch69-9-serv-arch-com.jpg
-¦   ¦       ¦   ¦       3.-WORKPLACE-INT-Arch69-1.jpg
-¦   ¦       ¦   ¦       39SW-Existing-Section.svg
-¦   ¦       ¦   ¦       39SW-Proposed-Section.svg
-¦   ¦       ¦   ¦       39SW-Proposed-Section_V2.svg
-¦   ¦       ¦   ¦       4-1.jpg
-¦   ¦       ¦   ¦       4.-Create-Interior-Design-Wig-4.jpg
-¦   ¦       ¦   ¦       4.-HOSPITALITY-wig-Fact-6-same-as-previous.jpg
-¦   ¦       ¦   ¦       4.-HOSPITALITY-Wig-fact-6-serv-arch-com.jpg
-¦   ¦       ¦   ¦       4.jpg
-¦   ¦       ¦   ¦       5-1.jpg
-¦   ¦       ¦   ¦       5.-ARCH-INT-Arch69-meeting-rm-serv-arch-com.jpg
-¦   ¦       ¦   ¦       5.-Construct-Construction-Stock-Img.jpg
-¦   ¦       ¦   ¦       5.jpg
-¦   ¦       ¦   ¦       6-1.jpg
-¦   ¦       ¦   ¦       6.-BESPOKE-JOINERY-Wig-Fact-10.jpg
-¦   ¦       ¦   ¦       6.jpg
-¦   ¦       ¦   ¦       7-1.jpg
-¦   ¦       ¦   ¦       7.-Bespoke-Joinery-Arch69-img-1.jpg
-¦   ¦       ¦   ¦       7.-FFE-Viv-Img.jpg
-¦   ¦       ¦   ¦       7.jpg
-¦   ¦       ¦   ¦       8-2.jpg
-¦   ¦       ¦   ¦       8.jpg
-¦   ¦       ¦   ¦       9-1.jpg
-¦   ¦       ¦   ¦       9.jpg
-¦   ¦       ¦   ¦       DESIGN_ARCHITECTURE_2018_Winner_WHITE_400-317x300.png
-¦   ¦       ¦   ¦       DESIGN_ARCHITECTURE_2018_Winner_WHITE_400.png
-¦   ¦       ¦   ¦       productsservices_federation-of-master-builders-175x300.jpg
-¦   ¦       ¦   ¦       productsservices_federation-of-master-builders-350x600.jpg
-¦   ¦       ¦   ¦       productsservices_federation-of-master-builders-597x1024.jpg
-¦   ¦       ¦   ¦       productsservices_federation-of-master-builders-629x1080.jpg
-¦   ¦       ¦   ¦       productsservices_federation-of-master-builders-768x1318.jpg
-¦   ¦       ¦   ¦       productsservices_federation-of-master-builders.jpg
-¦   ¦       ¦   ¦       
-¦   ¦       ¦   +---12
-¦   ¦       ¦           2.jpg
-¦   ¦       ¦           3.jpg
-¦   ¦       ¦           
-¦   ¦       +---2018
-¦   ¦           +---01
-¦   ¦           ¦       1.-Neon-Lights.jpg
-¦   ¦           ¦       10-1.jpg
-¦   ¦           ¦       10-4.jpg
-¦   ¦           ¦       132WR-GF-3.svg
-¦   ¦           ¦       132WR-GF-4.svg
-¦   ¦           ¦       132WR-LG-2.svg
-¦   ¦           ¦       132WR-LG-3.svg
-¦   ¦           ¦       132WR-LG-4.svg
-¦   ¦           ¦       19SR-GF.svg
-¦   ¦           ¦       19SR-LG.svg
-¦   ¦           ¦       19SR-LG_v2.svg
-¦   ¦           ¦       2-10.jpg
-¦   ¦           ¦       2-12.jpg
-¦   ¦           ¦       2-13.jpg
-¦   ¦           ¦       2-14.jpg
-¦   ¦           ¦       2-3.jpg
-¦   ¦           ¦       2-5.jpg
-¦   ¦           ¦       2-8.jpg
-¦   ¦           ¦       2-9.jpg
-¦   ¦           ¦       2.jpg
-¦   ¦           ¦       22aETR-GF.svg
-¦   ¦           ¦       22aETR-LG.svg
-¦   ¦           ¦       22aETR-LG_V2.svg
-¦   ¦           ¦       3-4.jpg
-¦   ¦           ¦       3-6.jpg
-¦   ¦           ¦       3-7.jpg
-¦   ¦           ¦       3-8.jpg
-¦   ¦           ¦       3-EDITED.jpg
-¦   ¦           ¦       3.jpg
-¦   ¦           ¦       34TR-GF.svg
-¦   ¦           ¦       34TR-LG.svg
-¦   ¦           ¦       34TR-LG_V2.svg
-¦   ¦           ¦       3a-1.jpg
-¦   ¦           ¦       3a-2.jpg
-¦   ¦           ¦       3a.jpg
-¦   ¦           ¦       3AP-Existing-Section.svg
-¦   ¦           ¦       3AP-Proposed-Section-1.svg
-¦   ¦           ¦       3AP-Proposed-Section.svg
-¦   ¦           ¦       4-11.jpg
-¦   ¦           ¦       4-2.jpg
-¦   ¦           ¦       4-4.jpg
-¦   ¦           ¦       4-6.jpg
-¦   ¦           ¦       4-7.jpg
-¦   ¦           ¦       4-8.jpg
-¦   ¦           ¦       4-9.jpg
-¦   ¦           ¦       4.jpg
-¦   ¦           ¦       40SR-GF-1.svg
-¦   ¦           ¦       40SR-GF.svg
-¦   ¦           ¦       40SR-LG.svg
-¦   ¦           ¦       46WR-GF-1.svg
-¦   ¦           ¦       46WR-GF-2.svg
-¦   ¦           ¦       46WR-LG-1.svg
-¦   ¦           ¦       46WR-LG-2.svg
-¦   ¦           ¦       46WR-LG-3.svg
-¦   ¦           ¦       4a-1.jpg
-¦   ¦           ¦       5-10.jpg
-¦   ¦           ¦       5-2.jpg
-¦   ¦           ¦       5-3.jpg
-¦   ¦           ¦       5-4.jpg
-¦   ¦           ¦       5-5.jpg
-¦   ¦           ¦       5-6.jpg
-¦   ¦           ¦       5-7.jpg
-¦   ¦           ¦       5-9.jpg
-¦   ¦           ¦       5.jpg
-¦   ¦           ¦       6-1.jpg
-¦   ¦           ¦       6-2.jpg
-¦   ¦           ¦       6-3.jpg
-¦   ¦           ¦       6-4.jpg
-¦   ¦           ¦       6-6.jpg
-¦   ¦           ¦       6-7.jpg
-¦   ¦           ¦       6-8.jpg
-¦   ¦           ¦       6.jpg
-¦   ¦           ¦       61KR-GF-1.svg
-¦   ¦           ¦       61KR-GF.svg
-¦   ¦           ¦       61KR-LG-1.svg
-¦   ¦           ¦       61KR-LG.svg
-¦   ¦           ¦       61KR-LG_V2.svg
-¦   ¦           ¦       7-1.jpg
-¦   ¦           ¦       7-2.jpg
-¦   ¦           ¦       7-3.jpg
-¦   ¦           ¦       7-4.jpg
-¦   ¦           ¦       7-5.jpg
-¦   ¦           ¦       7.jpg
-¦   ¦           ¦       8-1.jpg
-¦   ¦           ¦       8-2.jpg
-¦   ¦           ¦       8-3.jpg
-¦   ¦           ¦       8.jpg
-¦   ¦           ¦       8a.jpg
-¦   ¦           ¦       9-2.jpg
-¦   ¦           ¦       9-3.jpg
-¦   ¦           ¦       9-4.jpg
-¦   ¦           ¦       9.jpg
-¦   ¦           ¦       A69-Plan_V1.svg
-¦   ¦           ¦       A69-Section_V2.svg
-¦   ¦           ¦       gd.png
-¦   ¦           ¦       hd.png
-¦   ¦           ¦       home.png
-¦   ¦           ¦       livin.png
-¦   ¦           ¦       metro-logo-AA-FINAL.png
-¦   ¦           ¦       sr.png
-¦   ¦           ¦       
-¦   ¦           +---02
-¦   ¦           ¦       2.-Our-CreateConstruct-Broom-1-2.jpg
-¦   ¦           ¦       3.-Create-Architectural-Design-Broom-4.jpg
-¦   ¦           ¦       3.-HOMES-Broom-7-serv-acrh-res.jpg
-¦   ¦           ¦       3.HOMES-APT-Cannon-2-.jpg
-¦   ¦           ¦       4.-Create-Interior-Design-Cannon-Pl.jpg
-¦   ¦           ¦       4.-HOUSING-Broom-8.jpg
-¦   ¦           ¦       4.-HOUSING-No-40-1-serv-arch-res.jpg
-¦   ¦           ¦       5.-Construct-constuction-stock-img.jpg
-¦   ¦           ¦       6.-BESPOKE-JOINERY-Thornton-1.jpg
-¦   ¦           ¦       6.-Construct-Project-Managment-Arch69-4.jpg
-¦   ¦           ¦       6.-PLANNING-Arch96-10-serv-arch-res.jpg
-¦   ¦           ¦       6.-Planning-Archway-img-10.jpg
-¦   ¦           ¦       7.-Bespoke-Joinery-Thorn-1.jpg
-¦   ¦           ¦       7.-FFE-Viv-Image.jpg
-¦   ¦           ¦       7a.-Res-Int-Design-Arch-Cannon-11.jpg
-¦   ¦           ¦       8.-Landscape-Alexander-Pl-4.jpg
-¦   ¦           ¦       9.-Sustainable-Studio-77-2.jpg
-¦   ¦           ¦       BHA-AA-Highly-2018.png
-¦   ¦           ¦       BHA-AA-WINNER-2018.png
-¦   ¦           ¦       Stairs-2.mp4
-¦   ¦           ¦       
-¦   ¦           +---03
-¦   ¦           ¦       10.jpg
-¦   ¦           ¦       11.jpg
-¦   ¦           ¦       12.jpg
-¦   ¦           ¦       
-¦   ¦           +---04
-¦   ¦           ¦       1-13.jpg
-¦   ¦           ¦       1-5.jpg
-¦   ¦           ¦       1-New-Size-10.jpg
-¦   ¦           ¦       1-New-Size-11.jpg
-¦   ¦           ¦       1-New-Size-12.jpg
-¦   ¦           ¦       1-New-Size-13.jpg
-¦   ¦           ¦       1-New-Size-15.jpg
-¦   ¦           ¦       1-New-Size-2.jpg
-¦   ¦           ¦       1-New-Size-3.jpg
-¦   ¦           ¦       1-New-Size-4.jpg
-¦   ¦           ¦       1-New-Size-5.jpg
-¦   ¦           ¦       1-New-Size-6.jpg
-¦   ¦           ¦       1-New-Size-7.jpg
-¦   ¦           ¦       1-New-Size-8.jpg
-¦   ¦           ¦       1-New-Size-9.jpg
-¦   ¦           ¦       1-New-size.jpg
-¦   ¦           ¦       10-1.jpg
-¦   ¦           ¦       10-2.jpg
-¦   ¦           ¦       11.jpg
-¦   ¦           ¦       12.jpg
-¦   ¦           ¦       13.jpg
-¦   ¦           ¦       14.jpg
-¦   ¦           ¦       15.jpg
-¦   ¦           ¦       2-1.jpg
-¦   ¦           ¦       2.-Building-Regulations-stock-img-1.jpg
-¦   ¦           ¦       2.-ConHeritage-Planning-Permision-Stock-img.jpg
-¦   ¦           ¦       2.jpg
-¦   ¦           ¦       3-1.jpg
-¦   ¦           ¦       3.-Planning-Applications-stock-img.html
-¦   ¦           ¦       3.-Planning-Applications-Stock-Img.jpg
-¦   ¦           ¦       3.jpg
-¦   ¦           ¦       4-1.jpg
-¦   ¦           ¦       4.jpg
-¦   ¦           ¦       5-1.jpg
-¦   ¦           ¦       5.jpg
-¦   ¦           ¦       53WR-GF-1.svg
-¦   ¦           ¦       53WR-LG-1.svg
-¦   ¦           ¦       53WR-LGV2.svg
-¦   ¦           ¦       6-New-Size.jpg
-¦   ¦           ¦       6.jpg
-¦   ¦           ¦       7-1.jpg
-¦   ¦           ¦       7.jpg
-¦   ¦           ¦       8-1.jpg
-¦   ¦           ¦       8.jpg
-¦   ¦           ¦       8a.jpg
-¦   ¦           ¦       9-1.jpg
-¦   ¦           ¦       9.jpg
-¦   ¦           ¦       9a.jpg
-¦   ¦           ¦       
-¦   ¦           +---05
-¦   ¦           ¦       1.-Alexander-Place-Mobile-Banner.jpg
-¦   ¦           ¦       1.-Archway-69-Mobile-Banner-A-NEW.jpg
-¦   ¦           ¦       10.-The-Victorian-Mobile-Banner.jpg
-¦   ¦           ¦       11.-Cannon-Place-Mobile-Banner.jpg
-¦   ¦           ¦       1a-Archway-69-Mobile-Planning-NEW.jpg
-¦   ¦           ¦       1a.-Alexander-Place-Con-Heritage-NEW.jpg
-¦   ¦           ¦       1b-Archway-69-Mobile-Contract-NEW.jpg
-¦   ¦           ¦       2.-Between-the-Commons-Mobile-Banner.jpg
-¦   ¦           ¦       2.-Wig-Factory-Mobile-Banner-B.jpg
-¦   ¦           ¦       2a.-Between-the-Commons-USE-ANIMATION-FILE.jpg
-¦   ¦           ¦       2a.-Wig-Factory-Mobile-Create-Con.jpg
-¦   ¦           ¦       3.-Broomwood-Mobile-Banner-v2.jpg
-¦   ¦           ¦       3.-Broomwood-Mobile-Banner.jpg
-¦   ¦           ¦       3.-The-Rock-Mobile-Banner.jpg
-¦   ¦           ¦       4.-No-40-Mobile-Banner.jpg
-¦   ¦           ¦       4.-The-Refectory-Mobile-Banner.jpg
-¦   ¦           ¦       40SR-LG_V2.svg
-¦   ¦           ¦       5.-Seymour-Mobile-Banner.jpg
-¦   ¦           ¦       6.-The-Cube-House-Mobile-Banner.jpg
-¦   ¦           ¦       7.-LANDSCAPE-Alexander-Pl-4-serv-arch-res.jpg
-¦   ¦           ¦       7.-SW11-Mobile-Banner.jpg
-¦   ¦           ¦       8.-Mews-House-Mobile-Banner.jpg
-¦   ¦           ¦       8.-SUSTAINABLE-DESIGN-Studio-77-1-serv-arch-res.jpg
-¦   ¦           ¦       9-2.jpg
-¦   ¦           ¦       9.-Thornton-Mobile-Banner.jpg
-¦   ¦           ¦       alexander_desktop.jpg
-¦   ¦           ¦       alexander_mobile.jpg
-¦   ¦           ¦       slide_02-1600x1068.jpg
-¦   ¦           ¦       slide_02.jpg
-¦   ¦           ¦       slide_02.mp4
-¦   ¦           ¦       slide_02_portrait.jpg
-¦   ¦           ¦       slide_02_portrait.mp4
-¦   ¦           ¦       slide_02_v2-1600x1068.jpg
-¦   ¦           ¦       slide_02_v2.jpg
-¦   ¦           ¦       slide_02_v2.mp4
-¦   ¦           ¦       slide_05-1600x887.jpg
-¦   ¦           ¦       slide_05.jpg
-¦   ¦           ¦       slide_05.mp4
-¦   ¦           ¦       slide_07-1600x1069.jpg
-¦   ¦           ¦       slide_07.mp4
-¦   ¦           ¦       slide_08-1600x1068.jpg
-¦   ¦           ¦       slide_08.mp4
-¦   ¦           ¦       slide_10-810x1080.jpg
-¦   ¦           ¦       slide_10.jpg
-¦   ¦           ¦       slide_10.mp4
-¦   ¦           ¦       x1.-Archway-69-Mobile-Banner-A.jpg
-¦   ¦           ¦       
-¦   ¦           +---11
-¦   ¦                   DESIGN_ARCHITECTURE_2018_Winner_WHITE_300.png
-¦   ¦                   tst_bha_winner_18.png
-¦   ¦                   
-¦   +---wp-json
-¦   ¦   ¦   index.html
-¦   ¦   ¦   
-¦   ¦   +---oembed
-¦   ¦   ¦   +---1.0
-¦   ¦   ¦           embed0248.json
-¦   ¦   ¦           embed02fb.json
-¦   ¦   ¦           embed0aef.json
-¦   ¦   ¦           embed13ae
-¦   ¦   ¦           embed13b0.json
-¦   ¦   ¦           embed1557
-¦   ¦   ¦           embed2332.json
-¦   ¦   ¦           embed26a8
-¦   ¦   ¦           embed27d8
-¦   ¦   ¦           embed2982.json
-¦   ¦   ¦           embed2a34.json
-¦   ¦   ¦           embed2b7d.json
-¦   ¦   ¦           embed2d86.json
-¦   ¦   ¦           embed3602.json
-¦   ¦   ¦           embed3704.json
-¦   ¦   ¦           embed3bda
-¦   ¦   ¦           embed3e13.json
-¦   ¦   ¦           embed45a3
-¦   ¦   ¦           embed4b18
-¦   ¦   ¦           embed4e82.json
-¦   ¦   ¦           embed509d
-¦   ¦   ¦           embed581d
-¦   ¦   ¦           embed589b.json
-¦   ¦   ¦           embed5903
-¦   ¦   ¦           embed5eb7
-¦   ¦   ¦           embed6451
-¦   ¦   ¦           embed64ed
-¦   ¦   ¦           embed6741.json
-¦   ¦   ¦           embed6a0c.json
-¦   ¦   ¦           embed6aa3.json
-¦   ¦   ¦           embed761d
-¦   ¦   ¦           embed7cd9
-¦   ¦   ¦           embed8028.json
-¦   ¦   ¦           embed813e.json
-¦   ¦   ¦           embed846f
-¦   ¦   ¦           embed85bd.json
-¦   ¦   ¦           embed8dc1.json
-¦   ¦   ¦           embed9629.json
-¦   ¦   ¦           embed9916.json
-¦   ¦   ¦           embed9a31
-¦   ¦   ¦           embed9c96.json
-¦   ¦   ¦           embed9def
-¦   ¦   ¦           embeda1e9
-¦   ¦   ¦           embedb8f8.json
-¦   ¦   ¦           embedbb88
-¦   ¦   ¦           embedbbb6
-¦   ¦   ¦           embedbbbb
-¦   ¦   ¦           embedbc2f
-¦   ¦   ¦           embedbc3b.json
-¦   ¦   ¦           embedbdf0.json
-¦   ¦   ¦           embedc750.json
-¦   ¦   ¦           embedccd0
-¦   ¦   ¦           embedd662
-¦   ¦   ¦           embede298
-¦   ¦   ¦           embede347.json
-¦   ¦   ¦           embede469
-¦   ¦   ¦           embede8ab
-¦   ¦   ¦           embedebbb
-¦   ¦   ¦           embedf43e.json
-¦   ¦   ¦           embedf841
-¦   ¦   ¦           
-¦   ¦   +---wp
-¦   ¦       +---v2
-¦   ¦           +---pages
-¦   ¦                   1476.json
-¦   ¦                   1731.json
-¦   ¦                   2216.json
-¦   ¦                   2297.json
-¦   ¦                   2316.json
-¦   ¦                   2317.json
-¦   ¦                   2318.json
-¦   ¦                   2398.json
-¦   ¦                   2436.json
-¦   ¦                   2439.json
-¦   ¦                   2441.json
-¦   ¦                   2443.json
-¦   ¦                   2453.json
-¦   ¦                   2455.json
-¦   ¦                   2466.json
-¦   ¦                   2467.json
-¦   ¦                   2468.json
-¦   ¦                   2469.json
-¦   ¦                   2478.json
-¦   ¦                   2541.json
-¦   ¦                   2542.json
-¦   ¦                   2674.json
-¦   ¦                   2675.json
-¦   ¦                   2678.json
-¦   ¦                   2854.json
-¦   ¦                   2859.json
-¦   ¦                   3018.json
-¦   ¦                   3020.json
-¦   ¦                   3025.json
-¦   ¦                   3461.json
-¦   ¦                   
-¦   +---www.google.com
-¦       ¦   index.html
-¦       ¦   
-¦       +---recaptcha
-¦               api.js
-¦               api89ae.js
-¦               apiba84.js
-¦               
+ï¿½   ï¿½   apple-touch-icon.png
+ï¿½   ï¿½   favicon-16x16.png
+ï¿½   ï¿½   favicon-32x32.png
+ï¿½   ï¿½   favicon.ico
+ï¿½   ï¿½   favicon.svg
+ï¿½   ï¿½   index.html
+ï¿½   ï¿½   index.html.backup
+ï¿½   ï¿½   index02d1.html
+ï¿½   ï¿½   index0370.html
+ï¿½   ï¿½   index0718.html
+ï¿½   ï¿½   index1800.html
+ï¿½   ï¿½   index1813.html
+ï¿½   ï¿½   index1877.html
+ï¿½   ï¿½   index2501.html
+ï¿½   ï¿½   index2941.html
+ï¿½   ï¿½   index31bd.html
+ï¿½   ï¿½   index3395.html
+ï¿½   ï¿½   index47f0.html
+ï¿½   ï¿½   index4ec6.html
+ï¿½   ï¿½   index6033.html
+ï¿½   ï¿½   index649f.html
+ï¿½   ï¿½   index661b.html
+ï¿½   ï¿½   index69b3.html
+ï¿½   ï¿½   index6c7b.html
+ï¿½   ï¿½   index7760.html
+ï¿½   ï¿½   index7adf.html
+ï¿½   ï¿½   index8191.html
+ï¿½   ï¿½   index96c2.html
+ï¿½   ï¿½   indexb645.html
+ï¿½   ï¿½   indexbcfa.html
+ï¿½   ï¿½   indexbdc0.html
+ï¿½   ï¿½   indexc974.html
+ï¿½   ï¿½   indexdddd.html
+ï¿½   ï¿½   indexe8f9.html
+ï¿½   ï¿½   indexf0fc.html
+ï¿½   ï¿½   indexf3cd.html
+ï¿½   ï¿½   xmlrpc0db0.php
+ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   
+ï¿½   +---about
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_https_
+ï¿½   ï¿½   ï¿½   +---minaleandmann.com
+ï¿½   ï¿½   ï¿½       +---wp-content
+ï¿½   ï¿½   ï¿½           +---uploads
+ï¿½   ï¿½   ï¿½               +---2018
+ï¿½   ï¿½   ï¿½                   +---01
+ï¿½   ï¿½   ï¿½                           1b-MAGAZINE.html
+ï¿½   ï¿½   ï¿½                           2-MAGAZINE.html
+ï¿½   ï¿½   ï¿½                           3a-MAGAZINE.html
+ï¿½   ï¿½   ï¿½                           METRO-ARTICLE.html
+ï¿½   ï¿½   ï¿½                           p072_HOME_AUTUMN16-784x1024.html
+ï¿½   ï¿½   ï¿½                           
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---cdn-cgi
+ï¿½   ï¿½   +---l
+ï¿½   ï¿½   ï¿½       email-protection.html
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---scripts
+ï¿½   ï¿½       +---5c5dd728
+ï¿½   ï¿½           +---cloudflare-static
+ï¿½   ï¿½                   email-decode.min.js
+ï¿½   ï¿½                   
+ï¿½   +---cdnjs.cloudflare.com
+ï¿½   ï¿½   ï¿½   cf.core.css
+ï¿½   ï¿½   ï¿½   cf.core.css.readme
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---ajax
+ï¿½   ï¿½       +---libs
+ï¿½   ï¿½           +---jquery
+ï¿½   ï¿½           ï¿½   +---2.1.3
+ï¿½   ï¿½           ï¿½           jquery.min.js
+ï¿½   ï¿½           ï¿½           
+ï¿½   ï¿½           +---modernizr
+ï¿½   ï¿½               +---2.8.3
+ï¿½   ï¿½                       modernizr.min.js
+ï¿½   ï¿½                       
+ï¿½   +---code.ionicframework.com
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---ionicons
+ï¿½   ï¿½       +---2.0.1
+ï¿½   ï¿½           +---css
+ï¿½   ï¿½           ï¿½       ionicons.min.css
+ï¿½   ï¿½           ï¿½       
+ï¿½   ï¿½           +---fonts
+ï¿½   ï¿½                   ionicons790f.svg
+ï¿½   ï¿½                   ionicons790f.ttf
+ï¿½   ï¿½                   ionicons790f.woff
+ï¿½   ï¿½                   
+ï¿½   +---comments
+ï¿½   ï¿½   +---feed
+ï¿½   ï¿½           index.html
+ï¿½   ï¿½           
+ï¿½   +---commercial-architects
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---turnkey-services
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---commercial-interior-designers
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---commercial-portfolio
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---the-archway-69
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---the-refectory
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---the-rock
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---the-wig-factory
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---conservation-architects
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---conservation-heritage-design-portfolio
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---contact
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---dist
+ï¿½   ï¿½   +---img
+ï¿½   ï¿½       +---logos
+ï¿½   +---feed
+ï¿½   ï¿½       index.html
+ï¿½   ï¿½       
+ï¿½   +---site-assessment
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---privacy-policy
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---architectural-design
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---product-design
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---interior-design
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---residential-portfolio
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---alexander-place
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---between-commons
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---broomwood
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---cannon-place
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---mews-house
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---montague
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---no-40
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---seymour-walk
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---the-cube-house
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---the-victorian
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---thornton
+ï¿½   ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   ï¿½   _tel_02039586074__020.html
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---_mailto_generalenquiries@minaleandmann.com__generalenquiries@minaleandmann.com_
+ï¿½   ï¿½           a__br.html
+ï¿½   ï¿½           
+ï¿½   +---use.typekit.net
+ï¿½   ï¿½       hdb4uai.js
+ï¿½   ï¿½       
+ï¿½   +---wp-admin
+ï¿½   ï¿½       admin-ajax.html
+ï¿½   ï¿½       
+ï¿½   +---wp-content
+ï¿½   ï¿½   +---plugins
+ï¿½   ï¿½   ï¿½   +---ajaxify-wordpress-site
+ï¿½   ï¿½   ï¿½   ï¿½   +---js
+ï¿½   ï¿½   ï¿½   ï¿½           ajaxify.js
+ï¿½   ï¿½   ï¿½   ï¿½           ajaxify40dd.js
+ï¿½   ï¿½   ï¿½   ï¿½           history.js
+ï¿½   ï¿½   ï¿½   ï¿½           history40dd.js
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---cf-analytics
+ï¿½   ï¿½   ï¿½   ï¿½   +---js
+ï¿½   ï¿½   ï¿½   ï¿½           cf7-google-analytics.js
+ï¿½   ï¿½   ï¿½   ï¿½           cf7-google-analytics91ce.js
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---contact-form-7
+ï¿½   ï¿½   ï¿½       +---assets
+ï¿½   ï¿½   ï¿½       ï¿½       ajax-loader.gif
+ï¿½   ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½   ï¿½       +---includes
+ï¿½   ï¿½   ï¿½       ï¿½   +---css
+ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       styles9dff.css
+ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½       ï¿½   +---js
+ï¿½   ï¿½   ï¿½       ï¿½           scripts.js
+ï¿½   ï¿½   ï¿½       ï¿½           scripts9dff.js
+ï¿½   ï¿½   ï¿½       ï¿½           
+ï¿½   ï¿½   ï¿½       +---modules
+ï¿½   ï¿½   ï¿½           +---recaptcha
+ï¿½   ï¿½   ï¿½                   script.js
+ï¿½   ï¿½   ï¿½                   script9dff.js
+ï¿½   ï¿½   ï¿½                   
+ï¿½   ï¿½   +---themes
+ï¿½   ï¿½   ï¿½   +---pegasus
+ï¿½   ï¿½   ï¿½       +---dist
+ï¿½   ï¿½   ï¿½           +---css
+ï¿½   ï¿½   ï¿½           ï¿½       bootstrap.min.css
+ï¿½   ï¿½   ï¿½           ï¿½       global.min3c82.css
+ï¿½   ï¿½   ï¿½           ï¿½       
+ï¿½   ï¿½   ï¿½           +---fonts
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   glyphicons-halflings-regular-2.html
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   glyphicons-halflings-regular-3.html
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   glyphicons-halflings-regular-4.html
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   glyphicons-halflings-regular.html
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   glyphicons-halflings-regulard41d.html
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½           ï¿½   +---graphik
+ï¿½   ï¿½   ï¿½           ï¿½           Graphik-Light.eot
+ï¿½   ï¿½   ï¿½           ï¿½           Graphik-Light.ttf
+ï¿½   ï¿½   ï¿½           ï¿½           Graphik-Light.woff
+ï¿½   ï¿½   ï¿½           ï¿½           Graphik-Lightd41d.eot
+ï¿½   ï¿½   ï¿½           ï¿½           Graphik-Medium.eot
+ï¿½   ï¿½   ï¿½           ï¿½           Graphik-Medium.ttf
+ï¿½   ï¿½   ï¿½           ï¿½           Graphik-Medium.woff
+ï¿½   ï¿½   ï¿½           ï¿½           Graphik-Mediumd41d.eot
+ï¿½   ï¿½   ï¿½           ï¿½           
+ï¿½   ï¿½   ï¿½           +---img
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   ios-arrow-left.svg
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   ios-arrow-right.svg
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   view-carousel.svg
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   view-text.svg
+ï¿½   ï¿½   ï¿½           ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½           ï¿½   +---icons
+ï¿½   ï¿½   ï¿½           ï¿½           left-arrow.html
+ï¿½   ï¿½   ï¿½           ï¿½           right-arrow.html
+ï¿½   ï¿½   ï¿½           ï¿½           
+ï¿½   ï¿½   ï¿½           +---js
+ï¿½   ï¿½   ï¿½                   global.min.js
+ï¿½   ï¿½   ï¿½                   global.min3c82.js
+ï¿½   ï¿½   ï¿½                   global.min3c82.js.backup
+ï¿½   ï¿½   ï¿½                   
+ï¿½   ï¿½   +---uploads
+ï¿½   ï¿½       +---2017
+ï¿½   ï¿½       ï¿½   +---09
+ï¿½   ï¿½       ï¿½   ï¿½       Glass-cube.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       
+ï¿½   ï¿½       ï¿½   +---10
+ï¿½   ï¿½       ï¿½   ï¿½       10.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       12.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       13.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       15BR-GF.svg
+ï¿½   ï¿½       ï¿½   ï¿½       15BR-LG.svg
+ï¿½   ï¿½       ï¿½   ï¿½       15BR-LGV2.svg
+ï¿½   ï¿½       ï¿½   ï¿½       2-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       2-2.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       2.-Our-Create-Construct-services-Wig-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       3-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       3-2.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       3.-Create-Archictect-Design-Wig-Wall.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       3.-WORKPLACE-Arch69-9-serv-arch-com.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       3.-WORKPLACE-INT-Arch69-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       39SW-Existing-Section.svg
+ï¿½   ï¿½       ï¿½   ï¿½       39SW-Proposed-Section.svg
+ï¿½   ï¿½       ï¿½   ï¿½       39SW-Proposed-Section_V2.svg
+ï¿½   ï¿½       ï¿½   ï¿½       4-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       4.-Create-Interior-Design-Wig-4.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       4.-HOSPITALITY-wig-Fact-6-same-as-previous.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       4.-HOSPITALITY-Wig-fact-6-serv-arch-com.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       4.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       5-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       5.-ARCH-INT-Arch69-meeting-rm-serv-arch-com.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       5.-Construct-Construction-Stock-Img.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       5.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       6-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       6.-BESPOKE-JOINERY-Wig-Fact-10.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       6.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       7-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       7.-Bespoke-Joinery-Arch69-img-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       7.-FFE-Viv-Img.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       7.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       8-2.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       8.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       9-1.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       9.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       DESIGN_ARCHITECTURE_2018_Winner_WHITE_400-317x300.png
+ï¿½   ï¿½       ï¿½   ï¿½       DESIGN_ARCHITECTURE_2018_Winner_WHITE_400.png
+ï¿½   ï¿½       ï¿½   ï¿½       productsservices_federation-of-master-builders-175x300.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       productsservices_federation-of-master-builders-350x600.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       productsservices_federation-of-master-builders-597x1024.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       productsservices_federation-of-master-builders-629x1080.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       productsservices_federation-of-master-builders-768x1318.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       productsservices_federation-of-master-builders.jpg
+ï¿½   ï¿½       ï¿½   ï¿½       
+ï¿½   ï¿½       ï¿½   +---12
+ï¿½   ï¿½       ï¿½           2.jpg
+ï¿½   ï¿½       ï¿½           3.jpg
+ï¿½   ï¿½       ï¿½           
+ï¿½   ï¿½       +---2018
+ï¿½   ï¿½           +---01
+ï¿½   ï¿½           ï¿½       1.-Neon-Lights.jpg
+ï¿½   ï¿½           ï¿½       10-1.jpg
+ï¿½   ï¿½           ï¿½       10-4.jpg
+ï¿½   ï¿½           ï¿½       132WR-GF-3.svg
+ï¿½   ï¿½           ï¿½       132WR-GF-4.svg
+ï¿½   ï¿½           ï¿½       132WR-LG-2.svg
+ï¿½   ï¿½           ï¿½       132WR-LG-3.svg
+ï¿½   ï¿½           ï¿½       132WR-LG-4.svg
+ï¿½   ï¿½           ï¿½       19SR-GF.svg
+ï¿½   ï¿½           ï¿½       19SR-LG.svg
+ï¿½   ï¿½           ï¿½       19SR-LG_v2.svg
+ï¿½   ï¿½           ï¿½       2-10.jpg
+ï¿½   ï¿½           ï¿½       2-12.jpg
+ï¿½   ï¿½           ï¿½       2-13.jpg
+ï¿½   ï¿½           ï¿½       2-14.jpg
+ï¿½   ï¿½           ï¿½       2-3.jpg
+ï¿½   ï¿½           ï¿½       2-5.jpg
+ï¿½   ï¿½           ï¿½       2-8.jpg
+ï¿½   ï¿½           ï¿½       2-9.jpg
+ï¿½   ï¿½           ï¿½       2.jpg
+ï¿½   ï¿½           ï¿½       22aETR-GF.svg
+ï¿½   ï¿½           ï¿½       22aETR-LG.svg
+ï¿½   ï¿½           ï¿½       22aETR-LG_V2.svg
+ï¿½   ï¿½           ï¿½       3-4.jpg
+ï¿½   ï¿½           ï¿½       3-6.jpg
+ï¿½   ï¿½           ï¿½       3-7.jpg
+ï¿½   ï¿½           ï¿½       3-8.jpg
+ï¿½   ï¿½           ï¿½       3-EDITED.jpg
+ï¿½   ï¿½           ï¿½       3.jpg
+ï¿½   ï¿½           ï¿½       34TR-GF.svg
+ï¿½   ï¿½           ï¿½       34TR-LG.svg
+ï¿½   ï¿½           ï¿½       34TR-LG_V2.svg
+ï¿½   ï¿½           ï¿½       3a-1.jpg
+ï¿½   ï¿½           ï¿½       3a-2.jpg
+ï¿½   ï¿½           ï¿½       3a.jpg
+ï¿½   ï¿½           ï¿½       3AP-Existing-Section.svg
+ï¿½   ï¿½           ï¿½       3AP-Proposed-Section-1.svg
+ï¿½   ï¿½           ï¿½       3AP-Proposed-Section.svg
+ï¿½   ï¿½           ï¿½       4-11.jpg
+ï¿½   ï¿½           ï¿½       4-2.jpg
+ï¿½   ï¿½           ï¿½       4-4.jpg
+ï¿½   ï¿½           ï¿½       4-6.jpg
+ï¿½   ï¿½           ï¿½       4-7.jpg
+ï¿½   ï¿½           ï¿½       4-8.jpg
+ï¿½   ï¿½           ï¿½       4-9.jpg
+ï¿½   ï¿½           ï¿½       4.jpg
+ï¿½   ï¿½           ï¿½       40SR-GF-1.svg
+ï¿½   ï¿½           ï¿½       40SR-GF.svg
+ï¿½   ï¿½           ï¿½       40SR-LG.svg
+ï¿½   ï¿½           ï¿½       46WR-GF-1.svg
+ï¿½   ï¿½           ï¿½       46WR-GF-2.svg
+ï¿½   ï¿½           ï¿½       46WR-LG-1.svg
+ï¿½   ï¿½           ï¿½       46WR-LG-2.svg
+ï¿½   ï¿½           ï¿½       46WR-LG-3.svg
+ï¿½   ï¿½           ï¿½       4a-1.jpg
+ï¿½   ï¿½           ï¿½       5-10.jpg
+ï¿½   ï¿½           ï¿½       5-2.jpg
+ï¿½   ï¿½           ï¿½       5-3.jpg
+ï¿½   ï¿½           ï¿½       5-4.jpg
+ï¿½   ï¿½           ï¿½       5-5.jpg
+ï¿½   ï¿½           ï¿½       5-6.jpg
+ï¿½   ï¿½           ï¿½       5-7.jpg
+ï¿½   ï¿½           ï¿½       5-9.jpg
+ï¿½   ï¿½           ï¿½       5.jpg
+ï¿½   ï¿½           ï¿½       6-1.jpg
+ï¿½   ï¿½           ï¿½       6-2.jpg
+ï¿½   ï¿½           ï¿½       6-3.jpg
+ï¿½   ï¿½           ï¿½       6-4.jpg
+ï¿½   ï¿½           ï¿½       6-6.jpg
+ï¿½   ï¿½           ï¿½       6-7.jpg
+ï¿½   ï¿½           ï¿½       6-8.jpg
+ï¿½   ï¿½           ï¿½       6.jpg
+ï¿½   ï¿½           ï¿½       61KR-GF-1.svg
+ï¿½   ï¿½           ï¿½       61KR-GF.svg
+ï¿½   ï¿½           ï¿½       61KR-LG-1.svg
+ï¿½   ï¿½           ï¿½       61KR-LG.svg
+ï¿½   ï¿½           ï¿½       61KR-LG_V2.svg
+ï¿½   ï¿½           ï¿½       7-1.jpg
+ï¿½   ï¿½           ï¿½       7-2.jpg
+ï¿½   ï¿½           ï¿½       7-3.jpg
+ï¿½   ï¿½           ï¿½       7-4.jpg
+ï¿½   ï¿½           ï¿½       7-5.jpg
+ï¿½   ï¿½           ï¿½       7.jpg
+ï¿½   ï¿½           ï¿½       8-1.jpg
+ï¿½   ï¿½           ï¿½       8-2.jpg
+ï¿½   ï¿½           ï¿½       8-3.jpg
+ï¿½   ï¿½           ï¿½       8.jpg
+ï¿½   ï¿½           ï¿½       8a.jpg
+ï¿½   ï¿½           ï¿½       9-2.jpg
+ï¿½   ï¿½           ï¿½       9-3.jpg
+ï¿½   ï¿½           ï¿½       9-4.jpg
+ï¿½   ï¿½           ï¿½       9.jpg
+ï¿½   ï¿½           ï¿½       A69-Plan_V1.svg
+ï¿½   ï¿½           ï¿½       A69-Section_V2.svg
+ï¿½   ï¿½           ï¿½       gd.png
+ï¿½   ï¿½           ï¿½       hd.png
+ï¿½   ï¿½           ï¿½       home.png
+ï¿½   ï¿½           ï¿½       livin.png
+ï¿½   ï¿½           ï¿½       metro-logo-AA-FINAL.png
+ï¿½   ï¿½           ï¿½       sr.png
+ï¿½   ï¿½           ï¿½       
+ï¿½   ï¿½           +---02
+ï¿½   ï¿½           ï¿½       2.-Our-CreateConstruct-Broom-1-2.jpg
+ï¿½   ï¿½           ï¿½       3.-Create-Architectural-Design-Broom-4.jpg
+ï¿½   ï¿½           ï¿½       3.-HOMES-Broom-7-serv-acrh-res.jpg
+ï¿½   ï¿½           ï¿½       3.HOMES-APT-Cannon-2-.jpg
+ï¿½   ï¿½           ï¿½       4.-Create-Interior-Design-Cannon-Pl.jpg
+ï¿½   ï¿½           ï¿½       4.-HOUSING-Broom-8.jpg
+ï¿½   ï¿½           ï¿½       4.-HOUSING-No-40-1-serv-arch-res.jpg
+ï¿½   ï¿½           ï¿½       5.-Construct-constuction-stock-img.jpg
+ï¿½   ï¿½           ï¿½       6.-BESPOKE-JOINERY-Thornton-1.jpg
+ï¿½   ï¿½           ï¿½       6.-Construct-Project-Managment-Arch69-4.jpg
+ï¿½   ï¿½           ï¿½       6.-PLANNING-Arch96-10-serv-arch-res.jpg
+ï¿½   ï¿½           ï¿½       6.-Planning-Archway-img-10.jpg
+ï¿½   ï¿½           ï¿½       7.-Bespoke-Joinery-Thorn-1.jpg
+ï¿½   ï¿½           ï¿½       7.-FFE-Viv-Image.jpg
+ï¿½   ï¿½           ï¿½       7a.-Res-Int-Design-Arch-Cannon-11.jpg
+ï¿½   ï¿½           ï¿½       8.-Landscape-Alexander-Pl-4.jpg
+ï¿½   ï¿½           ï¿½       9.-Sustainable-Studio-77-2.jpg
+ï¿½   ï¿½           ï¿½       BHA-AA-Highly-2018.png
+ï¿½   ï¿½           ï¿½       BHA-AA-WINNER-2018.png
+ï¿½   ï¿½           ï¿½       Stairs-2.mp4
+ï¿½   ï¿½           ï¿½       
+ï¿½   ï¿½           +---03
+ï¿½   ï¿½           ï¿½       10.jpg
+ï¿½   ï¿½           ï¿½       11.jpg
+ï¿½   ï¿½           ï¿½       12.jpg
+ï¿½   ï¿½           ï¿½       
+ï¿½   ï¿½           +---04
+ï¿½   ï¿½           ï¿½       1-13.jpg
+ï¿½   ï¿½           ï¿½       1-5.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-10.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-11.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-12.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-13.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-15.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-2.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-3.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-4.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-5.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-6.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-7.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-8.jpg
+ï¿½   ï¿½           ï¿½       1-New-Size-9.jpg
+ï¿½   ï¿½           ï¿½       1-New-size.jpg
+ï¿½   ï¿½           ï¿½       10-1.jpg
+ï¿½   ï¿½           ï¿½       10-2.jpg
+ï¿½   ï¿½           ï¿½       11.jpg
+ï¿½   ï¿½           ï¿½       12.jpg
+ï¿½   ï¿½           ï¿½       13.jpg
+ï¿½   ï¿½           ï¿½       14.jpg
+ï¿½   ï¿½           ï¿½       15.jpg
+ï¿½   ï¿½           ï¿½       2-1.jpg
+ï¿½   ï¿½           ï¿½       2.-Building-Regulations-stock-img-1.jpg
+ï¿½   ï¿½           ï¿½       2.-ConHeritage-Planning-Permision-Stock-img.jpg
+ï¿½   ï¿½           ï¿½       2.jpg
+ï¿½   ï¿½           ï¿½       3-1.jpg
+ï¿½   ï¿½           ï¿½       3.-Planning-Applications-stock-img.html
+ï¿½   ï¿½           ï¿½       3.-Planning-Applications-Stock-Img.jpg
+ï¿½   ï¿½           ï¿½       3.jpg
+ï¿½   ï¿½           ï¿½       4-1.jpg
+ï¿½   ï¿½           ï¿½       4.jpg
+ï¿½   ï¿½           ï¿½       5-1.jpg
+ï¿½   ï¿½           ï¿½       5.jpg
+ï¿½   ï¿½           ï¿½       53WR-GF-1.svg
+ï¿½   ï¿½           ï¿½       53WR-LG-1.svg
+ï¿½   ï¿½           ï¿½       53WR-LGV2.svg
+ï¿½   ï¿½           ï¿½       6-New-Size.jpg
+ï¿½   ï¿½           ï¿½       6.jpg
+ï¿½   ï¿½           ï¿½       7-1.jpg
+ï¿½   ï¿½           ï¿½       7.jpg
+ï¿½   ï¿½           ï¿½       8-1.jpg
+ï¿½   ï¿½           ï¿½       8.jpg
+ï¿½   ï¿½           ï¿½       8a.jpg
+ï¿½   ï¿½           ï¿½       9-1.jpg
+ï¿½   ï¿½           ï¿½       9.jpg
+ï¿½   ï¿½           ï¿½       9a.jpg
+ï¿½   ï¿½           ï¿½       
+ï¿½   ï¿½           +---05
+ï¿½   ï¿½           ï¿½       1.-Alexander-Place-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       1.-Archway-69-Mobile-Banner-A-NEW.jpg
+ï¿½   ï¿½           ï¿½       10.-The-Victorian-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       11.-Cannon-Place-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       1a-Archway-69-Mobile-Planning-NEW.jpg
+ï¿½   ï¿½           ï¿½       1a.-Alexander-Place-Con-Heritage-NEW.jpg
+ï¿½   ï¿½           ï¿½       1b-Archway-69-Mobile-Contract-NEW.jpg
+ï¿½   ï¿½           ï¿½       2.-Between-the-Commons-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       2.-Wig-Factory-Mobile-Banner-B.jpg
+ï¿½   ï¿½           ï¿½       2a.-Between-the-Commons-USE-ANIMATION-FILE.jpg
+ï¿½   ï¿½           ï¿½       2a.-Wig-Factory-Mobile-Create-Con.jpg
+ï¿½   ï¿½           ï¿½       3.-Broomwood-Mobile-Banner-v2.jpg
+ï¿½   ï¿½           ï¿½       3.-Broomwood-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       3.-The-Rock-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       4.-No-40-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       4.-The-Refectory-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       40SR-LG_V2.svg
+ï¿½   ï¿½           ï¿½       5.-Seymour-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       6.-The-Cube-House-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       7.-LANDSCAPE-Alexander-Pl-4-serv-arch-res.jpg
+ï¿½   ï¿½           ï¿½       7.-SW11-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       8.-Mews-House-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       8.-SUSTAINABLE-DESIGN-Studio-77-1-serv-arch-res.jpg
+ï¿½   ï¿½           ï¿½       9-2.jpg
+ï¿½   ï¿½           ï¿½       9.-Thornton-Mobile-Banner.jpg
+ï¿½   ï¿½           ï¿½       alexander_desktop.jpg
+ï¿½   ï¿½           ï¿½       alexander_mobile.jpg
+ï¿½   ï¿½           ï¿½       slide_02-1600x1068.jpg
+ï¿½   ï¿½           ï¿½       slide_02.jpg
+ï¿½   ï¿½           ï¿½       slide_02.mp4
+ï¿½   ï¿½           ï¿½       slide_02_portrait.jpg
+ï¿½   ï¿½           ï¿½       slide_02_portrait.mp4
+ï¿½   ï¿½           ï¿½       slide_02_v2-1600x1068.jpg
+ï¿½   ï¿½           ï¿½       slide_02_v2.jpg
+ï¿½   ï¿½           ï¿½       slide_02_v2.mp4
+ï¿½   ï¿½           ï¿½       slide_05-1600x887.jpg
+ï¿½   ï¿½           ï¿½       slide_05.jpg
+ï¿½   ï¿½           ï¿½       slide_05.mp4
+ï¿½   ï¿½           ï¿½       slide_07-1600x1069.jpg
+ï¿½   ï¿½           ï¿½       slide_07.mp4
+ï¿½   ï¿½           ï¿½       slide_08-1600x1068.jpg
+ï¿½   ï¿½           ï¿½       slide_08.mp4
+ï¿½   ï¿½           ï¿½       slide_10-810x1080.jpg
+ï¿½   ï¿½           ï¿½       slide_10.jpg
+ï¿½   ï¿½           ï¿½       slide_10.mp4
+ï¿½   ï¿½           ï¿½       x1.-Archway-69-Mobile-Banner-A.jpg
+ï¿½   ï¿½           ï¿½       
+ï¿½   ï¿½           +---11
+ï¿½   ï¿½                   DESIGN_ARCHITECTURE_2018_Winner_WHITE_300.png
+ï¿½   ï¿½                   tst_bha_winner_18.png
+ï¿½   ï¿½                   
+ï¿½   +---wp-json
+ï¿½   ï¿½   ï¿½   index.html
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---oembed
+ï¿½   ï¿½   ï¿½   +---1.0
+ï¿½   ï¿½   ï¿½           embed0248.json
+ï¿½   ï¿½   ï¿½           embed02fb.json
+ï¿½   ï¿½   ï¿½           embed0aef.json
+ï¿½   ï¿½   ï¿½           embed13ae
+ï¿½   ï¿½   ï¿½           embed13b0.json
+ï¿½   ï¿½   ï¿½           embed1557
+ï¿½   ï¿½   ï¿½           embed2332.json
+ï¿½   ï¿½   ï¿½           embed26a8
+ï¿½   ï¿½   ï¿½           embed27d8
+ï¿½   ï¿½   ï¿½           embed2982.json
+ï¿½   ï¿½   ï¿½           embed2a34.json
+ï¿½   ï¿½   ï¿½           embed2b7d.json
+ï¿½   ï¿½   ï¿½           embed2d86.json
+ï¿½   ï¿½   ï¿½           embed3602.json
+ï¿½   ï¿½   ï¿½           embed3704.json
+ï¿½   ï¿½   ï¿½           embed3bda
+ï¿½   ï¿½   ï¿½           embed3e13.json
+ï¿½   ï¿½   ï¿½           embed45a3
+ï¿½   ï¿½   ï¿½           embed4b18
+ï¿½   ï¿½   ï¿½           embed4e82.json
+ï¿½   ï¿½   ï¿½           embed509d
+ï¿½   ï¿½   ï¿½           embed581d
+ï¿½   ï¿½   ï¿½           embed589b.json
+ï¿½   ï¿½   ï¿½           embed5903
+ï¿½   ï¿½   ï¿½           embed5eb7
+ï¿½   ï¿½   ï¿½           embed6451
+ï¿½   ï¿½   ï¿½           embed64ed
+ï¿½   ï¿½   ï¿½           embed6741.json
+ï¿½   ï¿½   ï¿½           embed6a0c.json
+ï¿½   ï¿½   ï¿½           embed6aa3.json
+ï¿½   ï¿½   ï¿½           embed761d
+ï¿½   ï¿½   ï¿½           embed7cd9
+ï¿½   ï¿½   ï¿½           embed8028.json
+ï¿½   ï¿½   ï¿½           embed813e.json
+ï¿½   ï¿½   ï¿½           embed846f
+ï¿½   ï¿½   ï¿½           embed85bd.json
+ï¿½   ï¿½   ï¿½           embed8dc1.json
+ï¿½   ï¿½   ï¿½           embed9629.json
+ï¿½   ï¿½   ï¿½           embed9916.json
+ï¿½   ï¿½   ï¿½           embed9a31
+ï¿½   ï¿½   ï¿½           embed9c96.json
+ï¿½   ï¿½   ï¿½           embed9def
+ï¿½   ï¿½   ï¿½           embeda1e9
+ï¿½   ï¿½   ï¿½           embedb8f8.json
+ï¿½   ï¿½   ï¿½           embedbb88
+ï¿½   ï¿½   ï¿½           embedbbb6
+ï¿½   ï¿½   ï¿½           embedbbbb
+ï¿½   ï¿½   ï¿½           embedbc2f
+ï¿½   ï¿½   ï¿½           embedbc3b.json
+ï¿½   ï¿½   ï¿½           embedbdf0.json
+ï¿½   ï¿½   ï¿½           embedc750.json
+ï¿½   ï¿½   ï¿½           embedccd0
+ï¿½   ï¿½   ï¿½           embedd662
+ï¿½   ï¿½   ï¿½           embede298
+ï¿½   ï¿½   ï¿½           embede347.json
+ï¿½   ï¿½   ï¿½           embede469
+ï¿½   ï¿½   ï¿½           embede8ab
+ï¿½   ï¿½   ï¿½           embedebbb
+ï¿½   ï¿½   ï¿½           embedf43e.json
+ï¿½   ï¿½   ï¿½           embedf841
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---wp
+ï¿½   ï¿½       +---v2
+ï¿½   ï¿½           +---pages
+ï¿½   ï¿½                   1476.json
+ï¿½   ï¿½                   1731.json
+ï¿½   ï¿½                   2216.json
+ï¿½   ï¿½                   2297.json
+ï¿½   ï¿½                   2316.json
+ï¿½   ï¿½                   2317.json
+ï¿½   ï¿½                   2318.json
+ï¿½   ï¿½                   2398.json
+ï¿½   ï¿½                   2436.json
+ï¿½   ï¿½                   2439.json
+ï¿½   ï¿½                   2441.json
+ï¿½   ï¿½                   2443.json
+ï¿½   ï¿½                   2453.json
+ï¿½   ï¿½                   2455.json
+ï¿½   ï¿½                   2466.json
+ï¿½   ï¿½                   2467.json
+ï¿½   ï¿½                   2468.json
+ï¿½   ï¿½                   2469.json
+ï¿½   ï¿½                   2478.json
+ï¿½   ï¿½                   2541.json
+ï¿½   ï¿½                   2542.json
+ï¿½   ï¿½                   2674.json
+ï¿½   ï¿½                   2675.json
+ï¿½   ï¿½                   2678.json
+ï¿½   ï¿½                   2854.json
+ï¿½   ï¿½                   2859.json
+ï¿½   ï¿½                   3018.json
+ï¿½   ï¿½                   3020.json
+ï¿½   ï¿½                   3025.json
+ï¿½   ï¿½                   3461.json
+ï¿½   ï¿½                   
+ï¿½   +---www.google.com
+ï¿½       ï¿½   index.html
+ï¿½       ï¿½   
+ï¿½       +---recaptcha
+ï¿½               api.js
+ï¿½               api89ae.js
+ï¿½               apiba84.js
+ï¿½               
 +---playwright-analyzer
-¦   ¦   analyze.js
-¦   ¦   package-lock.json
-¦   ¦   package.json
-¦   ¦   
-¦   +---local-inspection
-¦   ¦   ¦   report.json
-¦   ¦   ¦   
-¦   ¦   +---data
-¦   ¦   ¦       desktop-console.json
-¦   ¦   ¦       desktop-errors.json
-¦   ¦   ¦       desktop-final-snapshot.json
-¦   ¦   ¦       desktop-requests.json
-¦   ¦   ¦       desktop-resources.json
-¦   ¦   ¦       desktop.json
-¦   ¦   ¦       laptop-console.json
-¦   ¦   ¦       laptop-errors.json
-¦   ¦   ¦       laptop-final-snapshot.json
-¦   ¦   ¦       laptop-requests.json
-¦   ¦   ¦       laptop-resources.json
-¦   ¦   ¦       laptop.json
-¦   ¦   ¦       mobile-console.json
-¦   ¦   ¦       mobile-errors.json
-¦   ¦   ¦       mobile-final-snapshot.json
-¦   ¦   ¦       mobile-requests.json
-¦   ¦   ¦       mobile-resources.json
-¦   ¦   ¦       mobile.json
-¦   ¦   ¦       tablet-console.json
-¦   ¦   ¦       tablet-errors.json
-¦   ¦   ¦       tablet-final-snapshot.json
-¦   ¦   ¦       tablet-requests.json
-¦   ¦   ¦       tablet-resources.json
-¦   ¦   ¦       tablet.json
-¦   ¦   ¦       
-¦   ¦   +---interactions
-¦   ¦   ¦   ¦   desktop-001-READ_MORE.png
-¦   ¦   ¦   ¦   desktop-013-DESIGN_MATTERS___Toggle_navigation.png
-¦   ¦   ¦   ¦   desktop-014-DESIGN_MATTERS.png
-¦   ¦   ¦   ¦   desktop-015-Toggle_navigation.png
-¦   ¦   ¦   ¦   desktop-016-BUTTON.png
-¦   ¦   ¦   ¦   desktop-interactions.json
-¦   ¦   ¦   ¦   laptop-001-READ_MORE.png
-¦   ¦   ¦   ¦   laptop-013-DESIGN_MATTERS___Toggle_navigation.png
-¦   ¦   ¦   ¦   laptop-014-DESIGN_MATTERS.png
-¦   ¦   ¦   ¦   laptop-015-Toggle_navigation.png
-¦   ¦   ¦   ¦   laptop-016-BUTTON.png
-¦   ¦   ¦   ¦   laptop-interactions.json
-¦   ¦   ¦   ¦   mobile-001-READ_MORE.png
-¦   ¦   ¦   ¦   mobile-013-__Toggle_navigation.png
-¦   ¦   ¦   ¦   mobile-014-A.png
-¦   ¦   ¦   ¦   mobile-015-Toggle_navigation.png
-¦   ¦   ¦   ¦   mobile-016-BUTTON.png
-¦   ¦   ¦   ¦   mobile-interactions.json
-¦   ¦   ¦   ¦   tablet-001-READ_MORE.png
-¦   ¦   ¦   ¦   tablet-013-__Toggle_navigation.png
-¦   ¦   ¦   ¦   tablet-014-A.png
-¦   ¦   ¦   ¦   tablet-015-Toggle_navigation.png
-¦   ¦   ¦   ¦   tablet-016-BUTTON.png
-¦   ¦   ¦   ¦   tablet-interactions.json
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---desktop
-¦   ¦   ¦   ¦   ¦   hover-results.json
-¦   ¦   ¦   ¦   ¦   mouse-results.json
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---hover
-¦   ¦   ¦   ¦   ¦       000-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       001-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       002-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       003-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       004-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       005-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       006-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       007-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       008-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       009-GET_IN_TOUCH.png
-¦   ¦   ¦   ¦   ¦       013-DESIGN_MATTERS.png
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---mouse
-¦   ¦   ¦   ¦           mouse-0-100-100.png
-¦   ¦   ¦   ¦           mouse-1-300-200.png
-¦   ¦   ¦   ¦           mouse-2-600-300.png
-¦   ¦   ¦   ¦           mouse-3-900-400.png
-¦   ¦   ¦   ¦           mouse-4-1200-500.png
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---laptop
-¦   ¦   ¦   ¦   ¦   hover-results.json
-¦   ¦   ¦   ¦   ¦   mouse-results.json
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---hover
-¦   ¦   ¦   ¦   ¦       000-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       013-DESIGN_MATTERS.png
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---mouse
-¦   ¦   ¦   ¦           mouse-0-100-100.png
-¦   ¦   ¦   ¦           mouse-1-300-200.png
-¦   ¦   ¦   ¦           mouse-2-600-300.png
-¦   ¦   ¦   ¦           mouse-3-900-400.png
-¦   ¦   ¦   ¦           mouse-4-1200-500.png
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---mobile
-¦   ¦   ¦   ¦   ¦   hover-results.json
-¦   ¦   ¦   ¦   ¦   mouse-results.json
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---hover
-¦   ¦   ¦   ¦   ¦       000-READ_MORE.png
-¦   ¦   ¦   ¦   ¦       013-A.png
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---mouse
-¦   ¦   ¦   ¦           mouse-0-100-100.png
-¦   ¦   ¦   ¦           mouse-1-300-200.png
-¦   ¦   ¦   ¦           mouse-2-600-300.png
-¦   ¦   ¦   ¦           mouse-3-900-400.png
-¦   ¦   ¦   ¦           mouse-4-1200-500.png
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---tablet
-¦   ¦   ¦       ¦   hover-results.json
-¦   ¦   ¦       ¦   mouse-results.json
-¦   ¦   ¦       ¦   
-¦   ¦   ¦       +---hover
-¦   ¦   ¦       ¦       000-READ_MORE.png
-¦   ¦   ¦       ¦       013-A.png
-¦   ¦   ¦       ¦       
-¦   ¦   ¦       +---mouse
-¦   ¦   ¦               mouse-0-100-100.png
-¦   ¦   ¦               mouse-1-300-200.png
-¦   ¦   ¦               mouse-2-600-300.png
-¦   ¦   ¦               mouse-3-900-400.png
-¦   ¦   ¦               mouse-4-1200-500.png
-¦   ¦   ¦               
-¦   ¦   +---motion
-¦   ¦   ¦       desktop-000-scroll-0.png
-¦   ¦   ¦       desktop-001-scroll-0.png
-¦   ¦   ¦       desktop-002-scroll-0.png
-¦   ¦   ¦       desktop-003-scroll-0.png
-¦   ¦   ¦       desktop-004-scroll-0.png
-¦   ¦   ¦       desktop-005-scroll-0.png
-¦   ¦   ¦       desktop-006-scroll-0.png
-¦   ¦   ¦       desktop-007-scroll-0.png
-¦   ¦   ¦       desktop-008-scroll-0.png
-¦   ¦   ¦       desktop-mouse-0-50-50.png
-¦   ¦   ¦       desktop-mouse-1-150-100.png
-¦   ¦   ¦       desktop-mouse-2-300-150.png
-¦   ¦   ¦       desktop-mouse-3-500-200.png
-¦   ¦   ¦       desktop-mouse-4-700-250.png
-¦   ¦   ¦       desktop-mouse-5-900-300.png
-¦   ¦   ¦       desktop-mouse-6-1100-350.png
-¦   ¦   ¦       desktop-mouse-7-1300-450.png
-¦   ¦   ¦       desktop-mouse.json
-¦   ¦   ¦       desktop-scroll-motion.json
-¦   ¦   ¦       laptop-000-scroll-0.png
-¦   ¦   ¦       laptop-001-scroll-0.png
-¦   ¦   ¦       laptop-002-scroll-0.png
-¦   ¦   ¦       laptop-003-scroll-0.png
-¦   ¦   ¦       laptop-004-scroll-0.png
-¦   ¦   ¦       laptop-005-scroll-0.png
-¦   ¦   ¦       laptop-006-scroll-0.png
-¦   ¦   ¦       laptop-007-scroll-0.png
-¦   ¦   ¦       laptop-008-scroll-0.png
-¦   ¦   ¦       laptop-mouse-0-50-50.png
-¦   ¦   ¦       laptop-mouse-1-150-100.png
-¦   ¦   ¦       laptop-mouse-2-300-150.png
-¦   ¦   ¦       laptop-mouse-3-500-200.png
-¦   ¦   ¦       laptop-mouse-4-700-250.png
-¦   ¦   ¦       laptop-mouse-5-900-300.png
-¦   ¦   ¦       laptop-mouse-6-1100-350.png
-¦   ¦   ¦       laptop-mouse-7-1300-450.png
-¦   ¦   ¦       laptop-mouse.json
-¦   ¦   ¦       laptop-scroll-motion.json
-¦   ¦   ¦       mobile-000-scroll-0.png
-¦   ¦   ¦       mobile-001-scroll-0.png
-¦   ¦   ¦       mobile-002-scroll-0.png
-¦   ¦   ¦       mobile-003-scroll-0.png
-¦   ¦   ¦       mobile-004-scroll-0.png
-¦   ¦   ¦       mobile-005-scroll-0.png
-¦   ¦   ¦       mobile-006-scroll-0.png
-¦   ¦   ¦       mobile-007-scroll-0.png
-¦   ¦   ¦       mobile-008-scroll-0.png
-¦   ¦   ¦       mobile-mouse-0-50-50.png
-¦   ¦   ¦       mobile-mouse-1-150-100.png
-¦   ¦   ¦       mobile-mouse-2-300-150.png
-¦   ¦   ¦       mobile-mouse-3-500-200.png
-¦   ¦   ¦       mobile-mouse-4-700-250.png
-¦   ¦   ¦       mobile-mouse-5-900-300.png
-¦   ¦   ¦       mobile-mouse-6-1100-350.png
-¦   ¦   ¦       mobile-mouse-7-1300-450.png
-¦   ¦   ¦       mobile-mouse.json
-¦   ¦   ¦       mobile-scroll-motion.json
-¦   ¦   ¦       tablet-000-scroll-0.png
-¦   ¦   ¦       tablet-001-scroll-0.png
-¦   ¦   ¦       tablet-002-scroll-0.png
-¦   ¦   ¦       tablet-003-scroll-0.png
-¦   ¦   ¦       tablet-004-scroll-0.png
-¦   ¦   ¦       tablet-005-scroll-0.png
-¦   ¦   ¦       tablet-006-scroll-0.png
-¦   ¦   ¦       tablet-007-scroll-0.png
-¦   ¦   ¦       tablet-008-scroll-0.png
-¦   ¦   ¦       tablet-mouse-0-50-50.png
-¦   ¦   ¦       tablet-mouse-1-150-100.png
-¦   ¦   ¦       tablet-mouse-2-300-150.png
-¦   ¦   ¦       tablet-mouse-3-500-200.png
-¦   ¦   ¦       tablet-mouse-4-700-250.png
-¦   ¦   ¦       tablet-mouse-5-900-300.png
-¦   ¦   ¦       tablet-mouse-6-1100-350.png
-¦   ¦   ¦       tablet-mouse-7-1300-450.png
-¦   ¦   ¦       tablet-mouse.json
-¦   ¦   ¦       tablet-scroll-motion.json
-¦   ¦   ¦       
-¦   ¦   +---screenshots
-¦   ¦       +---desktop
-¦   ¦       ¦       00-initial.png
-¦   ¦       ¦       000-scroll-0.png
-¦   ¦       ¦       001-scroll-0.png
-¦   ¦       ¦       001-scroll-450.png
-¦   ¦       ¦       002-scroll-675.png
-¦   ¦       ¦       full-page.png
-¦   ¦       ¦       initial.png
-¦   ¦       ¦       
-¦   ¦       +---laptop
-¦   ¦       ¦       00-initial.png
-¦   ¦       ¦       000-scroll-0.png
-¦   ¦       ¦       001-scroll-0.png
-¦   ¦       ¦       001-scroll-400.png
-¦   ¦       ¦       002-scroll-600.png
-¦   ¦       ¦       full-page.png
-¦   ¦       ¦       initial.png
-¦   ¦       ¦       
-¦   ¦       +---mobile
-¦   ¦       ¦       00-initial.png
-¦   ¦       ¦       000-scroll-0.png
-¦   ¦       ¦       001-scroll-0.png
-¦   ¦       ¦       001-scroll-422.png
-¦   ¦       ¦       002-scroll-633.png
-¦   ¦       ¦       full-page.png
-¦   ¦       ¦       initial.png
-¦   ¦       ¦       
-¦   ¦       +---tablet
-¦   ¦               00-initial.png
-¦   ¦               000-scroll-0.png
-¦   ¦               001-scroll-0.png
-¦   ¦               001-scroll-512.png
-¦   ¦               002-scroll-768.png
-¦   ¦               full-page.png
-¦   ¦               initial.png
-¦   ¦               
-¦   +---original-inspection
-¦       +---data
-¦       ¦       desktop-console.json
-¦       ¦       desktop-errors.json
-¦       ¦       desktop-final-snapshot.json
-¦       ¦       desktop-requests.json
-¦       ¦       laptop-console.json
-¦       ¦       laptop-errors.json
-¦       ¦       laptop-final-snapshot.json
-¦       ¦       laptop-requests.json
-¦       ¦       mobile-console.json
-¦       ¦       mobile-errors.json
-¦       ¦       mobile-final-snapshot.json
-¦       ¦       mobile-requests.json
-¦       ¦       tablet-console.json
-¦       ¦       tablet-errors.json
-¦       ¦       tablet-final-snapshot.json
-¦       ¦       tablet-requests.json
-¦       ¦       
-¦       +---interactions
-¦       ¦       desktop-000-READ_MORE.png
-¦       ¦       desktop-interactions.json
-¦       ¦       laptop-001-READ_MORE.png
-¦       ¦       laptop-013-DESIGN_MATTERS___Toggle_navigation.png
-¦       ¦       laptop-014-DESIGN_MATTERS.png
-¦       ¦       laptop-015-Toggle_navigation.png
-¦       ¦       laptop-016-BUTTON.png
-¦       ¦       laptop-interactions.json
-¦       ¦       mobile-interactions.json
-¦       ¦       tablet-interactions.json
-¦       ¦       
-¦       +---motion
-¦       ¦       desktop-000-scroll-0.png
-¦       ¦       desktop-001-scroll-0.png
-¦       ¦       desktop-002-scroll-0.png
-¦       ¦       desktop-003-scroll-0.png
-¦       ¦       desktop-004-scroll-0.png
-¦       ¦       desktop-005-scroll-0.png
-¦       ¦       desktop-006-scroll-0.png
-¦       ¦       desktop-007-scroll-0.png
-¦       ¦       desktop-008-scroll-0.png
-¦       ¦       desktop-mouse-0-50-50.png
-¦       ¦       desktop-mouse-1-150-100.png
-¦       ¦       desktop-mouse-2-300-150.png
-¦       ¦       desktop-mouse-3-500-200.png
-¦       ¦       desktop-mouse-4-700-250.png
-¦       ¦       desktop-mouse-5-900-300.png
-¦       ¦       desktop-mouse-6-1100-350.png
-¦       ¦       desktop-mouse-7-1300-450.png
-¦       ¦       desktop-mouse.json
-¦       ¦       desktop-scroll-motion.json
-¦       ¦       laptop-000-scroll-0.png
-¦       ¦       laptop-001-scroll-0.png
-¦       ¦       laptop-002-scroll-0.png
-¦       ¦       laptop-003-scroll-0.png
-¦       ¦       laptop-004-scroll-0.png
-¦       ¦       laptop-005-scroll-0.png
-¦       ¦       laptop-006-scroll-0.png
-¦       ¦       laptop-007-scroll-0.png
-¦       ¦       laptop-008-scroll-0.png
-¦       ¦       laptop-mouse-0-50-50.png
-¦       ¦       laptop-mouse-1-150-100.png
-¦       ¦       laptop-mouse-2-300-150.png
-¦       ¦       laptop-mouse-3-500-200.png
-¦       ¦       laptop-mouse-4-700-250.png
-¦       ¦       laptop-mouse-5-900-300.png
-¦       ¦       laptop-mouse-6-1100-350.png
-¦       ¦       laptop-mouse-7-1300-450.png
-¦       ¦       laptop-mouse.json
-¦       ¦       laptop-scroll-motion.json
-¦       ¦       mobile-000-scroll-0.png
-¦       ¦       mobile-001-scroll-0.png
-¦       ¦       mobile-002-scroll-0.png
-¦       ¦       mobile-003-scroll-0.png
-¦       ¦       mobile-004-scroll-0.png
-¦       ¦       mobile-005-scroll-0.png
-¦       ¦       mobile-006-scroll-0.png
-¦       ¦       mobile-007-scroll-0.png
-¦       ¦       mobile-008-scroll-0.png
-¦       ¦       mobile-mouse-0-50-50.png
-¦       ¦       mobile-mouse-1-150-100.png
-¦       ¦       mobile-mouse-2-300-150.png
-¦       ¦       mobile-mouse-3-500-200.png
-¦       ¦       mobile-mouse-4-700-250.png
-¦       ¦       mobile-mouse-5-900-300.png
-¦       ¦       mobile-mouse-6-1100-350.png
-¦       ¦       mobile-mouse-7-1300-450.png
-¦       ¦       mobile-mouse.json
-¦       ¦       mobile-scroll-motion.json
-¦       ¦       tablet-000-scroll-0.png
-¦       ¦       tablet-001-scroll-0.png
-¦       ¦       tablet-002-scroll-0.png
-¦       ¦       tablet-003-scroll-0.png
-¦       ¦       tablet-004-scroll-0.png
-¦       ¦       tablet-005-scroll-0.png
-¦       ¦       tablet-006-scroll-0.png
-¦       ¦       tablet-007-scroll-0.png
-¦       ¦       tablet-008-scroll-0.png
-¦       ¦       tablet-mouse-0-50-50.png
-¦       ¦       tablet-mouse-1-150-100.png
-¦       ¦       tablet-mouse-2-300-150.png
-¦       ¦       tablet-mouse-3-500-200.png
-¦       ¦       tablet-mouse-4-700-250.png
-¦       ¦       tablet-mouse-5-900-300.png
-¦       ¦       tablet-mouse-6-1100-350.png
-¦       ¦       tablet-mouse-7-1300-450.png
-¦       ¦       tablet-mouse.json
-¦       ¦       tablet-scroll-motion.json
-¦       ¦       
-¦       +---screenshots
-¦           +---desktop
-¦           ¦       initial.png
-¦           ¦       
-¦           +---laptop
-¦           ¦       initial.png
-¦           ¦       
-¦           +---mobile
-¦           ¦       initial.png
-¦           ¦       
-¦           +---tablet
-¦                   initial.png
-¦                   
+ï¿½   ï¿½   analyze.js
+ï¿½   ï¿½   package-lock.json
+ï¿½   ï¿½   package.json
+ï¿½   ï¿½   
+ï¿½   +---local-inspection
+ï¿½   ï¿½   ï¿½   report.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---data
+ï¿½   ï¿½   ï¿½       desktop-console.json
+ï¿½   ï¿½   ï¿½       desktop-errors.json
+ï¿½   ï¿½   ï¿½       desktop-final-snapshot.json
+ï¿½   ï¿½   ï¿½       desktop-requests.json
+ï¿½   ï¿½   ï¿½       desktop-resources.json
+ï¿½   ï¿½   ï¿½       desktop.json
+ï¿½   ï¿½   ï¿½       laptop-console.json
+ï¿½   ï¿½   ï¿½       laptop-errors.json
+ï¿½   ï¿½   ï¿½       laptop-final-snapshot.json
+ï¿½   ï¿½   ï¿½       laptop-requests.json
+ï¿½   ï¿½   ï¿½       laptop-resources.json
+ï¿½   ï¿½   ï¿½       laptop.json
+ï¿½   ï¿½   ï¿½       mobile-console.json
+ï¿½   ï¿½   ï¿½       mobile-errors.json
+ï¿½   ï¿½   ï¿½       mobile-final-snapshot.json
+ï¿½   ï¿½   ï¿½       mobile-requests.json
+ï¿½   ï¿½   ï¿½       mobile-resources.json
+ï¿½   ï¿½   ï¿½       mobile.json
+ï¿½   ï¿½   ï¿½       tablet-console.json
+ï¿½   ï¿½   ï¿½       tablet-errors.json
+ï¿½   ï¿½   ï¿½       tablet-final-snapshot.json
+ï¿½   ï¿½   ï¿½       tablet-requests.json
+ï¿½   ï¿½   ï¿½       tablet-resources.json
+ï¿½   ï¿½   ï¿½       tablet.json
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---interactions
+ï¿½   ï¿½   ï¿½   ï¿½   desktop-001-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   desktop-013-DESIGN_MATTERS___Toggle_navigation.png
+ï¿½   ï¿½   ï¿½   ï¿½   desktop-014-DESIGN_MATTERS.png
+ï¿½   ï¿½   ï¿½   ï¿½   desktop-015-Toggle_navigation.png
+ï¿½   ï¿½   ï¿½   ï¿½   desktop-016-BUTTON.png
+ï¿½   ï¿½   ï¿½   ï¿½   desktop-interactions.json
+ï¿½   ï¿½   ï¿½   ï¿½   laptop-001-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   laptop-013-DESIGN_MATTERS___Toggle_navigation.png
+ï¿½   ï¿½   ï¿½   ï¿½   laptop-014-DESIGN_MATTERS.png
+ï¿½   ï¿½   ï¿½   ï¿½   laptop-015-Toggle_navigation.png
+ï¿½   ï¿½   ï¿½   ï¿½   laptop-016-BUTTON.png
+ï¿½   ï¿½   ï¿½   ï¿½   laptop-interactions.json
+ï¿½   ï¿½   ï¿½   ï¿½   mobile-001-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   mobile-013-__Toggle_navigation.png
+ï¿½   ï¿½   ï¿½   ï¿½   mobile-014-A.png
+ï¿½   ï¿½   ï¿½   ï¿½   mobile-015-Toggle_navigation.png
+ï¿½   ï¿½   ï¿½   ï¿½   mobile-016-BUTTON.png
+ï¿½   ï¿½   ï¿½   ï¿½   mobile-interactions.json
+ï¿½   ï¿½   ï¿½   ï¿½   tablet-001-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   tablet-013-__Toggle_navigation.png
+ï¿½   ï¿½   ï¿½   ï¿½   tablet-014-A.png
+ï¿½   ï¿½   ï¿½   ï¿½   tablet-015-Toggle_navigation.png
+ï¿½   ï¿½   ï¿½   ï¿½   tablet-016-BUTTON.png
+ï¿½   ï¿½   ï¿½   ï¿½   tablet-interactions.json
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---desktop
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   hover-results.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mouse-results.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---hover
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       000-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       001-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       002-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       003-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       004-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       005-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       006-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       007-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       008-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       009-GET_IN_TOUCH.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       013-DESIGN_MATTERS.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---mouse
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-0-100-100.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-1-300-200.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-2-600-300.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-3-900-400.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-4-1200-500.png
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---laptop
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   hover-results.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mouse-results.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---hover
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       000-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       013-DESIGN_MATTERS.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---mouse
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-0-100-100.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-1-300-200.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-2-600-300.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-3-900-400.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-4-1200-500.png
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---mobile
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   hover-results.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mouse-results.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---hover
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       000-READ_MORE.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       013-A.png
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---mouse
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-0-100-100.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-1-300-200.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-2-600-300.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-3-900-400.png
+ï¿½   ï¿½   ï¿½   ï¿½           mouse-4-1200-500.png
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---tablet
+ï¿½   ï¿½   ï¿½       ï¿½   hover-results.json
+ï¿½   ï¿½   ï¿½       ï¿½   mouse-results.json
+ï¿½   ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½   ï¿½       +---hover
+ï¿½   ï¿½   ï¿½       ï¿½       000-READ_MORE.png
+ï¿½   ï¿½   ï¿½       ï¿½       013-A.png
+ï¿½   ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½   ï¿½       +---mouse
+ï¿½   ï¿½   ï¿½               mouse-0-100-100.png
+ï¿½   ï¿½   ï¿½               mouse-1-300-200.png
+ï¿½   ï¿½   ï¿½               mouse-2-600-300.png
+ï¿½   ï¿½   ï¿½               mouse-3-900-400.png
+ï¿½   ï¿½   ï¿½               mouse-4-1200-500.png
+ï¿½   ï¿½   ï¿½               
+ï¿½   ï¿½   +---motion
+ï¿½   ï¿½   ï¿½       desktop-000-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-001-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-002-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-003-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-004-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-005-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-006-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-007-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-008-scroll-0.png
+ï¿½   ï¿½   ï¿½       desktop-mouse-0-50-50.png
+ï¿½   ï¿½   ï¿½       desktop-mouse-1-150-100.png
+ï¿½   ï¿½   ï¿½       desktop-mouse-2-300-150.png
+ï¿½   ï¿½   ï¿½       desktop-mouse-3-500-200.png
+ï¿½   ï¿½   ï¿½       desktop-mouse-4-700-250.png
+ï¿½   ï¿½   ï¿½       desktop-mouse-5-900-300.png
+ï¿½   ï¿½   ï¿½       desktop-mouse-6-1100-350.png
+ï¿½   ï¿½   ï¿½       desktop-mouse-7-1300-450.png
+ï¿½   ï¿½   ï¿½       desktop-mouse.json
+ï¿½   ï¿½   ï¿½       desktop-scroll-motion.json
+ï¿½   ï¿½   ï¿½       laptop-000-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-001-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-002-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-003-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-004-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-005-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-006-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-007-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-008-scroll-0.png
+ï¿½   ï¿½   ï¿½       laptop-mouse-0-50-50.png
+ï¿½   ï¿½   ï¿½       laptop-mouse-1-150-100.png
+ï¿½   ï¿½   ï¿½       laptop-mouse-2-300-150.png
+ï¿½   ï¿½   ï¿½       laptop-mouse-3-500-200.png
+ï¿½   ï¿½   ï¿½       laptop-mouse-4-700-250.png
+ï¿½   ï¿½   ï¿½       laptop-mouse-5-900-300.png
+ï¿½   ï¿½   ï¿½       laptop-mouse-6-1100-350.png
+ï¿½   ï¿½   ï¿½       laptop-mouse-7-1300-450.png
+ï¿½   ï¿½   ï¿½       laptop-mouse.json
+ï¿½   ï¿½   ï¿½       laptop-scroll-motion.json
+ï¿½   ï¿½   ï¿½       mobile-000-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-001-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-002-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-003-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-004-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-005-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-006-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-007-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-008-scroll-0.png
+ï¿½   ï¿½   ï¿½       mobile-mouse-0-50-50.png
+ï¿½   ï¿½   ï¿½       mobile-mouse-1-150-100.png
+ï¿½   ï¿½   ï¿½       mobile-mouse-2-300-150.png
+ï¿½   ï¿½   ï¿½       mobile-mouse-3-500-200.png
+ï¿½   ï¿½   ï¿½       mobile-mouse-4-700-250.png
+ï¿½   ï¿½   ï¿½       mobile-mouse-5-900-300.png
+ï¿½   ï¿½   ï¿½       mobile-mouse-6-1100-350.png
+ï¿½   ï¿½   ï¿½       mobile-mouse-7-1300-450.png
+ï¿½   ï¿½   ï¿½       mobile-mouse.json
+ï¿½   ï¿½   ï¿½       mobile-scroll-motion.json
+ï¿½   ï¿½   ï¿½       tablet-000-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-001-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-002-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-003-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-004-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-005-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-006-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-007-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-008-scroll-0.png
+ï¿½   ï¿½   ï¿½       tablet-mouse-0-50-50.png
+ï¿½   ï¿½   ï¿½       tablet-mouse-1-150-100.png
+ï¿½   ï¿½   ï¿½       tablet-mouse-2-300-150.png
+ï¿½   ï¿½   ï¿½       tablet-mouse-3-500-200.png
+ï¿½   ï¿½   ï¿½       tablet-mouse-4-700-250.png
+ï¿½   ï¿½   ï¿½       tablet-mouse-5-900-300.png
+ï¿½   ï¿½   ï¿½       tablet-mouse-6-1100-350.png
+ï¿½   ï¿½   ï¿½       tablet-mouse-7-1300-450.png
+ï¿½   ï¿½   ï¿½       tablet-mouse.json
+ï¿½   ï¿½   ï¿½       tablet-scroll-motion.json
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---screenshots
+ï¿½   ï¿½       +---desktop
+ï¿½   ï¿½       ï¿½       00-initial.png
+ï¿½   ï¿½       ï¿½       000-scroll-0.png
+ï¿½   ï¿½       ï¿½       001-scroll-0.png
+ï¿½   ï¿½       ï¿½       001-scroll-450.png
+ï¿½   ï¿½       ï¿½       002-scroll-675.png
+ï¿½   ï¿½       ï¿½       full-page.png
+ï¿½   ï¿½       ï¿½       initial.png
+ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½       +---laptop
+ï¿½   ï¿½       ï¿½       00-initial.png
+ï¿½   ï¿½       ï¿½       000-scroll-0.png
+ï¿½   ï¿½       ï¿½       001-scroll-0.png
+ï¿½   ï¿½       ï¿½       001-scroll-400.png
+ï¿½   ï¿½       ï¿½       002-scroll-600.png
+ï¿½   ï¿½       ï¿½       full-page.png
+ï¿½   ï¿½       ï¿½       initial.png
+ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½       +---mobile
+ï¿½   ï¿½       ï¿½       00-initial.png
+ï¿½   ï¿½       ï¿½       000-scroll-0.png
+ï¿½   ï¿½       ï¿½       001-scroll-0.png
+ï¿½   ï¿½       ï¿½       001-scroll-422.png
+ï¿½   ï¿½       ï¿½       002-scroll-633.png
+ï¿½   ï¿½       ï¿½       full-page.png
+ï¿½   ï¿½       ï¿½       initial.png
+ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½       +---tablet
+ï¿½   ï¿½               00-initial.png
+ï¿½   ï¿½               000-scroll-0.png
+ï¿½   ï¿½               001-scroll-0.png
+ï¿½   ï¿½               001-scroll-512.png
+ï¿½   ï¿½               002-scroll-768.png
+ï¿½   ï¿½               full-page.png
+ï¿½   ï¿½               initial.png
+ï¿½   ï¿½               
+ï¿½   +---original-inspection
+ï¿½       +---data
+ï¿½       ï¿½       desktop-console.json
+ï¿½       ï¿½       desktop-errors.json
+ï¿½       ï¿½       desktop-final-snapshot.json
+ï¿½       ï¿½       desktop-requests.json
+ï¿½       ï¿½       laptop-console.json
+ï¿½       ï¿½       laptop-errors.json
+ï¿½       ï¿½       laptop-final-snapshot.json
+ï¿½       ï¿½       laptop-requests.json
+ï¿½       ï¿½       mobile-console.json
+ï¿½       ï¿½       mobile-errors.json
+ï¿½       ï¿½       mobile-final-snapshot.json
+ï¿½       ï¿½       mobile-requests.json
+ï¿½       ï¿½       tablet-console.json
+ï¿½       ï¿½       tablet-errors.json
+ï¿½       ï¿½       tablet-final-snapshot.json
+ï¿½       ï¿½       tablet-requests.json
+ï¿½       ï¿½       
+ï¿½       +---interactions
+ï¿½       ï¿½       desktop-000-READ_MORE.png
+ï¿½       ï¿½       desktop-interactions.json
+ï¿½       ï¿½       laptop-001-READ_MORE.png
+ï¿½       ï¿½       laptop-013-DESIGN_MATTERS___Toggle_navigation.png
+ï¿½       ï¿½       laptop-014-DESIGN_MATTERS.png
+ï¿½       ï¿½       laptop-015-Toggle_navigation.png
+ï¿½       ï¿½       laptop-016-BUTTON.png
+ï¿½       ï¿½       laptop-interactions.json
+ï¿½       ï¿½       mobile-interactions.json
+ï¿½       ï¿½       tablet-interactions.json
+ï¿½       ï¿½       
+ï¿½       +---motion
+ï¿½       ï¿½       desktop-000-scroll-0.png
+ï¿½       ï¿½       desktop-001-scroll-0.png
+ï¿½       ï¿½       desktop-002-scroll-0.png
+ï¿½       ï¿½       desktop-003-scroll-0.png
+ï¿½       ï¿½       desktop-004-scroll-0.png
+ï¿½       ï¿½       desktop-005-scroll-0.png
+ï¿½       ï¿½       desktop-006-scroll-0.png
+ï¿½       ï¿½       desktop-007-scroll-0.png
+ï¿½       ï¿½       desktop-008-scroll-0.png
+ï¿½       ï¿½       desktop-mouse-0-50-50.png
+ï¿½       ï¿½       desktop-mouse-1-150-100.png
+ï¿½       ï¿½       desktop-mouse-2-300-150.png
+ï¿½       ï¿½       desktop-mouse-3-500-200.png
+ï¿½       ï¿½       desktop-mouse-4-700-250.png
+ï¿½       ï¿½       desktop-mouse-5-900-300.png
+ï¿½       ï¿½       desktop-mouse-6-1100-350.png
+ï¿½       ï¿½       desktop-mouse-7-1300-450.png
+ï¿½       ï¿½       desktop-mouse.json
+ï¿½       ï¿½       desktop-scroll-motion.json
+ï¿½       ï¿½       laptop-000-scroll-0.png
+ï¿½       ï¿½       laptop-001-scroll-0.png
+ï¿½       ï¿½       laptop-002-scroll-0.png
+ï¿½       ï¿½       laptop-003-scroll-0.png
+ï¿½       ï¿½       laptop-004-scroll-0.png
+ï¿½       ï¿½       laptop-005-scroll-0.png
+ï¿½       ï¿½       laptop-006-scroll-0.png
+ï¿½       ï¿½       laptop-007-scroll-0.png
+ï¿½       ï¿½       laptop-008-scroll-0.png
+ï¿½       ï¿½       laptop-mouse-0-50-50.png
+ï¿½       ï¿½       laptop-mouse-1-150-100.png
+ï¿½       ï¿½       laptop-mouse-2-300-150.png
+ï¿½       ï¿½       laptop-mouse-3-500-200.png
+ï¿½       ï¿½       laptop-mouse-4-700-250.png
+ï¿½       ï¿½       laptop-mouse-5-900-300.png
+ï¿½       ï¿½       laptop-mouse-6-1100-350.png
+ï¿½       ï¿½       laptop-mouse-7-1300-450.png
+ï¿½       ï¿½       laptop-mouse.json
+ï¿½       ï¿½       laptop-scroll-motion.json
+ï¿½       ï¿½       mobile-000-scroll-0.png
+ï¿½       ï¿½       mobile-001-scroll-0.png
+ï¿½       ï¿½       mobile-002-scroll-0.png
+ï¿½       ï¿½       mobile-003-scroll-0.png
+ï¿½       ï¿½       mobile-004-scroll-0.png
+ï¿½       ï¿½       mobile-005-scroll-0.png
+ï¿½       ï¿½       mobile-006-scroll-0.png
+ï¿½       ï¿½       mobile-007-scroll-0.png
+ï¿½       ï¿½       mobile-008-scroll-0.png
+ï¿½       ï¿½       mobile-mouse-0-50-50.png
+ï¿½       ï¿½       mobile-mouse-1-150-100.png
+ï¿½       ï¿½       mobile-mouse-2-300-150.png
+ï¿½       ï¿½       mobile-mouse-3-500-200.png
+ï¿½       ï¿½       mobile-mouse-4-700-250.png
+ï¿½       ï¿½       mobile-mouse-5-900-300.png
+ï¿½       ï¿½       mobile-mouse-6-1100-350.png
+ï¿½       ï¿½       mobile-mouse-7-1300-450.png
+ï¿½       ï¿½       mobile-mouse.json
+ï¿½       ï¿½       mobile-scroll-motion.json
+ï¿½       ï¿½       tablet-000-scroll-0.png
+ï¿½       ï¿½       tablet-001-scroll-0.png
+ï¿½       ï¿½       tablet-002-scroll-0.png
+ï¿½       ï¿½       tablet-003-scroll-0.png
+ï¿½       ï¿½       tablet-004-scroll-0.png
+ï¿½       ï¿½       tablet-005-scroll-0.png
+ï¿½       ï¿½       tablet-006-scroll-0.png
+ï¿½       ï¿½       tablet-007-scroll-0.png
+ï¿½       ï¿½       tablet-008-scroll-0.png
+ï¿½       ï¿½       tablet-mouse-0-50-50.png
+ï¿½       ï¿½       tablet-mouse-1-150-100.png
+ï¿½       ï¿½       tablet-mouse-2-300-150.png
+ï¿½       ï¿½       tablet-mouse-3-500-200.png
+ï¿½       ï¿½       tablet-mouse-4-700-250.png
+ï¿½       ï¿½       tablet-mouse-5-900-300.png
+ï¿½       ï¿½       tablet-mouse-6-1100-350.png
+ï¿½       ï¿½       tablet-mouse-7-1300-450.png
+ï¿½       ï¿½       tablet-mouse.json
+ï¿½       ï¿½       tablet-scroll-motion.json
+ï¿½       ï¿½       
+ï¿½       +---screenshots
+ï¿½           +---desktop
+ï¿½           ï¿½       initial.png
+ï¿½           ï¿½       
+ï¿½           +---laptop
+ï¿½           ï¿½       initial.png
+ï¿½           ï¿½       
+ï¿½           +---mobile
+ï¿½           ï¿½       initial.png
+ï¿½           ï¿½       
+ï¿½           +---tablet
+ï¿½                   initial.png
+ï¿½                   
 +---use.typekit.net
-¦       hdb4uai.js
-¦       
+ï¿½       hdb4uai.js
+ï¿½       
 +---visual-proof
-¦   +---local
-¦   ¦       about_1280x800_full.png
-¦   ¦       about_1440x900_full.png
-¦   ¦       about_390x844_full.png
-¦   ¦       about_768x1024_full.png
-¦   ¦       comm-arch_1280x800_full.png
-¦   ¦       comm-arch_1440x900_full.png
-¦   ¦       comm-arch_390x844_full.png
-¦   ¦       comm-arch_768x1024_full.png
-¦   ¦       comm-construct_1280x800_full.png
-¦   ¦       comm-construct_1440x900_full.png
-¦   ¦       comm-construct_390x844_full.png
-¦   ¦       comm-construct_768x1024_full.png
-¦   ¦       comm-int_1280x800_full.png
-¦   ¦       comm-int_1440x900_full.png
-¦   ¦       comm-int_390x844_full.png
-¦   ¦       comm-int_768x1024_full.png
-¦   ¦       conservation_1280x800_full.png
-¦   ¦       conservation_1440x900_full.png
-¦   ¦       conservation_390x844_full.png
-¦   ¦       conservation_768x1024_full.png
-¦   ¦       contact_1280x800_full.png
-¦   ¦       contact_1440x900_full.png
-¦   ¦       contact_390x844_full.png
-¦   ¦       contact_768x1024_full.png
-¦   ¦       cs-alexander_1280x800_full.png
-¦   ¦       cs-alexander_1440x900_full.png
-¦   ¦       cs-alexander_390x844_full.png
-¦   ¦       cs-alexander_768x1024_full.png
-¦   ¦       cs-archway-69_1280x800_full.png
-¦   ¦       cs-archway-69_1440x900_full.png
-¦   ¦       cs-archway-69_390x844_full.png
-¦   ¦       cs-archway-69_768x1024_full.png
-¦   ¦       cs-between-commons_1280x800_full.png
-¦   ¦       cs-between-commons_1440x900_full.png
-¦   ¦       cs-between-commons_390x844_full.png
-¦   ¦       cs-between-commons_768x1024_full.png
-¦   ¦       cs-broomwood_1280x800_full.png
-¦   ¦       cs-broomwood_1440x900_full.png
-¦   ¦       cs-broomwood_390x844_full.png
-¦   ¦       cs-broomwood_768x1024_full.png
-¦   ¦       cs-cannon-place_1280x800_full.png
-¦   ¦       cs-cannon-place_1440x900_full.png
-¦   ¦       cs-cannon-place_390x844_full.png
-¦   ¦       cs-cannon-place_768x1024_full.png
-¦   ¦       cs-mews-house_1280x800_full.png
-¦   ¦       cs-mews-house_1440x900_full.png
-¦   ¦       cs-mews-house_390x844_full.png
-¦   ¦       cs-mews-house_768x1024_full.png
-¦   ¦       cs-montague_1280x800_full.png
-¦   ¦       cs-montague_1440x900_full.png
-¦   ¦       cs-montague_390x844_full.png
-¦   ¦       cs-montague_768x1024_full.png
-¦   ¦       cs-no-40_1280x800_full.png
-¦   ¦       cs-no-40_1440x900_full.png
-¦   ¦       cs-no-40_390x844_full.png
-¦   ¦       cs-no-40_768x1024_full.png
-¦   ¦       cs-refectory_1280x800_full.png
-¦   ¦       cs-refectory_1440x900_full.png
-¦   ¦       cs-refectory_390x844_full.png
-¦   ¦       cs-refectory_768x1024_full.png
-¦   ¦       cs-rock_1280x800_full.png
-¦   ¦       cs-rock_1440x900_full.png
-¦   ¦       cs-rock_390x844_full.png
-¦   ¦       cs-rock_768x1024_full.png
-¦   ¦       cs-seymour-walk_1280x800_full.png
-¦   ¦       cs-seymour-walk_1440x900_full.png
-¦   ¦       cs-seymour-walk_390x844_full.png
-¦   ¦       cs-seymour-walk_768x1024_full.png
-¦   ¦       cs-the-cube-house_1280x800_full.png
-¦   ¦       cs-the-cube-house_1440x900_full.png
-¦   ¦       cs-the-cube-house_390x844_full.png
-¦   ¦       cs-the-cube-house_768x1024_full.png
-¦   ¦       cs-the-victorian_1280x800_full.png
-¦   ¦       cs-the-victorian_1440x900_full.png
-¦   ¦       cs-the-victorian_390x844_full.png
-¦   ¦       cs-the-victorian_768x1024_full.png
-¦   ¦       cs-thornton_1280x800_full.png
-¦   ¦       cs-thornton_1440x900_full.png
-¦   ¦       cs-thornton_390x844_full.png
-¦   ¦       cs-thornton_768x1024_full.png
-¦   ¦       cs-wig-factory_1280x800_full.png
-¦   ¦       cs-wig-factory_1440x900_full.png
-¦   ¦       cs-wig-factory_390x844_full.png
-¦   ¦       cs-wig-factory_768x1024_full.png
-¦   ¦       home_1280x800_full.png
-¦   ¦       home_1440x900_full.png
-¦   ¦       home_390x844_full.png
-¦   ¦       home_768x1024_full.png
-¦   ¦       planning_1280x800_full.png
-¦   ¦       planning_1440x900_full.png
-¦   ¦       planning_390x844_full.png
-¦   ¦       planning_768x1024_full.png
-¦   ¦       port-comm_1280x800_full.png
-¦   ¦       port-comm_1440x900_full.png
-¦   ¦       port-comm_390x844_full.png
-¦   ¦       port-comm_768x1024_full.png
-¦   ¦       port-cons_1280x800_full.png
-¦   ¦       port-cons_1440x900_full.png
-¦   ¦       port-cons_390x844_full.png
-¦   ¦       port-cons_768x1024_full.png
-¦   ¦       port-res_1280x800_full.png
-¦   ¦       port-res_1440x900_full.png
-¦   ¦       port-res_390x844_full.png
-¦   ¦       port-res_768x1024_full.png
-¦   ¦       privacy_1280x800_full.png
-¦   ¦       privacy_1440x900_full.png
-¦   ¦       privacy_390x844_full.png
-¦   ¦       privacy_768x1024_full.png
-¦   ¦       res-arch_1280x800_full.png
-¦   ¦       res-arch_1440x900_full.png
-¦   ¦       res-arch_390x844_full.png
-¦   ¦       res-arch_768x1024_full.png
-¦   ¦       res-construct_1280x800_full.png
-¦   ¦       res-construct_1440x900_full.png
-¦   ¦       res-construct_390x844_full.png
-¦   ¦       res-construct_768x1024_full.png
-¦   ¦       res-int_1280x800_full.png
-¦   ¦       res-int_1440x900_full.png
-¦   ¦       res-int_390x844_full.png
-¦   ¦       res-int_768x1024_full.png
-¦   ¦       
-¦   +---reference
-¦           about_1280x800_full.png
-¦           about_1440x900_full.png
-¦           about_390x844_full.png
-¦           about_768x1024_full.png
-¦           comm-arch_1280x800_full.png
-¦           comm-arch_1440x900_full.png
-¦           comm-arch_390x844_full.png
-¦           comm-arch_768x1024_full.png
-¦           comm-construct_1280x800_full.png
-¦           comm-construct_1440x900_full.png
-¦           comm-construct_390x844_full.png
-¦           comm-construct_768x1024_full.png
-¦           comm-int_1280x800_full.png
-¦           comm-int_1440x900_full.png
-¦           comm-int_390x844_full.png
-¦           comm-int_768x1024_full.png
-¦           conservation_1280x800_full.png
-¦           conservation_1440x900_full.png
-¦           conservation_390x844_full.png
-¦           conservation_768x1024_full.png
-¦           contact_1280x800_full.png
-¦           contact_1440x900_full.png
-¦           contact_390x844_full.png
-¦           contact_768x1024_full.png
-¦           cs-alexander_1280x800_full.png
-¦           cs-alexander_1440x900_full.png
-¦           cs-alexander_390x844_full.png
-¦           cs-alexander_768x1024_full.png
-¦           cs-archway-69_1280x800_full.png
-¦           cs-archway-69_1440x900_full.png
-¦           cs-archway-69_390x844_full.png
-¦           cs-archway-69_768x1024_full.png
-¦           cs-between-commons_1280x800_full.png
-¦           cs-between-commons_1440x900_full.png
-¦           cs-between-commons_390x844_full.png
-¦           cs-between-commons_768x1024_full.png
-¦           cs-broomwood_1280x800_full.png
-¦           cs-broomwood_1440x900_full.png
-¦           cs-broomwood_390x844_full.png
-¦           cs-broomwood_768x1024_full.png
-¦           cs-cannon-place_1280x800_full.png
-¦           cs-cannon-place_1440x900_full.png
-¦           cs-cannon-place_390x844_full.png
-¦           cs-cannon-place_768x1024_full.png
-¦           cs-mews-house_1280x800_full.png
-¦           cs-mews-house_1440x900_full.png
-¦           cs-mews-house_390x844_full.png
-¦           cs-mews-house_768x1024_full.png
-¦           cs-montague_1280x800_full.png
-¦           cs-montague_1440x900_full.png
-¦           cs-montague_390x844_full.png
-¦           cs-montague_768x1024_full.png
-¦           cs-no-40_1280x800_full.png
-¦           cs-no-40_1440x900_full.png
-¦           cs-no-40_390x844_full.png
-¦           cs-no-40_768x1024_full.png
-¦           cs-refectory_1280x800_full.png
-¦           cs-refectory_1440x900_full.png
-¦           cs-refectory_390x844_full.png
-¦           cs-refectory_768x1024_full.png
-¦           cs-rock_1280x800_full.png
-¦           cs-rock_1440x900_full.png
-¦           cs-rock_390x844_full.png
-¦           cs-rock_768x1024_full.png
-¦           cs-seymour-walk_1280x800_full.png
-¦           cs-seymour-walk_1440x900_full.png
-¦           cs-seymour-walk_390x844_full.png
-¦           cs-seymour-walk_768x1024_full.png
-¦           cs-the-cube-house_1280x800_full.png
-¦           cs-the-cube-house_1440x900_full.png
-¦           cs-the-cube-house_390x844_full.png
-¦           cs-the-cube-house_768x1024_full.png
-¦           cs-the-victorian_1280x800_full.png
-¦           cs-the-victorian_1440x900_full.png
-¦           cs-the-victorian_390x844_full.png
-¦           cs-the-victorian_768x1024_full.png
-¦           cs-thornton_1280x800_full.png
-¦           cs-thornton_1440x900_full.png
-¦           cs-thornton_390x844_full.png
-¦           cs-thornton_768x1024_full.png
-¦           cs-wig-factory_1280x800_full.png
-¦           cs-wig-factory_1440x900_full.png
-¦           cs-wig-factory_390x844_full.png
-¦           cs-wig-factory_768x1024_full.png
-¦           home_1280x800_full.png
-¦           home_1440x900_full.png
-¦           home_390x844_full.png
-¦           home_768x1024_full.png
-¦           planning_1280x800_full.png
-¦           planning_1440x900_full.png
-¦           planning_390x844_full.png
-¦           planning_768x1024_full.png
-¦           port-comm_1280x800_full.png
-¦           port-comm_1440x900_full.png
-¦           port-comm_390x844_full.png
-¦           port-comm_768x1024_full.png
-¦           port-cons_1280x800_full.png
-¦           port-cons_1440x900_full.png
-¦           port-cons_390x844_full.png
-¦           port-cons_768x1024_full.png
-¦           port-res_1280x800_full.png
-¦           port-res_1440x900_full.png
-¦           port-res_390x844_full.png
-¦           port-res_768x1024_full.png
-¦           privacy_1280x800_full.png
-¦           privacy_1440x900_full.png
-¦           privacy_390x844_full.png
-¦           privacy_768x1024_full.png
-¦           res-arch_1280x800_full.png
-¦           res-arch_1440x900_full.png
-¦           res-arch_390x844_full.png
-¦           res-arch_768x1024_full.png
-¦           res-construct_1280x800_full.png
-¦           res-construct_1440x900_full.png
-¦           res-construct_390x844_full.png
-¦           res-construct_768x1024_full.png
-¦           res-int_1280x800_full.png
-¦           res-int_1440x900_full.png
-¦           res-int_390x844_full.png
-¦           res-int_768x1024_full.png
-¦           
+ï¿½   +---local
+ï¿½   ï¿½       about_1280x800_full.png
+ï¿½   ï¿½       about_1440x900_full.png
+ï¿½   ï¿½       about_390x844_full.png
+ï¿½   ï¿½       about_768x1024_full.png
+ï¿½   ï¿½       comm-arch_1280x800_full.png
+ï¿½   ï¿½       comm-arch_1440x900_full.png
+ï¿½   ï¿½       comm-arch_390x844_full.png
+ï¿½   ï¿½       comm-arch_768x1024_full.png
+ï¿½   ï¿½       comm-construct_1280x800_full.png
+ï¿½   ï¿½       comm-construct_1440x900_full.png
+ï¿½   ï¿½       comm-construct_390x844_full.png
+ï¿½   ï¿½       comm-construct_768x1024_full.png
+ï¿½   ï¿½       comm-int_1280x800_full.png
+ï¿½   ï¿½       comm-int_1440x900_full.png
+ï¿½   ï¿½       comm-int_390x844_full.png
+ï¿½   ï¿½       comm-int_768x1024_full.png
+ï¿½   ï¿½       conservation_1280x800_full.png
+ï¿½   ï¿½       conservation_1440x900_full.png
+ï¿½   ï¿½       conservation_390x844_full.png
+ï¿½   ï¿½       conservation_768x1024_full.png
+ï¿½   ï¿½       contact_1280x800_full.png
+ï¿½   ï¿½       contact_1440x900_full.png
+ï¿½   ï¿½       contact_390x844_full.png
+ï¿½   ï¿½       contact_768x1024_full.png
+ï¿½   ï¿½       cs-alexander_1280x800_full.png
+ï¿½   ï¿½       cs-alexander_1440x900_full.png
+ï¿½   ï¿½       cs-alexander_390x844_full.png
+ï¿½   ï¿½       cs-alexander_768x1024_full.png
+ï¿½   ï¿½       cs-archway-69_1280x800_full.png
+ï¿½   ï¿½       cs-archway-69_1440x900_full.png
+ï¿½   ï¿½       cs-archway-69_390x844_full.png
+ï¿½   ï¿½       cs-archway-69_768x1024_full.png
+ï¿½   ï¿½       cs-between-commons_1280x800_full.png
+ï¿½   ï¿½       cs-between-commons_1440x900_full.png
+ï¿½   ï¿½       cs-between-commons_390x844_full.png
+ï¿½   ï¿½       cs-between-commons_768x1024_full.png
+ï¿½   ï¿½       cs-broomwood_1280x800_full.png
+ï¿½   ï¿½       cs-broomwood_1440x900_full.png
+ï¿½   ï¿½       cs-broomwood_390x844_full.png
+ï¿½   ï¿½       cs-broomwood_768x1024_full.png
+ï¿½   ï¿½       cs-cannon-place_1280x800_full.png
+ï¿½   ï¿½       cs-cannon-place_1440x900_full.png
+ï¿½   ï¿½       cs-cannon-place_390x844_full.png
+ï¿½   ï¿½       cs-cannon-place_768x1024_full.png
+ï¿½   ï¿½       cs-mews-house_1280x800_full.png
+ï¿½   ï¿½       cs-mews-house_1440x900_full.png
+ï¿½   ï¿½       cs-mews-house_390x844_full.png
+ï¿½   ï¿½       cs-mews-house_768x1024_full.png
+ï¿½   ï¿½       cs-montague_1280x800_full.png
+ï¿½   ï¿½       cs-montague_1440x900_full.png
+ï¿½   ï¿½       cs-montague_390x844_full.png
+ï¿½   ï¿½       cs-montague_768x1024_full.png
+ï¿½   ï¿½       cs-no-40_1280x800_full.png
+ï¿½   ï¿½       cs-no-40_1440x900_full.png
+ï¿½   ï¿½       cs-no-40_390x844_full.png
+ï¿½   ï¿½       cs-no-40_768x1024_full.png
+ï¿½   ï¿½       cs-refectory_1280x800_full.png
+ï¿½   ï¿½       cs-refectory_1440x900_full.png
+ï¿½   ï¿½       cs-refectory_390x844_full.png
+ï¿½   ï¿½       cs-refectory_768x1024_full.png
+ï¿½   ï¿½       cs-rock_1280x800_full.png
+ï¿½   ï¿½       cs-rock_1440x900_full.png
+ï¿½   ï¿½       cs-rock_390x844_full.png
+ï¿½   ï¿½       cs-rock_768x1024_full.png
+ï¿½   ï¿½       cs-seymour-walk_1280x800_full.png
+ï¿½   ï¿½       cs-seymour-walk_1440x900_full.png
+ï¿½   ï¿½       cs-seymour-walk_390x844_full.png
+ï¿½   ï¿½       cs-seymour-walk_768x1024_full.png
+ï¿½   ï¿½       cs-the-cube-house_1280x800_full.png
+ï¿½   ï¿½       cs-the-cube-house_1440x900_full.png
+ï¿½   ï¿½       cs-the-cube-house_390x844_full.png
+ï¿½   ï¿½       cs-the-cube-house_768x1024_full.png
+ï¿½   ï¿½       cs-the-victorian_1280x800_full.png
+ï¿½   ï¿½       cs-the-victorian_1440x900_full.png
+ï¿½   ï¿½       cs-the-victorian_390x844_full.png
+ï¿½   ï¿½       cs-the-victorian_768x1024_full.png
+ï¿½   ï¿½       cs-thornton_1280x800_full.png
+ï¿½   ï¿½       cs-thornton_1440x900_full.png
+ï¿½   ï¿½       cs-thornton_390x844_full.png
+ï¿½   ï¿½       cs-thornton_768x1024_full.png
+ï¿½   ï¿½       cs-wig-factory_1280x800_full.png
+ï¿½   ï¿½       cs-wig-factory_1440x900_full.png
+ï¿½   ï¿½       cs-wig-factory_390x844_full.png
+ï¿½   ï¿½       cs-wig-factory_768x1024_full.png
+ï¿½   ï¿½       home_1280x800_full.png
+ï¿½   ï¿½       home_1440x900_full.png
+ï¿½   ï¿½       home_390x844_full.png
+ï¿½   ï¿½       home_768x1024_full.png
+ï¿½   ï¿½       planning_1280x800_full.png
+ï¿½   ï¿½       planning_1440x900_full.png
+ï¿½   ï¿½       planning_390x844_full.png
+ï¿½   ï¿½       planning_768x1024_full.png
+ï¿½   ï¿½       port-comm_1280x800_full.png
+ï¿½   ï¿½       port-comm_1440x900_full.png
+ï¿½   ï¿½       port-comm_390x844_full.png
+ï¿½   ï¿½       port-comm_768x1024_full.png
+ï¿½   ï¿½       port-cons_1280x800_full.png
+ï¿½   ï¿½       port-cons_1440x900_full.png
+ï¿½   ï¿½       port-cons_390x844_full.png
+ï¿½   ï¿½       port-cons_768x1024_full.png
+ï¿½   ï¿½       port-res_1280x800_full.png
+ï¿½   ï¿½       port-res_1440x900_full.png
+ï¿½   ï¿½       port-res_390x844_full.png
+ï¿½   ï¿½       port-res_768x1024_full.png
+ï¿½   ï¿½       privacy_1280x800_full.png
+ï¿½   ï¿½       privacy_1440x900_full.png
+ï¿½   ï¿½       privacy_390x844_full.png
+ï¿½   ï¿½       privacy_768x1024_full.png
+ï¿½   ï¿½       res-arch_1280x800_full.png
+ï¿½   ï¿½       res-arch_1440x900_full.png
+ï¿½   ï¿½       res-arch_390x844_full.png
+ï¿½   ï¿½       res-arch_768x1024_full.png
+ï¿½   ï¿½       res-construct_1280x800_full.png
+ï¿½   ï¿½       res-construct_1440x900_full.png
+ï¿½   ï¿½       res-construct_390x844_full.png
+ï¿½   ï¿½       res-construct_768x1024_full.png
+ï¿½   ï¿½       res-int_1280x800_full.png
+ï¿½   ï¿½       res-int_1440x900_full.png
+ï¿½   ï¿½       res-int_390x844_full.png
+ï¿½   ï¿½       res-int_768x1024_full.png
+ï¿½   ï¿½       
+ï¿½   +---reference
+ï¿½           about_1280x800_full.png
+ï¿½           about_1440x900_full.png
+ï¿½           about_390x844_full.png
+ï¿½           about_768x1024_full.png
+ï¿½           comm-arch_1280x800_full.png
+ï¿½           comm-arch_1440x900_full.png
+ï¿½           comm-arch_390x844_full.png
+ï¿½           comm-arch_768x1024_full.png
+ï¿½           comm-construct_1280x800_full.png
+ï¿½           comm-construct_1440x900_full.png
+ï¿½           comm-construct_390x844_full.png
+ï¿½           comm-construct_768x1024_full.png
+ï¿½           comm-int_1280x800_full.png
+ï¿½           comm-int_1440x900_full.png
+ï¿½           comm-int_390x844_full.png
+ï¿½           comm-int_768x1024_full.png
+ï¿½           conservation_1280x800_full.png
+ï¿½           conservation_1440x900_full.png
+ï¿½           conservation_390x844_full.png
+ï¿½           conservation_768x1024_full.png
+ï¿½           contact_1280x800_full.png
+ï¿½           contact_1440x900_full.png
+ï¿½           contact_390x844_full.png
+ï¿½           contact_768x1024_full.png
+ï¿½           cs-alexander_1280x800_full.png
+ï¿½           cs-alexander_1440x900_full.png
+ï¿½           cs-alexander_390x844_full.png
+ï¿½           cs-alexander_768x1024_full.png
+ï¿½           cs-archway-69_1280x800_full.png
+ï¿½           cs-archway-69_1440x900_full.png
+ï¿½           cs-archway-69_390x844_full.png
+ï¿½           cs-archway-69_768x1024_full.png
+ï¿½           cs-between-commons_1280x800_full.png
+ï¿½           cs-between-commons_1440x900_full.png
+ï¿½           cs-between-commons_390x844_full.png
+ï¿½           cs-between-commons_768x1024_full.png
+ï¿½           cs-broomwood_1280x800_full.png
+ï¿½           cs-broomwood_1440x900_full.png
+ï¿½           cs-broomwood_390x844_full.png
+ï¿½           cs-broomwood_768x1024_full.png
+ï¿½           cs-cannon-place_1280x800_full.png
+ï¿½           cs-cannon-place_1440x900_full.png
+ï¿½           cs-cannon-place_390x844_full.png
+ï¿½           cs-cannon-place_768x1024_full.png
+ï¿½           cs-mews-house_1280x800_full.png
+ï¿½           cs-mews-house_1440x900_full.png
+ï¿½           cs-mews-house_390x844_full.png
+ï¿½           cs-mews-house_768x1024_full.png
+ï¿½           cs-montague_1280x800_full.png
+ï¿½           cs-montague_1440x900_full.png
+ï¿½           cs-montague_390x844_full.png
+ï¿½           cs-montague_768x1024_full.png
+ï¿½           cs-no-40_1280x800_full.png
+ï¿½           cs-no-40_1440x900_full.png
+ï¿½           cs-no-40_390x844_full.png
+ï¿½           cs-no-40_768x1024_full.png
+ï¿½           cs-refectory_1280x800_full.png
+ï¿½           cs-refectory_1440x900_full.png
+ï¿½           cs-refectory_390x844_full.png
+ï¿½           cs-refectory_768x1024_full.png
+ï¿½           cs-rock_1280x800_full.png
+ï¿½           cs-rock_1440x900_full.png
+ï¿½           cs-rock_390x844_full.png
+ï¿½           cs-rock_768x1024_full.png
+ï¿½           cs-seymour-walk_1280x800_full.png
+ï¿½           cs-seymour-walk_1440x900_full.png
+ï¿½           cs-seymour-walk_390x844_full.png
+ï¿½           cs-seymour-walk_768x1024_full.png
+ï¿½           cs-the-cube-house_1280x800_full.png
+ï¿½           cs-the-cube-house_1440x900_full.png
+ï¿½           cs-the-cube-house_390x844_full.png
+ï¿½           cs-the-cube-house_768x1024_full.png
+ï¿½           cs-the-victorian_1280x800_full.png
+ï¿½           cs-the-victorian_1440x900_full.png
+ï¿½           cs-the-victorian_390x844_full.png
+ï¿½           cs-the-victorian_768x1024_full.png
+ï¿½           cs-thornton_1280x800_full.png
+ï¿½           cs-thornton_1440x900_full.png
+ï¿½           cs-thornton_390x844_full.png
+ï¿½           cs-thornton_768x1024_full.png
+ï¿½           cs-wig-factory_1280x800_full.png
+ï¿½           cs-wig-factory_1440x900_full.png
+ï¿½           cs-wig-factory_390x844_full.png
+ï¿½           cs-wig-factory_768x1024_full.png
+ï¿½           home_1280x800_full.png
+ï¿½           home_1440x900_full.png
+ï¿½           home_390x844_full.png
+ï¿½           home_768x1024_full.png
+ï¿½           planning_1280x800_full.png
+ï¿½           planning_1440x900_full.png
+ï¿½           planning_390x844_full.png
+ï¿½           planning_768x1024_full.png
+ï¿½           port-comm_1280x800_full.png
+ï¿½           port-comm_1440x900_full.png
+ï¿½           port-comm_390x844_full.png
+ï¿½           port-comm_768x1024_full.png
+ï¿½           port-cons_1280x800_full.png
+ï¿½           port-cons_1440x900_full.png
+ï¿½           port-cons_390x844_full.png
+ï¿½           port-cons_768x1024_full.png
+ï¿½           port-res_1280x800_full.png
+ï¿½           port-res_1440x900_full.png
+ï¿½           port-res_390x844_full.png
+ï¿½           port-res_768x1024_full.png
+ï¿½           privacy_1280x800_full.png
+ï¿½           privacy_1440x900_full.png
+ï¿½           privacy_390x844_full.png
+ï¿½           privacy_768x1024_full.png
+ï¿½           res-arch_1280x800_full.png
+ï¿½           res-arch_1440x900_full.png
+ï¿½           res-arch_390x844_full.png
+ï¿½           res-arch_768x1024_full.png
+ï¿½           res-construct_1280x800_full.png
+ï¿½           res-construct_1440x900_full.png
+ï¿½           res-construct_390x844_full.png
+ï¿½           res-construct_768x1024_full.png
+ï¿½           res-int_1280x800_full.png
+ï¿½           res-int_1440x900_full.png
+ï¿½           res-int_390x844_full.png
+ï¿½           res-int_768x1024_full.png
+ï¿½           
 +---www.google.com
-    ¦   index.html
-    ¦   
+    ï¿½   index.html
+    ï¿½   
     +---recaptcha
             api.js
             api89ae.js

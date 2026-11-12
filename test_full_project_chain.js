@@ -37,18 +37,18 @@ const { chromium } = require('playwright');
   const p1Header = await page.evaluate(() => jQuery('.project .case').text());
   console.log('Header project case:', p1Header);
 
-  console.log('--- 4. Click Next Project CTA to Dovetail House ---');
+  console.log('--- 4. Click Next Project CTA to The Frames ---');
   t = Date.now();
   await page.click('.component-expanding-cta a');
   for (let i = 0; i < 40; i++) {
     await page.waitForTimeout(100);
-    if (page.url().includes('dovetail-house')) break;
+    if (page.url().includes('the-frames')) break;
   }
   console.log('Transitioned to', page.url(), 'in', Date.now() - t, 'ms');
   await page.waitForTimeout(1000);
 
   const p2Header = await page.evaluate(() => jQuery('.project .case').text());
-  console.log('Header project case on Dovetail House:', p2Header);
+  console.log('Header project case on The Frames:', p2Header);
 
   console.log('--- 5. Click Next Project CTA to Farmhouse (seymour-walk) ---');
   t = Date.now();

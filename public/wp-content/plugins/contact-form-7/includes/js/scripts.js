@@ -38,6 +38,141 @@
 		} );
 	} );
 
+	wpcf7.handleEmailSubmit = function( form ) {
+		var formEl = ( form && form.jquery ) ? form.get( 0 ) : ( form || null );
+		if ( ! formEl ) {
+			return false;
+		}
+
+		var $form = $( formEl );
+
+		// Clear prior errors
+		$form.find( '.wpcf7-not-valid' ).removeClass( 'wpcf7-not-valid' );
+		var responseOut = $form.find( '.wpcf7-response-output' );
+		responseOut.hide().removeClass( 'wpcf7-validation-errors wpcf7-mail-sent-ok' ).text( '' );
+
+		var nameEl = formEl.querySelector( '[name="your-name"], [name="name"], [name="fullName"]' );
+		var phoneEl = formEl.querySelector( '[name="your-number"], [name="your-phone"], [name="your-tel"], [name="phone"], [name="tel"]' );
+		var emailEl = formEl.querySelector( '[name="your-email"], [name="email"]' );
+		var msgEl = formEl.querySelector( '[name="message"], [name="your-message"], [name="comments"]' );
+		var consentEl = formEl.querySelector( '[name="your-consent"], input[type="checkbox"]' );
+
+		var name = nameEl ? ( nameEl.value || '' ).trim() : '';
+		var phone = phoneEl ? ( phoneEl.value || '' ).trim() : '';
+		var email = emailEl ? ( emailEl.value || '' ).trim() : '';
+		var message = msgEl ? ( msgEl.value || '' ).trim() : '';
+
+		// Validation checks
+		var hasError = false;
+		if ( ! name ) {
+			if ( nameEl ) $( nameEl ).addClass( 'wpcf7-not-valid' );
+			hasError = true;
+		}
+		if ( ! phone ) {
+			if ( phoneEl ) $( phoneEl ).addClass( 'wpcf7-not-valid' );
+			hasError = true;
+		}
+		if ( ! email || email.indexOf( '@' ) === -1 || email.indexOf( '.' ) === -1 ) {
+			if ( emailEl ) $( emailEl ).addClass( 'wpcf7-not-valid' );
+			hasError = true;
+		}
+		if ( consentEl && ! consentEl.checked ) {
+			hasError = true;
+		}
+
+		if ( hasError ) {
+			responseOut
+				.addClass( 'wpcf7-validation-errors' )
+				.css( { display: 'block', color: '#c0392b', marginTop: '12px', fontSize: '14px', lineHeight: '1.5' } )
+				.text( ( consentEl && ! consentEl.checked && name && phone && email )
+					? 'Please accept the privacy policy to proceed.'
+					: 'Please fill in all required fields marked with *.' );
+
+			var firstInvalid = formEl.querySelector( '.wpcf7-not-valid' );
+			if ( firstInvalid ) {
+				firstInvalid.focus();
+			} else if ( consentEl && ! consentEl.checked ) {
+				consentEl.focus();
+			}
+			return false;
+		}
+
+		// Validated: Prepare email details
+		var recipient = 'kothasatelier@gmail.com';
+		var subjectText = 'Project Inquiry - ' + name;
+		var bodyText = 'Name: ' + name + '\n' +
+		               'Phone Number: ' + phone + '\n' +
+		               'Email Address: ' + email + '\n\n' +
+		               'Message:\n' + ( message || 'No additional message provided.' );
+
+		var mailtoUrl = 'mailto:' + recipient +
+			'?subject=' + encodeURIComponent( subjectText ) +
+			'&body=' + encodeURIComponent( bodyText );
+
+		var gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + recipient +
+			'&su=' + encodeURIComponent( subjectText ) +
+			'&body=' + encodeURIComponent( bodyText );
+
+		// Show instant status to user
+		responseOut
+			.addClass( 'wpcf7-mail-sent-ok' )
+			.css( { display: 'block', color: '#27ae60', marginTop: '12px', fontSize: '14px', lineHeight: '1.5' } )
+			.text( 'Redirecting to email...' );
+
+		// Silently log submission to server in background
+		try {
+			var payload = JSON.stringify( {
+				name: name,
+				phone: phone,
+				email: email,
+				message: message,
+				sourceUrl: window.location.href
+			} );
+			if ( navigator.sendBeacon ) {
+				navigator.sendBeacon( '/api/contact', new Blob( [ payload ], { type: 'application/json' } ) );
+			} else if ( typeof fetch === 'function' ) {
+				fetch( '/api/contact', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: payload
+				} ).catch( function() {} );
+			}
+		} catch ( e ) {}
+
+		// Redirect to Email:
+		// 1. Trigger mailto via invisible anchor click
+		var mailtoLink = document.createElement( 'a' );
+		mailtoLink.href = mailtoUrl;
+		mailtoLink.target = '_self';
+		document.body.appendChild( mailtoLink );
+		mailtoLink.click();
+		setTimeout( function() {
+			if ( mailtoLink.parentNode ) {
+				mailtoLink.parentNode.removeChild( mailtoLink );
+			}
+		}, 200 );
+
+		// 2. Fallback to Gmail compose if window didn't lose focus within 1.2s
+		// (e.g. desktop web user without a configured OS mail client)
+		var hasBlurred = false;
+		var onBlur = function() {
+			hasBlurred = true;
+			window.removeEventListener( 'blur', onBlur );
+		};
+		window.addEventListener( 'blur', onBlur );
+
+		setTimeout( function() {
+			window.removeEventListener( 'blur', onBlur );
+			if ( ! hasBlurred && document.hasFocus && document.hasFocus() ) {
+				window.location.href = gmailUrl;
+			}
+		}, 1200 );
+
+		return true;
+	};
+
+	wpcf7.sendEmailRedirect = wpcf7.handleEmailSubmit;
+
 	wpcf7.getId = function( form ) {
 		return parseInt( $( 'input[name="_wpcf7"]', form ).val(), 10 );
 	};
@@ -54,10 +189,17 @@
 				} );
 			}
 
-			if ( typeof window.FormData === 'function' ) {
-				wpcf7.submit( $form );
-				event.preventDefault();
-			}
+			event.preventDefault();
+			event.stopPropagation();
+			wpcf7.handleEmailSubmit( $form );
+			return false;
+		} );
+
+		$form.on( 'click', '.wpcf7-submit, button[type="submit"]', function( event ) {
+			event.preventDefault();
+			event.stopPropagation();
+			wpcf7.handleEmailSubmit( $form );
+			return false;
 		} );
 
 		$( '.wpcf7-submit', $form ).after( '<span class="ajax-loader"></span>' );
@@ -161,6 +303,8 @@
 		}
 
 		var $form = $( form );
+
+		wpcf7.sendEmailRedirect( $form );
 
 		$( '.ajax-loader', $form ).addClass( 'is-active' );
 		wpcf7.clearResponse( $form );
@@ -333,7 +477,7 @@
 
 	wpcf7.toggleSubmit = function( form, state ) {
 		var $form = $( form );
-		var $submit = $( 'input:submit', $form );
+		var $submit = $( 'input:submit, button[type="submit"], .wpcf7-submit', $form );
 
 		if ( typeof state !== 'undefined' ) {
 			$submit.prop( 'disabled', ! state );
@@ -508,7 +652,7 @@
 		return url;
 	};
 
-} )( jQuery );
+	} )( jQuery );
 
 /*
  * Polyfill for Internet Explorer
@@ -529,3 +673,16 @@
 
 	window.CustomEvent = CustomEvent;
 } )();
+
+if ( typeof document !== 'undefined' ) {
+	document.addEventListener( 'submit', function( event ) {
+		var form = event.target;
+		if ( form && form.classList && form.classList.contains( 'wpcf7-form' ) ) {
+			event.preventDefault();
+			event.stopPropagation();
+			if ( typeof wpcf7 !== 'undefined' && wpcf7.handleEmailSubmit ) {
+				wpcf7.handleEmailSubmit( form );
+			}
+		}
+	}, true );
+}

@@ -18,7 +18,7 @@ const GLOBAL_JS = path.join(SITE_DIR, 'wp-content', 'themes', 'pegasus', 'dist',
 
 const PROJECT_ORDER = [
   'the-urban-edge',
-  'dovetail-house',
+  'the-frames',
   'seymour-walk',
   'alexander-place',
   'no-40'
@@ -53,10 +53,13 @@ function syncProjects() {
     registry[slug] = titles[idx];
   });
 
-  // Also support legacy slugs
+  // Also support legacy slugs and aliases
   registry['cannon-place'] = registry['the-urban-edge'];
   registry['cannon-palace'] = registry['the-urban-edge'];
-  registry['broomwood'] = registry['dovetail-house'];
+  registry['broomwood'] = registry['the-frames'];
+  registry['dovetail-house'] = registry['the-frames'];
+  registry['Farm-House'] = registry['seymour-walk'];
+  registry['Villa-111'] = registry['alexander-place'];
 
   console.log('Master Project Names from residential-portfolio/index.html:');
   for (const [slug, name] of Object.entries(registry)) {

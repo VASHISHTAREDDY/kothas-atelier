@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const projects = [
   'public/residential-portfolio/the-urban-edge/index.html',
-  'public/residential-portfolio/dovetail-house/index.html',
+  'public/residential-portfolio/the-frames/index.html',
   'public/residential-portfolio/seymour-walk/index.html',
   'public/residential-portfolio/alexander-place/index.html',
   'public/residential-portfolio/no-40/index.html'

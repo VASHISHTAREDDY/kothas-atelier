@@ -6,7 +6,7 @@ Simply run:
     python sync_projects.py
 
 This automatically propagates the new names across:
-1. All individual subproject HTML pages (the-urban-edge, dovetail-house, between-commons, etc.)
+1. All individual subproject HTML pages (the-urban-edge, the-frames, between-commons, etc.)
 2. The slider navigation cards (.slider-nav)
 3. The full-screen caption titles (.captions-full)
 4. The bottom expanding project CTAs (component-expanding-cta)
@@ -23,7 +23,7 @@ GLOBAL_JS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'public', '
 
 PROJECT_ORDER = [
     'the-urban-edge',
-    'dovetail-house',
+    'the-frames',
     'seymour-walk',
     'alexander-place',
     'no-40'

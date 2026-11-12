@@ -50,6 +50,28 @@ const server = http.createServer((req, res) => {
 
   if (reqPath === '/') reqPath = '/index.html';
 
+  // Service renames: 301 redirects for seamless backward-compatibility
+  const serviceRenames = {
+    'residential-architects': 'architectural-design',
+    'planning-applications': 'site-assessment',
+    'residential-interior-design': 'interior-design',
+    'residential-architectural-design-services': 'product-design',
+    'commercial-design-and-build': 'turnkey-services',
+  };
+  for (const [oldSlug, newSlug] of Object.entries(serviceRenames)) {
+    if (reqPath === `/${oldSlug}` || reqPath === `/${oldSlug}/` || reqPath.startsWith(`/${oldSlug}/`)) {
+      let target = reqPath.replace(`/${oldSlug}`, `/${newSlug}`);
+      if (!target.endsWith('/') && !path.extname(target)) target += '/';
+      res.writeHead(301, {
+        'Location': target,
+        'Cache-Control': 'no-cache, must-revalidate',
+        'Access-Control-Allow-Origin': '*'
+      });
+      res.end();
+      return;
+    }
+  }
+
   // Project renames: 301 redirects for seamless backward-compatibility
   if (reqPath.startsWith('/residential-portfolio/cannon-place') || reqPath.startsWith('/residential-portfolio/cannon-palace')) {
     const newPath = reqPath
@@ -64,8 +86,8 @@ const server = http.createServer((req, res) => {
     res.end();
     return;
   }
-  if (reqPath.startsWith('/residential-portfolio/broomwood')) {
-    const newPath = reqPath.replace('/residential-portfolio/broomwood', '/residential-portfolio/dovetail-house');
+  if (reqPath.startsWith('/residential-portfolio/broomwood') || reqPath.startsWith('/residential-portfolio/dovetail-house')) {
+    const newPath = reqPath.replace(/^\/residential-portfolio\/(?:broomwood|dovetail-house)/, '/residential-portfolio/the-frames');
     const target = newPath.endsWith('/') || newPath.includes('.') ? newPath : `${newPath}/`;
     res.writeHead(301, {
       'Location': target,
@@ -76,8 +98,18 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  if (reqPath === '/dovetail-house' || reqPath === '/dovetail-house/' || reqPath === '/dovetail-house/index.html') {
+    res.writeHead(301, {
+      'Location': '/residential-portfolio/the-frames/',
+      'Cache-Control': 'no-cache, must-revalidate',
+      'Access-Control-Allow-Origin': '*'
+    });
+    res.end();
+    return;
+  }
+
   // Canonical root redirects for project slugs
-  const projectSlugs = ['the-urban-edge', 'dovetail-house', 'seymour-walk', 'alexander-place', 'no-40'];
+  const projectSlugs = ['the-urban-edge', 'the-frames', 'seymour-walk', 'alexander-place', 'no-40'];
   for (const slug of projectSlugs) {
     if (reqPath === `/${slug}` || reqPath === `/${slug}/` || reqPath === `/${slug}/index.html`) {
       res.writeHead(301, {
@@ -111,6 +143,15 @@ const server = http.createServer((req, res) => {
   if (!fs.existsSync(filePath)) {
     if (reqPath.includes('residential-architecture-design-hero')) {
       const alias = path.join(SITE_DIR, 'wp-content/uploads/2018/05/residential-architectural-design.jpg');
+      if (fs.existsSync(alias)) filePath = alias;
+    } else if (reqPath.includes('product-design-hero') || (reqPath.includes('product-design') && reqPath.match(/\.(?:jpg|jpeg|png)$/i))) {
+      const alias = path.join(SITE_DIR, 'wp-content/uploads/2018/05/product-design.jpg');
+      if (fs.existsSync(alias)) filePath = alias;
+    } else if (reqPath.includes('farm-house-hero') || reqPath.includes('farm-house') || reqPath.includes('farmhouse')) {
+      const alias = path.join(SITE_DIR, 'wp-content/uploads/2018/05/farm-house.jpg');
+      if (fs.existsSync(alias)) filePath = alias;
+    } else if (reqPath.includes('house-hero') || reqPath.includes('no-40-hero') || reqPath === '/house.jpg') {
+      const alias = path.join(SITE_DIR, 'wp-content/uploads/2018/04/1-New-size.jpg');
       if (fs.existsSync(alias)) filePath = alias;
     } else {
       let altPath = path.join(ROOT_DIR, reqPath);
@@ -197,7 +238,7 @@ const server = http.createServer((req, res) => {
       // (src, data-desktop, data-mobile, data-poster, background-image: url(...), srcset, json-ld)
       // to match the exact modification time of the file on disk.
       // Whenever a file is replaced, the served HTML immediately reflects its new timestamp.
-      const imgUrlRegex = /(["'\(])(\/?wp-content\/(?:uploads|themes)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico))(?:\?[^"'()\s>]*)?(["'\)])/gi;
+      const imgUrlRegex = /(["'\(])(\/?(?:(?:wp-content\/(?:uploads|themes)|site-assessment-images|turnkey-services-images|product-design-images)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico)|(?:farm-house|house|product-design)\.jpg))(?:\?[^"'()\s>]*)?(["'\)])/gi;
       html = html.replace(imgUrlRegex, (fullMatch, prefix, cleanUrl, suffix) => {
         const relPath = decodeURIComponent(cleanUrl.replace(/^\//, ''));
         const diskPath = path.join(SITE_DIR, relPath);
@@ -287,7 +328,7 @@ img, .background, .image-container, .img-responsive, [style*="background-image"]
       let html404 = fs.readFileSync(notFoundPath, 'utf8');
 
       // Universal Automatic Cache-Buster
-      const imgUrlRegex = /(["'\(])(\/?wp-content\/(?:uploads|themes)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico))(?:\?[^"'()\s>]*)?(["'\)])/gi;
+      const imgUrlRegex = /(["'\(])(\/?(?:(?:wp-content\/(?:uploads|themes)|site-assessment-images|turnkey-services-images|product-design-images)\/[^"'()\s>]+\.(?:jpg|jpeg|png|gif|svg|webp|ico)|(?:farm-house|house|product-design)\.jpg))(?:\?[^"'()\s>]*)?(["'\)])/gi;
       html404 = html404.replace(imgUrlRegex, (fullMatch, prefix, cleanUrl, suffix) => {
         const relPath = decodeURIComponent(cleanUrl.replace(/^\//, ''));
         const diskPath = path.join(SITE_DIR, relPath);

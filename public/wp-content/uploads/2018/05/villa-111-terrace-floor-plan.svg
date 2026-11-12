@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" style="font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#ffffff;">
+  <defs>
+    <pattern id="deck-plank-terrace" width="12" height="12" patternTransform="rotate(0 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="12" y2="0" stroke="#b48356" stroke-width="1.2" stroke-opacity="0.35"/>
+      <line x1="0" y1="6" x2="12" y2="6" stroke="#b48356" stroke-width="0.8" stroke-opacity="0.25"/>
+    </pattern>
+    <pattern id="planter-lush" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.6" fill="#2d6a4f" fill-opacity="0.45"/>
+    </pattern>
+    <pattern id="stone-paver" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="16" height="16" fill="none" stroke="#d4d4d8" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- Sheet Border -->
+  <rect x="10" y="10" width="780" height="500" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+  <rect x="14" y="14" width="772" height="492" fill="none" stroke="#e4e4e7" stroke-width="0.8"/>
+
+  <!-- Title Block Header -->
+  <rect x="14" y="14" width="772" height="54" fill="#fafafa"/>
+  <line x1="14" y1="68" x2="786" y2="68" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="32" y="38" font-size="13" font-weight="700" fill="#1b1b1e" letter-spacing="1.5">VILLA 111 &#8212; TERRACE FLOOR PLAN</text>
+  <text x="32" y="55" font-size="9.5" font-weight="600" fill="#6b7280" letter-spacing="0.5">LEVEL 03 &#8226; AREA: 1,612 SQ. FT. &#8226; SKY RETREAT LOUNGE, OPEN ENTERTAINMENT DECK &amp; BIOPHILIC ROOF</text>
+
+  <!-- North Orientation Indicator -->
+  <g transform="translate(740,41)">
+    <circle cx="0" cy="0" r="15" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+    <path d="M 0 -10 L 5 6 L 0 2 L -5 6 Z" fill="#1b1b1e"/>
+    <text x="-24" y="4" font-size="9.5" font-weight="700" fill="#1b1b1e">N</text>
+  </g>
+
+  <!-- Level 02 Parapet / Slab Edge Reference (dashed) -->
+  <rect x="65" y="110" width="670" height="344" fill="#fcfcfc" stroke="#d4d4d8" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="725" y="124" font-size="7.5" font-weight="600" fill="#a1a1aa" text-anchor="end">LEVEL 02 SLAB BOUNDARY</text>
+
+  <!-- Terrace Usable Footprint (1,612 sq. ft. - stepped back retreat) -->
+  <rect x="90" y="126" width="620" height="312" fill="url(#stone-paver)" stroke="#1b1b1e" stroke-width="1.8"/>
+
+  <!-- Perimeter Biophilic Planter Edges -->
+  <rect x="90" y="126" width="620" height="24" fill="url(#planter-lush)" stroke="#2d6a4f" stroke-width="1.2"/>
+  <rect x="90" y="414" width="620" height="24" fill="url(#planter-lush)" stroke="#2d6a4f" stroke-width="1.2"/>
+  <rect x="90" y="150" width="24" height="264" fill="url(#planter-lush)" stroke="#2d6a4f" stroke-width="1.2"/>
+  <text x="400" y="142" font-size="8" font-weight="700" fill="#2d6a4f" text-anchor="middle" letter-spacing="0.8">PERIMETER VERTICAL GREENERY &amp; FLOWERING PLANTER BED</text>
+  <text x="400" y="430" font-size="8" font-weight="700" fill="#2d6a4f" text-anchor="middle" letter-spacing="0.8">ACOUSTIC &amp; PRIVACY BUFFER VEGETATION</text>
+
+  <!-- Enclosed Sky Retreat Lounge (Indoor Entertainment / Bar) -->
+  <rect x="130" y="160" width="240" height="240" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.6"/>
+  <text x="250" y="255" font-size="11" font-weight="700" fill="#1b1b1e" text-anchor="middle">SKY RETREAT LOUNGE</text>
+  <text x="250" y="275" font-size="8.5" font-weight="500" fill="#4b5563" text-anchor="middle">ENCLOSED MEDIA &amp; BAR LOUNGE</text>
+  <text x="250" y="291" font-size="8" font-weight="600" fill="#6b7280" text-anchor="middle">360&#176; FLOOR-TO-CEILING GLASS POCKETS</text>
+
+  <!-- Sky Lounge Powder Room -->
+  <rect x="130" y="160" width="80" height="70" fill="#f8fafc" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="170" y="198" font-size="7.5" font-weight="600" fill="#1b1b1e" text-anchor="middle">POWDER</text>
+  <text x="170" y="210" font-size="7" font-weight="500" fill="#6b7280" text-anchor="middle">ROOM</text>
+
+  <!-- Vertical Circulation Headroom (Lift Machine Room + Stair Head) -->
+  <rect x="370" y="280" width="130" height="120" fill="#f4f4f5" stroke="#1b1b1e" stroke-width="1.4"/>
+  <rect x="380" y="295" width="45" height="55" fill="#e4e4e7" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="402" y="325" font-size="7.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">LIFT</text>
+  <text x="402" y="337" font-size="6.5" font-weight="600" fill="#52525b" text-anchor="middle">HEAD</text>
+  <!-- Stair Arrival -->
+  <g stroke="#1b1b1e" stroke-width="0.8">
+    <line x1="435" y1="295" x2="490" y2="295"/>
+    <line x1="435" y1="305" x2="490" y2="305"/>
+    <line x1="435" y1="315" x2="490" y2="315"/>
+    <line x1="435" y1="325" x2="490" y2="325"/>
+    <line x1="435" y1="335" x2="490" y2="335"/>
+    <line x1="435" y1="345" x2="490" y2="345"/>
+  </g>
+  <text x="462" y="362" font-size="7" font-weight="600" fill="#52525b" text-anchor="middle">STAIR LANDING</text>
+
+  <!-- Open Sky Entertainment Deck (Timber Planks) -->
+  <rect x="370" y="160" width="320" height="110" fill="url(#deck-plank-terrace)" stroke="#b48356" stroke-width="1.4"/>
+  <text x="530" y="205" font-size="11" font-weight="700" fill="#1b1b1e" text-anchor="middle">OPEN SKY ENTERTAINMENT DECK</text>
+  <text x="530" y="223" font-size="8.5" font-weight="500" fill="#4b5563" text-anchor="middle">HARDWOOD TIMBER DECKING &#8226; SUN LOUNGE SEATING</text>
+  <text x="530" y="239" font-size="7.8" font-weight="600" fill="#6b7280" text-anchor="middle">UNINTERRUPTED SKYLINE &amp; SUNSET VIEWS</text>
+
+  <!-- Architectural Pergola Pavilion & Al Fresco Dining -->
+  <rect x="510" y="280" width="180" height="120" fill="#fafafa" stroke="#1b1b1e" stroke-width="1.4"/>
+  <!-- Pergola louvers representation -->
+  <g stroke="#b48356" stroke-width="1.2" stroke-opacity="0.6">
+    <line x1="520" y1="290" x2="680" y2="290"/>
+    <line x1="520" y1="305" x2="680" y2="305"/>
+    <line x1="520" y1="320" x2="680" y2="320"/>
+    <line x1="520" y1="335" x2="680" y2="335"/>
+    <line x1="520" y1="350" x2="680" y2="350"/>
+    <line x1="520" y1="365" x2="680" y2="365"/>
+    <line x1="520" y1="380" x2="680" y2="380"/>
+  </g>
+  <rect x="535" y="320" width="130" height="50" fill="#ffffff" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="600" y="342" font-size="8.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">PERGOLA DINING</text>
+  <text x="600" y="356" font-size="7.5" font-weight="500" fill="#6b7280" text-anchor="middle">AL FRESCO CABANA</text>
+
+  <!-- Dimension Datum Line -->
+  <line x1="90" y1="472" x2="710" y2="472" stroke="#71717a" stroke-width="0.8"/>
+  <line x1="90" y1="467" x2="90" y2="477" stroke="#71717a" stroke-width="0.8"/>
+  <line x1="710" y1="467" x2="710" y2="477" stroke="#71717a" stroke-width="0.8"/>
+  <line x1="370" y1="467" x2="370" y2="477" stroke="#71717a" stroke-width="0.8"/>
+  <text x="230" y="488" font-size="8.5" font-weight="600" fill="#52525b" text-anchor="middle">ENCLOSED SKY RETREAT</text>
+  <text x="540" y="488" font-size="8.5" font-weight="600" fill="#52525b" text-anchor="middle">OPEN DECK &amp; PERGOLA CANOPY</text>
+
+  <!-- Legend Bottom -->
+  <rect x="25" y="475" width="10" height="10" fill="url(#planter-lush)" stroke="#2d6a4f" stroke-width="0.8"/>
+  <text x="40" y="484" font-size="8" font-weight="600" fill="#52525b">PERIMETER VERTICAL BIOPHILIA</text>
+</svg>

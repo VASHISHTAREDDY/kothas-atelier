@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" style="font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#ffffff;">
+  <defs>
+    <pattern id="wood-hatch-plan-2" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#b48356" stroke-width="1.6" stroke-opacity="0.3"/>
+    </pattern>
+    <pattern id="planter-hatch-2" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.1" fill="#2d6a4f" fill-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Sheet Border -->
+  <rect x="10" y="10" width="780" height="500" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+  <rect x="14" y="14" width="772" height="492" fill="none" stroke="#e4e4e7" stroke-width="0.8"/>
+
+  <!-- Title Block Header -->
+  <rect x="14" y="14" width="772" height="54" fill="#fafafa"/>
+  <line x1="14" y1="68" x2="786" y2="68" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="32" y="38" font-size="13" font-weight="700" fill="#1b1b1e" letter-spacing="1.5">VILLA 111 &#8212; SECOND FLOOR PLAN</text>
+  <text x="32" y="55" font-size="9.5" font-weight="600" fill="#6b7280" letter-spacing="0.5">LEVEL 02 &#8226; AREA: 2,071 SQ. FT. &#8226; PRIVATE MASTER HAVEN, BEDROOM SUITES &amp; CORNER BALCONIES</text>
+
+  <!-- North Orientation Indicator -->
+  <g transform="translate(740,41)">
+    <circle cx="0" cy="0" r="15" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+    <path d="M 0 -10 L 5 6 L 0 2 L -5 6 Z" fill="#1b1b1e"/>
+    <text x="-24" y="4" font-size="9.5" font-weight="700" fill="#1b1b1e">N</text>
+  </g>
+
+  <!-- Level 02 Footprint (2,071 sq. ft. - expansive with extended cantilevers) -->
+  <rect x="65" y="110" width="670" height="344" fill="#ffffff" stroke="#1b1b1e" stroke-width="2"/>
+
+  <!-- Front Master Cantilever Balcony with Vertical Greenery & Wood Soffit -->
+  <rect x="65" y="110" width="285" height="60" fill="url(#wood-hatch-plan-2)" stroke="#1b1b1e" stroke-width="1.5"/>
+  <rect x="65" y="110" width="18" height="60" fill="url(#planter-hatch-2)" stroke="#2d6a4f" stroke-width="1"/>
+  <text x="210" y="136" font-size="8.5" font-weight="700" fill="#b48356" text-anchor="middle">MASTER SUITE CANTILEVERED BALCONY</text>
+  <text x="210" y="152" font-size="7.5" font-weight="600" fill="#1b1b1e" text-anchor="middle">INTEGRATED VERTICAL GREENERY &#8226; CORNER GLAZING</text>
+
+  <!-- Master Suite Main Chamber -->
+  <rect x="65" y="170" width="285" height="180" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="207" y="245" font-size="11" font-weight="700" fill="#1b1b1e" text-anchor="middle">PRIMARY MASTER RETREAT</text>
+  <text x="207" y="263" font-size="8.5" font-weight="500" fill="#4b5563" text-anchor="middle">KING BED SUITE &#8226; PRIVATE LOUNGE RECESS</text>
+  <text x="207" y="279" font-size="8" font-weight="600" fill="#6b7280" text-anchor="middle">HIGH ACOUSTIC INSULATION &amp; AUTOMATED SHADING</text>
+
+  <!-- Master Walk-in Dressing Room -->
+  <rect x="65" y="350" width="145" height="104" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+  <text x="137" y="395" font-size="9" font-weight="700" fill="#1b1b1e" text-anchor="middle">WALK-IN</text>
+  <text x="137" y="410" font-size="9" font-weight="700" fill="#1b1b1e" text-anchor="middle">WARDROBE</text>
+  <text x="137" y="425" font-size="7.5" font-weight="500" fill="#6b7280" text-anchor="middle">BUILT-IN STORAGE</text>
+
+  <!-- Master Spa En-Suite Bathroom -->
+  <rect x="210" y="350" width="140" height="104" fill="#f8fafc" stroke="#1b1b1e" stroke-width="1.2"/>
+  <text x="280" y="395" font-size="9" font-weight="700" fill="#1b1b1e" text-anchor="middle">SPA MASTER BATH</text>
+  <text x="280" y="410" font-size="7.5" font-weight="500" fill="#4b5563" text-anchor="middle">DOUBLE VANITY &#8226; TUB</text>
+  <text x="280" y="425" font-size="7.5" font-weight="500" fill="#6b7280" text-anchor="middle">RAIN SHOWER CUBICLE</text>
+
+  <!-- Central Family Lounge / Study Hub -->
+  <rect x="350" y="110" width="160" height="230" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="430" y="210" font-size="10.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">UPPER FAMILY</text>
+  <text x="430" y="226" font-size="10.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">LOUNGE &amp; STUDY</text>
+  <text x="430" y="246" font-size="8" font-weight="500" fill="#4b5563" text-anchor="middle">INFORMAL MEDIA AREA</text>
+  <text x="430" y="260" font-size="7.5" font-weight="600" fill="#6b7280" text-anchor="middle">CENTRAL CORRIDOR SPINE</text>
+
+  <!-- Vertical Circulation Core -->
+  <rect x="350" y="340" width="160" height="114" fill="#f4f4f5" stroke="#1b1b1e" stroke-width="1.2"/>
+  <rect x="360" y="355" width="55" height="85" fill="#e4e4e7" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="387" y="395" font-size="8" font-weight="700" fill="#1b1b1e" text-anchor="middle">LIFT</text>
+  <text x="387" y="407" font-size="7" font-weight="600" fill="#52525b" text-anchor="middle">CORE</text>
+  <!-- Staircase -->
+  <g stroke="#1b1b1e" stroke-width="0.8">
+    <line x1="425" y1="355" x2="495" y2="355"/>
+    <line x1="425" y1="367" x2="495" y2="367"/>
+    <line x1="425" y1="379" x2="495" y2="379"/>
+    <line x1="425" y1="391" x2="495" y2="391"/>
+    <line x1="425" y1="403" x2="495" y2="403"/>
+    <line x1="425" y1="415" x2="495" y2="415"/>
+    <line x1="425" y1="427" x2="495" y2="427"/>
+    <line x1="425" y1="440" x2="495" y2="440"/>
+  </g>
+  <text x="460" y="450" font-size="7" font-weight="600" fill="#52525b" text-anchor="middle">UP / DN</text>
+
+  <!-- Bedroom 02 (Junior Suite 1) -->
+  <rect x="510" y="110" width="225" height="170" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="622" y="175" font-size="10.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">BEDROOM SUITE 02</text>
+  <text x="622" y="193" font-size="8.5" font-weight="500" fill="#4b5563" text-anchor="middle">ATTACHED DRESS &amp; BATH</text>
+  <text x="622" y="209" font-size="8" font-weight="600" fill="#6b7280" text-anchor="middle">CORNER GLAZED ORIENTATION</text>
+
+  <!-- Bedroom 02 Bath & Dress -->
+  <rect x="635" y="110" width="100" height="90" fill="#f8fafc" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="685" y="150" font-size="8" font-weight="600" fill="#1b1b1e" text-anchor="middle">EN-SUITE</text>
+  <text x="685" y="164" font-size="7" font-weight="500" fill="#6b7280" text-anchor="middle">BATH 02</text>
+
+  <!-- Bedroom 03 (Junior Suite 2) -->
+  <rect x="510" y="280" width="225" height="174" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="580" y="355" font-size="10.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">BEDROOM SUITE 03</text>
+  <text x="580" y="373" font-size="8.5" font-weight="500" fill="#4b5563" text-anchor="middle">PRIVATE GUEST / CHILDREN'S ZONE</text>
+  <text x="580" y="389" font-size="8" font-weight="600" fill="#6b7280" text-anchor="middle">PANORAMIC APERTURE</text>
+
+  <!-- Bedroom 03 Bath & Deep Corner Balcony -->
+  <rect x="635" y="350" width="100" height="104" fill="#f8fafc" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="685" y="395" font-size="8" font-weight="600" fill="#1b1b1e" text-anchor="middle">EN-SUITE</text>
+  <text x="685" y="410" font-size="7" font-weight="500" fill="#6b7280" text-anchor="middle">BATH 03</text>
+
+  <!-- Rear Corner Recessed Balcony -->
+  <rect x="660" y="280" width="75" height="70" fill="url(#wood-hatch-plan-2)" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="697" y="312" font-size="7.5" font-weight="700" fill="#b48356" text-anchor="middle">CORNER</text>
+  <text x="697" y="324" font-size="7" font-weight="600" fill="#1b1b1e" text-anchor="middle">BALCONY</text>
+
+  <!-- Dimension Datum Lines -->
+  <line x1="65" y1="472" x2="735" y2="472" stroke="#71717a" stroke-width="0.8"/>
+  <line x1="65" y1="467" x2="65" y2="477" stroke="#71717a" stroke-width="0.8"/>
+  <line x1="735" y1="467" x2="735" y2="477" stroke="#71717a" stroke-width="0.8"/>
+  <line x1="350" y1="467" x2="350" y2="477" stroke="#71717a" stroke-width="0.8"/>
+  <line x1="510" y1="467" x2="510" y2="477" stroke="#71717a" stroke-width="0.8"/>
+  <text x="207" y="488" font-size="8.5" font-weight="600" fill="#52525b" text-anchor="middle">MASTER SUITE HAVEN</text>
+  <text x="430" y="488" font-size="8.5" font-weight="600" fill="#52525b" text-anchor="middle">FAMILY HUB</text>
+  <text x="622" y="488" font-size="8.5" font-weight="600" fill="#52525b" text-anchor="middle">SUITES 02 &amp; 03</text>
+
+  <!-- Legend Bottom -->
+  <rect x="25" y="475" width="10" height="10" fill="url(#wood-hatch-plan-2)" stroke="#b48356" stroke-width="0.8"/>
+  <text x="40" y="484" font-size="8" font-weight="600" fill="#52525b">CANTILEVERED BALCONY / WOOD SOFFIT</text>
+</svg>

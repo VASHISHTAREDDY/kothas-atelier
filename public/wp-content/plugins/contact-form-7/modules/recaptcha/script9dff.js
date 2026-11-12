@@ -26,9 +26,11 @@
 			wpcf7_recaptcha.execute( wpcf7_recaptcha.actions[ 'contactform' ] );
 		};
 
-		grecaptcha.ready(
-			wpcf7_recaptcha.execute_on_homepage
-		);
+		if ( typeof grecaptcha !== 'undefined' && grecaptcha.ready ) {
+			grecaptcha.ready(
+				wpcf7_recaptcha.execute_on_homepage
+			);
+		}
 
 		document.addEventListener( 'change',
 			wpcf7_recaptcha.execute_on_contactform

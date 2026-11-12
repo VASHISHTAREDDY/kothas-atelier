@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" style="font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#ffffff;">
+  <defs>
+    <pattern id="wood-hatch-plan" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#b48356" stroke-width="1.6" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Sheet Border -->
+  <rect x="10" y="10" width="780" height="500" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+  <rect x="14" y="14" width="772" height="492" fill="none" stroke="#e4e4e7" stroke-width="0.8"/>
+
+  <!-- Title Block Header -->
+  <rect x="14" y="14" width="772" height="54" fill="#fafafa"/>
+  <line x1="14" y1="68" x2="786" y2="68" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="32" y="38" font-size="13" font-weight="700" fill="#1b1b1e" letter-spacing="1.5">VILLA 111 &#8212; FIRST FLOOR PLAN</text>
+  <text x="32" y="55" font-size="9.5" font-weight="600" fill="#6b7280" letter-spacing="0.5">LEVEL 01 &#8226; AREA: 1,750 SQ. FT. &#8226; FLUID FAMILY LIVING, DINING &amp; CANTILEVERED BALCONY</text>
+
+  <!-- North Orientation Indicator -->
+  <g transform="translate(740,41)">
+    <circle cx="0" cy="0" r="15" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+    <path d="M 0 -10 L 5 6 L 0 2 L -5 6 Z" fill="#1b1b1e"/>
+    <text x="-24" y="4" font-size="9.5" font-weight="700" fill="#1b1b1e">N</text>
+  </g>
+
+  <!-- Cantilever Overhang Outline (Stilt boundary vs First Floor offset) -->
+  <rect x="60" y="100" width="680" height="364" fill="#fafafa" stroke="#d4d4d8" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="730" y="112" font-size="7.5" font-weight="600" fill="#a1a1aa" text-anchor="end">STILT PERIMETER DATUM</text>
+
+  <!-- First Floor Enclosure (1,750 sq. ft.) -->
+  <rect x="80" y="120" width="640" height="324" fill="#ffffff" stroke="#1b1b1e" stroke-width="2"/>
+
+  <!-- Deep Cantilevered Front Balcony with Wood Soffit Projection -->
+  <rect x="80" y="120" width="260" height="64" fill="url(#wood-hatch-plan)" stroke="#1b1b1e" stroke-width="1.5"/>
+  <text x="210" y="146" font-size="8.5" font-weight="700" fill="#b48356" text-anchor="middle">DEEP CANTILEVERED BALCONY</text>
+  <text x="210" y="160" font-size="7.5" font-weight="600" fill="#1b1b1e" text-anchor="middle">WOOD-FINISH SOFFIT &#8226; CORNER GLAZING LINE</text>
+
+  <!-- Living Lounge (Double-Height / Fluid Open Zone) -->
+  <rect x="80" y="184" width="260" height="190" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="210" y="250" font-size="11" font-weight="700" fill="#1b1b1e" text-anchor="middle">FORMAL FAMILY LOUNGE</text>
+  <text x="210" y="268" font-size="8.5" font-weight="500" fill="#4b5563" text-anchor="middle">FLUID INDOOR-OUTDOOR CONNECTION</text>
+  <text x="210" y="284" font-size="8" font-weight="600" fill="#6b7280" text-anchor="middle">CORNER GLASS POCKET DOORS</text>
+
+  <!-- Central Dining Zone -->
+  <rect x="340" y="120" width="160" height="254" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="420" y="236" font-size="10.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">CENTRAL DINING</text>
+  <text x="420" y="254" font-size="8.5" font-weight="500" fill="#4b5563" text-anchor="middle">8-SEATER BANQUET</text>
+  <text x="420" y="270" font-size="7.8" font-weight="600" fill="#6b7280" text-anchor="middle">DIRECT KITCHEN ACCESS</text>
+
+  <!-- Chef's Kitchen & Attached Scullery -->
+  <rect x="500" y="120" width="220" height="130" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="610" y="164" font-size="10" font-weight="700" fill="#1b1b1e" text-anchor="middle">CHEF'S KITCHEN</text>
+  <text x="610" y="180" font-size="8.2" font-weight="500" fill="#4b5563" text-anchor="middle">ISLAND BAR &#8226; BESPOKE JOINERY</text>
+
+  <!-- Scullery / Utility Deck -->
+  <rect x="630" y="120" width="90" height="60" fill="#f4f4f5" stroke="#1b1b1e" stroke-width="1"/>
+  <text x="675" y="148" font-size="7.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">UTILITY</text>
+  <text x="675" y="160" font-size="7" font-weight="500" fill="#6b7280" text-anchor="middle">SCULLERY</text>
+
+  <!-- Vertical Circulation Core (Lift + Staircase) -->
+  <rect x="500" y="250" width="220" height="124" fill="#fafafa" stroke="#1b1b1e" stroke-width="1.4"/>
+  <!-- Lift -->
+  <rect x="515" y="270" width="70" height="74" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+  <line x1="515" y1="270" x2="585" y2="344" stroke="#1b1b1e" stroke-width="0.8"/>
+  <line x1="585" y1="270" x2="515" y2="344" stroke="#1b1b1e" stroke-width="0.8"/>
+  <text x="550" y="312" font-size="8" font-weight="700" fill="#1b1b1e" text-anchor="middle">LIFT</text>
+  <!-- Staircase -->
+  <rect x="600" y="270" width="105" height="74" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.2"/>
+  <line x1="610" y1="270" x2="610" y2="344" stroke="#1b1b1e" stroke-width="0.6"/>
+  <line x1="622" y1="270" x2="622" y2="344" stroke="#1b1b1e" stroke-width="0.6"/>
+  <line x1="634" y1="270" x2="634" y2="344" stroke="#1b1b1e" stroke-width="0.6"/>
+  <line x1="646" y1="270" x2="646" y2="344" stroke="#1b1b1e" stroke-width="0.6"/>
+  <line x1="658" y1="270" x2="658" y2="344" stroke="#1b1b1e" stroke-width="0.6"/>
+  <line x1="670" y1="270" x2="670" y2="344" stroke="#1b1b1e" stroke-width="0.6"/>
+  <line x1="682" y1="270" x2="682" y2="344" stroke="#1b1b1e" stroke-width="0.6"/>
+  <line x1="694" y1="270" x2="694" y2="344" stroke="#1b1b1e" stroke-width="0.6"/>
+  <text x="652" y="312" font-size="7.5" font-weight="700" fill="#1b1b1e" text-anchor="middle">STAIRCASE</text>
+
+  <!-- Guest Suite (Level 01 Rear) -->
+  <rect x="80" y="374" width="420" height="70" fill="#ffffff" stroke="#1b1b1e" stroke-width="1.4"/>
+  <text x="250" y="405" font-size="9.5" font-weight="700" fill="#1b1b1e">GUEST BEDROOM SUITE</text>
+  <text x="250" y="420" font-size="8" font-weight="500" fill="#6b7280">PRIVATE ATTACHED BATH &amp; POWDER ROOM</text>
+
+  <!-- Attached Bath & Powder Room -->
+  <rect x="360" y="374" width="140" height="70" fill="#f4f4f5" stroke="#1b1b1e" stroke-width="1.2"/>
+  <text x="430" y="412" font-size="8" font-weight="700" fill="#1b1b1e" text-anchor="middle">EN-SUITE BATH</text>
+
+  <!-- Columns -->
+  <g fill="#1b1b1e">
+    <rect x="82" y="186" width="10" height="10"/>
+    <rect x="336" y="186" width="10" height="10"/>
+    <rect x="496" y="186" width="10" height="10"/>
+    <rect x="708" y="186" width="10" height="10"/>
+
+    <rect x="82" y="370" width="10" height="10"/>
+    <rect x="336" y="370" width="10" height="10"/>
+    <rect x="496" y="370" width="10" height="10"/>
+    <rect x="708" y="370" width="10" height="10"/>
+  </g>
+
+  <!-- Bottom Legend -->
+  <rect x="14" y="474" width="772" height="32" fill="#fafafa"/>
+  <text x="32" y="494" font-size="8.5" font-weight="700" fill="#1b1b1e">FIRST FLOOR TIER METRICS:</text>
+  <text x="175" y="494" font-size="8.5" font-weight="500" fill="#4b5563">BUILT-UP AREA: <tspan font-weight="700" fill="#1b1b1e">1,750 SQ. FT.</tspan></text>
+  <text x="335" y="494" font-size="8.5" font-weight="500" fill="#4b5563">OUTDOOR FLOW: <tspan font-weight="700" fill="#1b1b1e">CANTILEVERED BALCONY &amp; WOOD SOFFIT</tspan></text>
+  <text x="760" y="494" font-size="8" font-weight="700" fill="#1b1b1e" text-anchor="end">KOTHA'S ATELIER</text>
+</svg>
