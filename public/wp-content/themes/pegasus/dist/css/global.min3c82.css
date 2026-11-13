@@ -435,3 +435,36 @@ textarea:focus {
 .captions-full[style*="visibility: hidden"] * {
     pointer-events: none !important;
 }
+
+/* Precise Architectural Framing for The Frames & House */
+.cell.sub-slide .inner[data-link*="the-frames"] .background,
+.slider-nav .slides li .inner[data-link*="the-frames"] .background {
+    background-position: center 30% !important;
+}
+.cell.sub-slide .inner[data-link*="no-40"] .background,
+.slider-nav .slides li .inner[data-link*="no-40"] .background {
+    background-position: 52% 25% !important;
+}
+.component-expanding-cta a[href*="the-frames"] .background {
+    background-position: center 32% !important;
+}
+.component-expanding-cta a[href*="no-40"] .background {
+    background-position: 52% 25% !important;
+}
+
+@media (max-width: 767px) {
+    .cell.sub-slide .inner[data-link*="the-frames"] .background,
+    .slider-nav .slides li .inner[data-link*="the-frames"] .background {
+        background-position: center 25% !important;
+    }
+    .cell.sub-slide .inner[data-link*="no-40"] .background,
+    .slider-nav .slides li .inner[data-link*="no-40"] .background {
+        background-position: center 20% !important;
+    }
+    .component-expanding-cta a[href*="the-frames"] .background {
+        background-position: center 28% !important;
+    }
+    .component-expanding-cta a[href*="no-40"] .background {
+        background-position: center 22% !important;
+    }
+}
