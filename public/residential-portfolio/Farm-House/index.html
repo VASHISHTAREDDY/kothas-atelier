@@ -415,7 +415,9 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
                                                                             data-bg="/wp-content/uploads/2018/05/alexander_desktop.jpg?v=1794672640"
                                         data-desktop="/wp-content/uploads/2018/05/alexander_desktop.jpg?v=1794672640"
                                     
-                                     data-mobile="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794136378"
+                                     data-mobile="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205"
+                                
+                                     data-poster-portrait="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205"
                                 >
                                 </div>
 
@@ -884,6 +886,133 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
     left: 0 !important;
     right: 0 !important;
   }
+  #page-2216 .farmhouse-ongoing-strip {
+    background: #fbfbfc;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 48px 6%;
+    margin: 0;
+    text-align: center;
+  }
+  #page-2216 .farmhouse-ongoing-container {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  #page-2216 .farmhouse-ongoing-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #b48356;
+    margin-bottom: 16px;
+  }
+  #page-2216 .farmhouse-pulse-dot {
+    width: 7px;
+    height: 7px;
+    background-color: #b48356;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 0 rgba(180, 131, 86, 0.7);
+    animation: farmhousePulse 2s infinite;
+  }
+  @keyframes farmhousePulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(180, 131, 86, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 7px rgba(180, 131, 86, 0);
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(180, 131, 86, 0);
+    }
+  }
+  #page-2216 .farmhouse-ongoing-title {
+    font-size: 26px;
+    font-weight: 500;
+    color: #1b1b1e;
+    letter-spacing: -0.015em;
+    margin: 0 0 12px 0;
+  }
+  #page-2216 .farmhouse-ongoing-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #4b5563;
+    margin: 0 0 8px 0;
+  }
+  #page-2216 .farmhouse-ongoing-subtext {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #6b7280;
+    margin: 0;
+  }
+  #page-2216 .farmhouse-status-card {
+    background: #fafafa;
+    border: 1px solid #e4e4e7;
+    padding: 34px 30px;
+    border-radius: 2px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #page-2216 .farmhouse-status-card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1b1b1e;
+    margin: 0 0 14px 0;
+    letter-spacing: -0.015em;
+  }
+  #page-2216 .farmhouse-status-card-desc {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: #4b5563;
+    margin: 0 0 12px 0;
+  }
+  #page-2216 .farmhouse-status-card-note {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #6b7280;
+    margin: 0 0 20px 0;
+  }
+  #page-2216 .farmhouse-status-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  #page-2216 .farmhouse-status-pill {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #ffffff;
+    border: 1px solid #1b1b1e;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1b1b1e;
+    border-radius: 2px;
+  }
+  #page-2216 .farmhouse-status-pill.pending {
+    border-color: #d1d5db;
+    color: #6b7280;
+    background: #f3f4f6;
+  }
+  #page-2216 .map-view .image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin-bottom: 20px;
+  }
 </style>
 
 <!-- Including layout component -->
@@ -897,13 +1026,17 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
                 <div class="inner">
                     <h2 class="title spacer"></h2>
                     <div class="content">
-                        <div class="image svg">
-                            <img src="/wp-content/uploads/2017/10/39SW-Proposed-Section_V2.svg?v=1794136378" alt="Shamshabad Farm House Site and Floor Plan" loading="lazy" decoding="async">
+                        <div class="image">
+                            <img src="/wp-content/uploads/2017/10/farm2.jpg?v=1794757720" alt="Shamshabad Farm House Site and Floor Plan" loading="lazy" decoding="async">
                             <div class="caption">
                                 <div class="frames-discipline" style="margin-bottom: 4px;">01 &mdash; Project Details</div>
                                 <div class="frames-meta-grid">
                                     <span class="frames-meta-label">Project Name</span>
                                     <span class="frames-meta-value">Shamshabad Farm House</span>
+                                    <span class="frames-meta-label">Project Status</span>
+                                    <span class="frames-meta-value" style="display: inline-flex; align-items: center; gap: 7px; color: #b48356; font-weight: 600;">
+                                        <span class="farmhouse-pulse-dot" style="width: 6px; height: 6px;"></span> Ongoing Construction
+                                    </span>
                                     <span class="frames-meta-label">Location</span>
                                     <span class="frames-meta-value">Shamshabad, Telangana, India</span>
                                     <span class="frames-meta-label">Client</span>
@@ -931,6 +1064,10 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
                             <div class="frames-meta-grid" style="margin-top: 10px; padding-top: 10px;">
                                 <span class="frames-meta-label">Project Name</span>
                                 <span class="frames-meta-value">Shamshabad Farm House</span>
+                                <span class="frames-meta-label">Project Status</span>
+                                <span class="frames-meta-value" style="display: inline-flex; align-items: center; gap: 7px; color: #b48356; font-weight: 600;">
+                                    <span class="farmhouse-pulse-dot" style="width: 6px; height: 6px;"></span> Ongoing Construction
+                                </span>
                                 <span class="frames-meta-label">Location</span>
                                 <span class="frames-meta-value">Shamshabad, Telangana, India</span>
                                 <span class="frames-meta-label">Client</span>
@@ -980,10 +1117,28 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
     <div class="col-md-12">
         <!-- Including full-bleed-image component --><section class="component component-full-bleed-image" data-transition="peel" data-parallax="">
 	<div class="image-mask">
-        <div class="image-container" data-bg="/wp-content/uploads/2017/10/2-2.jpg?v=1794136378"></div>
+        <div class="image-container" data-bg="/wp-content/uploads/2017/10/2-2.jpg?v=1794489797"></div>
     </div>
 </section>    </div>
 </div>    </div>
+</div>
+
+
+<!-- ONGOING PROJECT STATUS NOTICE -->
+<div class="farmhouse-ongoing-strip" aria-label="Project Status Notice">
+    <div class="farmhouse-ongoing-container">
+        <div class="farmhouse-ongoing-pill">
+            <span class="farmhouse-pulse-dot"></span>
+            <span>Project Status &middot; Ongoing Project</span>
+        </div>
+        <h3 class="farmhouse-ongoing-title">Currently Under Construction</h3>
+        <p class="farmhouse-ongoing-text">
+            Shamshabad Farm House is currently an ongoing project under active construction. The architectural site plan, pavilion floor layouts, and technical specifications are presented below.
+        </p>
+        <p class="farmhouse-ongoing-subtext">
+            Photographs and visuals of the completed work will be shown after the completion of the project.
+        </p>
+    </div>
 </div>
 
 <!-- Including layout component -->
@@ -995,52 +1150,37 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
     <div class="col-xs-12">
         <div class="select-view pinned">
             <ul>
-                <li data-key="0">
+                <li data-key="0" class="active">
                     <button>
                         <span class="mobile">Site Plan</span>
-                        <span class="desktop">Site Plan &amp; Zoning</span>
+                        <span class="desktop">Site Plan</span>
                     </button>
                 </li>
                 <li data-key="1">
                     <button>
-                        <span class="mobile">Pavilion Layout</span>
-                        <span class="desktop">Pavilion Layout</span>
-                    </button>
-                </li>
-                <li data-key="2">
-                    <button>
-                        <span class="mobile">Section</span>
-                        <span class="desktop">Site Section</span>
+                        <span class="mobile">Floor Plan</span>
+                        <span class="desktop">Floor Plan</span>
                     </button>
                 </li>
             </ul>
         </div>
         
         <div class="views fade-mode">
-            <div class="view 0" data-key="0">
+            <div class="view 0 active" data-key="0">
                 <div class="image">
-                    <img src="/wp-content/uploads/2017/10/39SW-Existing-Section.svg?v=1794136378" alt="Shamshabad Farm House Site Plan" class="img-responsive" loading="lazy" decoding="async">
+                    <img src="/wp-content/uploads/2017/10/farm1.jpg?v=1794757715" alt="Shamshabad Farm House Site Plan" class="img-responsive" loading="lazy" decoding="async">
                 </div>
                 <div class="image last">
-                    <img src="/wp-content/uploads/2017/10/39SW-Existing-Section.svg?v=1794136378" alt="Shamshabad Farm House Site Plan" class="img-responsive last" loading="lazy" decoding="async">
+                    <img src="/wp-content/uploads/2017/10/farm1.jpg?v=1794757715" alt="Shamshabad Farm House Site Plan" class="img-responsive last" loading="lazy" decoding="async">
                 </div>
             </div>
             
             <div class="view 1" data-key="1">
                 <div class="image">
-                    <img src="/wp-content/uploads/2017/10/39SW-Proposed-Section.svg?v=1794136378" alt="Shamshabad Farm House Pavilion Layout" class="img-responsive" loading="lazy" decoding="async">
+                    <img src="/wp-content/uploads/2017/10/farm2.jpg?v=1794757720" alt="Shamshabad Farm House Floor Plan" class="img-responsive" loading="lazy" decoding="async">
                 </div>
                 <div class="image last">
-                    <img src="/wp-content/uploads/2017/10/39SW-Proposed-Section.svg?v=1794136378" alt="Shamshabad Farm House Pavilion Layout" class="img-responsive last" loading="lazy" decoding="async">
-                </div>
-            </div>
-            
-            <div class="view 2" data-key="2">
-                <div class="image">
-                    <img src="/wp-content/uploads/2017/10/39SW-Proposed-Section_V2.svg?v=1794136378" alt="Shamshabad Farm House Site Section" class="img-responsive" loading="lazy" decoding="async">
-                </div>
-                <div class="image last">
-                    <img src="/wp-content/uploads/2017/10/39SW-Proposed-Section_V2.svg?v=1794136378" alt="Shamshabad Farm House Site Section" class="img-responsive last" loading="lazy" decoding="async">
+                    <img src="/wp-content/uploads/2017/10/farm2.jpg?v=1794757720" alt="Shamshabad Farm House Floor Plan" class="img-responsive last" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -1050,49 +1190,20 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
 </div>
 
 <!-- Including layout component -->
-<div class="component layout negative-margin pnp-bg padded"   style=""    data-header="black">
-    <div class="content container-fluid">
-        <div class="row no-gutter fifty-fifty-layout">
-	<div class="col-sm-6">
-        <!-- Including parallax-image component --><section class="component component-parallax-image" data-pnp-animate="fadeInUp" data-pnp-animation-duration="2s">
-    <div class="col-xs-12" style="padding-top: 0%; padding-bottom: 0%;">
-        <div class="inner">
-            <div class="image" data-bg="/wp-content/uploads/2017/10/3-2.jpg?v=1794136378"></div>
-        </div>
-    </div>
-</section>
-	</div>
-	<div class="col-sm-6">
-        <!-- Including parallax-image component --><section class="component component-parallax-image" data-pnp-animate="fadeInUp" data-pnp-animation-duration="2s">
-    <div class="col-xs-12" style="padding-top: 0%; padding-bottom: 0%;">
-        <div class="inner">
-            <div class="image" data-bg="/wp-content/uploads/2017/10/4-1.jpg?v=1794136378"></div>
-        </div>
-    </div>
-</section>
-	</div>
-</div>    </div>
-</div>
-
-<!-- Including layout component -->
 <div class="component layout negative-margin pnp-bg padded"  data-pnp-equate-height=".equalise" data-resize-mobile="false" style=""    data-header="black">
     <div class="content container-fluid">
         <div class="row no-gutter fifty-fifty-layout" data-pnp-equate-height=".equalise">
 	<div class="col-sm-6 equalise">
-        <!-- Including parallax-image component --><section class="component component-parallax-image" data-pnp-animate="fadeInUp" data-pnp-animation-duration="2s">
-    <div class="col-xs-12" style="padding-top: 0%; padding-bottom: 0%;">
-        <div class="inner">
-            <div class="image" data-bg="/wp-content/uploads/2017/10/5-1.jpg?v=1794136378"></div>
+        <div class="farmhouse-status-card">
+            <div class="frames-discipline" style="color: #b48356; margin-bottom: 8px;">Project Status</div>
+            <h3 class="farmhouse-status-card-title">Ongoing Project</h3>
+            <p class="farmhouse-status-card-desc">Shamshabad Farm House is currently an ongoing project under active construction and site development. The complete site plan, zoning layout, and spatial program are detailed alongside.</p>
+            <p class="farmhouse-status-card-note">Photographs of the completed work will be shown after the completion of the project.</p>
+            <div class="farmhouse-status-pills">
+                <span class="farmhouse-status-pill"><span class="farmhouse-pulse-dot" style="display:inline-block; margin-right: 5px;"></span> Under Construction</span>
+                <span class="farmhouse-status-pill pending">Visuals &middot; Post Completion</span>
+            </div>
         </div>
-    </div>
-</section>
-        <!-- Including parallax-image component --><section class="component component-parallax-image" data-pnp-animate="fadeInUp" data-pnp-animation-duration="2s">
-    <div class="col-xs-12" style="padding-top: 5%; padding-bottom: 0%;">
-        <div class="inner">
-            <div class="image" data-bg="/wp-content/uploads/2017/10/6-1.jpg?v=1794136378"></div>
-        </div>
-    </div>
-</section>
 	</div>
 	<div class="col-sm-6 equalise">
         <!-- Including pinned-text component --><section class="component component-pinned-text pinned">
@@ -1123,27 +1234,15 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
 </div>
 
 <!-- Including layout component -->
-<div class="component layout negative-margin pnp-bg"   style="margin-top:-3%;"    data-header="black">
+<div class="component layout negative-margin pnp-bg"   style=""    data-header="white">
     <div class="content container-fluid">
-        <div class="row no-gutter fifty-fifty-layout">
-	<div class="col-sm-6">
-        <!-- Including parallax-image component --><section class="component component-parallax-image" data-pnp-animate="fadeInUp" data-pnp-animation-duration="2s">
-    <div class="col-xs-12" style="padding-top: 0%; padding-bottom: 0%;">
-        <div class="inner">
-            <div class="image" data-bg="/wp-content/uploads/2017/10/7-1.jpg?v=1794136378"></div>
-        </div>
+        <div class="row no-gutter full-width-layout">
+    <div class="col-md-12">
+        <!-- Including full-bleed-image component --><section class="component component-full-bleed-image" data-transition="peel" data-parallax="">
+	<div class="image-mask">
+        <div class="image-container" data-bg="/wp-content/uploads/2017/10/farmhouse1.jpg?v=1794759055"></div>
     </div>
-</section>
-	</div>
-	<div class="col-sm-6">
-        <!-- Including parallax-image component --><section class="component component-parallax-image" data-pnp-animate="fadeInUp" data-pnp-animation-duration="2s">
-    <div class="col-xs-12" style="padding-top: 0%; padding-bottom: 0%;">
-        <div class="inner">
-            <div class="image" data-bg="/wp-content/uploads/2017/10/8-2.jpg?v=1794136378"></div>
-        </div>
-    </div>
-</section>
-	</div>
+</section>    </div>
 </div>    </div>
 </div>
 
@@ -1220,7 +1319,7 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
     <div class="col-md-12">
         <!-- Including full-bleed-image component --><section class="component component-full-bleed-image" data-transition="peel" data-parallax="">
 	<div class="image-mask">
-        <div class="image-container" data-bg="/wp-content/uploads/2017/10/9-1.jpg?v=1794136378"></div>
+        <div class="image-container" data-bg="/wp-content/uploads/2017/10/farmhouse2.jpg?v=1794759077"></div>
     </div>
 </section>    </div>
 </div>    </div>
@@ -1270,27 +1369,15 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
 </div>
 
 <!-- Including layout component -->
-<div class="component layout negative-margin pnp-bg padded"   style=""    data-header="black">
+<div class="component layout negative-margin pnp-bg"   style=""    data-header="white">
     <div class="content container-fluid">
-        <div class="row no-gutter fifty-fifty-layout">
-	<div class="col-sm-6">
-        <!-- Including parallax-image component --><section class="component component-parallax-image" data-pnp-animate="fadeInUp" data-pnp-animation-duration="2s">
-    <div class="col-xs-12" style="padding-top: 0%; padding-bottom: 0%;">
-        <div class="inner">
-            <div class="image" data-bg="/wp-content/uploads/2018/03/10.jpg?v=1794136378"></div>
-        </div>
+        <div class="row no-gutter full-width-layout">
+    <div class="col-md-12">
+        <!-- Including full-bleed-image component --><section class="component component-full-bleed-image" data-transition="peel" data-parallax="">
+	<div class="image-mask">
+        <div class="image-container" data-bg="/wp-content/uploads/2017/10/farmhouse3.jpg?v=1794759103"></div>
     </div>
-</section>
-	</div>
-	<div class="col-sm-6">
-        <!-- Including parallax-image component --><section class="component component-parallax-image" data-pnp-animate="fadeInUp" data-pnp-animation-duration="2s">
-    <div class="col-xs-12" style="padding-top: 0%; padding-bottom: 0%;">
-        <div class="inner">
-            <div class="image" data-bg="/wp-content/uploads/2018/03/11.jpg?v=1794136378"></div>
-        </div>
-    </div>
-</section>
-	</div>
+</section>    </div>
 </div>    </div>
 </div>
 
@@ -1351,7 +1438,9 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
         <!-- Including expanding-cta component --><section class="component component-expanding-cta smoothstate">
     <div class="spacer"></div>
 	<a href="../Villa-111/index.html" class="inner">
-            <div class="background" data-bg="/wp-content/uploads/2018/05/alexander_desktop.jpg?v=1794672640" data-poster="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794136378" data-mobile="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794136378"></div>
+            <div class="background" data-bg="/wp-content/uploads/2018/05/alexander_desktop.jpg?v=1794672640" data-poster="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205" data-mobile="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205"
+                                     data-poster-portrait="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205"
+                                ></div>
             <div class="caption">
                 <div class="subtitle">Residential</div>
                 <h4>Villa 111</h4>
@@ -1360,6 +1449,41 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
 </section>    </div>
 </div>    </div>
 </div>
+
+<!-- FLOOR PLAN TAB SYNC & INTERACTIVE SCRIPT -->
+<script>
+  (function () {
+    function syncFarmhouseDrawingHeight() {
+      var activeBtn = document.querySelector('#page-2216 .component-magnifying-image .select-view li.active');
+      var key = activeBtn ? activeBtn.getAttribute('data-key') : '0';
+      var activeView = document.querySelector('#page-2216 .component-magnifying-image .view[data-key="' + key + '"]');
+      var viewsContainer = document.querySelector('#page-2216 .component-magnifying-image .views');
+      if (activeView && viewsContainer) {
+        var img = activeView.querySelector('img');
+        if (img && img.clientHeight > 50) {
+          viewsContainer.style.height = img.clientHeight + 'px';
+        }
+      }
+    }
+    window.addEventListener('load', syncFarmhouseDrawingHeight);
+    window.addEventListener('resize', syncFarmhouseDrawingHeight);
+    document.querySelectorAll('#page-2216 .component-magnifying-image img').forEach(function(im) {
+      if (im.complete && im.clientHeight > 50) {
+        syncFarmhouseDrawingHeight();
+      } else {
+        im.addEventListener('load', syncFarmhouseDrawingHeight);
+      }
+    });
+    document.querySelectorAll('#page-2216 .component-magnifying-image .select-view li button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        setTimeout(syncFarmhouseDrawingHeight, 50);
+        setTimeout(syncFarmhouseDrawingHeight, 200);
+        setTimeout(syncFarmhouseDrawingHeight, 500);
+      });
+    });
+    setTimeout(syncFarmhouseDrawingHeight, 100);
+  })();
+</script>
 
         </article>
         </main>

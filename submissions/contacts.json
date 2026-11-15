@@ -170,5 +170,24 @@
       "message": "discussion",
       "sourceUrl": "http://localhost:8080/contact/"
     }
+  },
+  {
+    "id": "inq_1794731091168",
+    "receivedAt": "2026-11-15T08:24:51.168Z",
+    "name": "vidyavanth reddy",
+    "email": "vidyavanthreddy@gmail.com",
+    "phone": "9441055855",
+    "subject": "Kotha's Atelier Website Inquiry",
+    "message": "how are you?",
+    "sourceUrl": "http://localhost:8080/contact/",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "raw": {
+      "name": "vidyavanth reddy",
+      "phone": "9441055855",
+      "email": "vidyavanthreddy@gmail.com",
+      "message": "how are you?",
+      "sourceUrl": "http://localhost:8080/contact/"
+    }
   }
 ]

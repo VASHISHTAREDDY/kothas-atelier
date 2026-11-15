@@ -414,7 +414,9 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
                                                                             style="background-image: url(/wp-content/uploads/2018/05/alexander_desktop.jpg?v=1794672640);"
                                         data-desktop="/wp-content/uploads/2018/05/alexander_desktop.jpg?v=1794672640"
                                     
-                                     data-mobile="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794136378"
+                                     data-mobile="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205"
+                                
+                                     data-poster-portrait="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205"
                                 >
                                 </div>
                             </div>
@@ -1036,7 +1038,19 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
                   grid-template-columns: repeat(2, minmax(0, 1fr));
                 }
               }
+              @media (max-width: 991px) {
+                #page-2467 .component-coloured-text.lined .villa-intro-wrap.map-view {
+                  display: block !important;
+                  padding-bottom: 32px;
+                }
+              }
               @media (max-width: 767px) {
+                #page-2467 .component-full-bleed-image .image-mask .image-container {
+                  background-image: url(/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205) !important;
+                  padding-top: 130% !important;
+                  max-height: 85vh !important;
+                  background-position: center center !important;
+                }
                 #page-2467 .villa-program-grid {
                   grid-template-columns: 1fr;
                 }
@@ -1243,16 +1257,20 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
                                                         </span>
                                                     </div>
                                                     <div class="villa-spec-item">
+                                                        <span class="villa-spec-label">Client</span>
+                                                        <span class="villa-spec-value">Dr. Guru Raj</span>
+                                                    </div>
+                                                    <div class="villa-spec-item">
+                                                        <span class="villa-spec-label">Location</span>
+                                                        <span class="villa-spec-value">Hyderabad, Telangana, India</span>
+                                                    </div>
+                                                    <div class="villa-spec-item">
                                                         <span class="villa-spec-label">Project Type</span>
                                                         <span class="villa-spec-value">Modern Luxury Residential</span>
                                                     </div>
                                                     <div class="villa-spec-item">
                                                         <span class="villa-spec-label">Design Style</span>
                                                         <span class="villa-spec-value">Modern Luxury &amp; Context-Responsive Geometry</span>
-                                                    </div>
-                                                    <div class="villa-spec-item">
-                                                        <span class="villa-spec-label">Location</span>
-                                                        <span class="villa-spec-value">Hyderabad, Telangana, India</span>
                                                     </div>
                                                     <div class="villa-spec-item">
                                                         <span class="villa-spec-label">Total Built-Up Area</span>
@@ -1326,7 +1344,7 @@ var aws_data = {"rootUrl":"/","ids":"","container_id":"content","mcdc":"menu","s
                         <div class="col-md-12">
                             <section class="component component-full-bleed-image" data-transition="peel" data-parallax="">
                                 <div class="image-mask">
-                                    <div class="image-container" data-bg="/wp-content/uploads/2018/05/alexander_desktop.jpg?v=1794672640"></div>
+                                    <div class="image-container" data-bg="/wp-content/uploads/2018/05/alexander_desktop.jpg?v=1794672640" data-mobile="/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1794758205"></div>
                                 </div>
                             </section>
                         </div>

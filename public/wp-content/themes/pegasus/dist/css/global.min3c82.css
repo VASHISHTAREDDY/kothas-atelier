@@ -436,6 +436,64 @@ textarea:focus {
     pointer-events: none !important;
 }
 
+
+
+/* Precise Architectural Framing & Mobile Display for The Frames */
+.cell.sub-slide .inner[data-link*="the-frames"] .background,
+.slider-nav .slides li .inner[data-link*="the-frames"] .background {
+    background-position: center 30% !important;
+}
+.component-expanding-cta a[href*="the-frames"] .background {
+    background-position: center 32% !important;
+}
+
+@media (max-width: 767px) {
+    .cell.sub-slide .inner[data-link*="the-frames"] .background,
+    .slider-nav .slides li .inner[data-link*="the-frames"] .background {
+        background-image: url(/wp-content/uploads/2018/05/3.-Broomwood-Mobile-Banner-portrait.jpg?v=1795000000) !important;
+        background-position: center 30% !important;
+    }
+    .component-expanding-cta a[href*="the-frames"] .background {
+        background-image: url(/wp-content/uploads/2018/05/3.-Broomwood-Mobile-Banner-portrait.jpg?v=1795000000) !important;
+        background-position: center 30% !important;
+    }
+}
+@media (orientation: portrait) and (max-width: 1024px) {
+    .cell.sub-slide .inner[data-link*="the-frames"] .background,
+    .slider-nav .slides li .inner[data-link*="the-frames"] .background {
+        background-image: url(/wp-content/uploads/2018/05/3.-Broomwood-Mobile-Banner-portrait.jpg?v=1795000000) !important;
+        background-position: center 30% !important;
+    }
+}
+
+/* Precise Architectural Framing & Mobile Display for Villa 111 */
+.cell.sub-slide .inner[data-link*="Villa-111"] .background,
+.slider-nav .slides li .inner[data-link*="Villa-111"] .background {
+    background-position: 50% 50% !important;
+}
+.component-expanding-cta a[href*="Villa-111"] .background {
+    background-position: 50% 50% !important;
+}
+
+@media (max-width: 767px) {
+    .cell.sub-slide .inner[data-link*="Villa-111"] .background,
+    .slider-nav .slides li .inner[data-link*="Villa-111"] .background {
+        background-image: url(/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1795000000) !important;
+        background-position: center center !important;
+    }
+    .component-expanding-cta a[href*="Villa-111"] .background {
+        background-image: url(/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1795000000) !important;
+        background-position: center 35% !important;
+    }
+}
+@media (orientation: portrait) and (max-width: 1024px) {
+    .cell.sub-slide .inner[data-link*="Villa-111"] .background,
+    .slider-nav .slides li .inner[data-link*="Villa-111"] .background {
+        background-image: url(/wp-content/uploads/2018/05/alexander_mobile.jpg?v=1795000000) !important;
+        background-position: center center !important;
+    }
+}
+
 /* Precise Architectural Framing for The Frames & House */
 .cell.sub-slide .inner[data-link*="the-frames"] .background,
 .slider-nav .slides li .inner[data-link*="the-frames"] .background {
